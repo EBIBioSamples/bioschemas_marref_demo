@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker-compose down solr mar-ref
+docker-compose down mar-ref-solr mar-ref-site
