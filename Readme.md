@@ -20,7 +20,7 @@ There are multiple containers in this project to separate the different services
 # Run all the containers
 To run the containers, just lunch the `serve.sh` script
 ```bash
-./serve.sh
+./setup.sh
 ```
 
 You should be able (once the container is up) to check the MarRef static pages [here](http://localhost:8080/) and solr [here](http://localhost:8983)

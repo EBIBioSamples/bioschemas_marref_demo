@@ -1,5 +1,11 @@
 version: '2'
 services:
+  bsbang-crawler:
+    build: .
+    links:
+      - mar-ref-solr
+    image: bsbang-crawler:latest
+
   mar-ref-solr:
     image: solr:6.6.2-alpine
     ports:
@@ -24,10 +30,33 @@ services:
       - SimpleHTTPServer
       - "8080"
 
-  bsbang-crawler:
-    build: .
+  bsbc-setup:
+    image: bsbang-crawler:latest
+    links:
+      - mar-ref-solr
+    working_dir: /crawler/setup
+    volumes:
+      - ./data/crawler:/crawler/data/
+#    command: bash -c "rm /crawler/data/crawl.db && touchpython ./bsbang-setup-sqlite.py && python ./bsbang-setup-solr.py ../conf/bsbang-solr-setup.xml"
+    entrypoint: ./setup.sh
+
+  bsbc-crawl:
+    image: bsbang-crawler:latest
+    volumes:
+      - ./data/crawler:/crawler/data/
+      - ./sitemaps:/crawler/sitemaps
+    command: python bsbang-crawl.py data/crawl.db sitemaps/links.txt
+
+  bsbc-extract:
+    image: bsbang-crawler:latest
+    volumes:
+      - ./data/crawler:/crawler/data/
+    command: python bsbang-extract.py data/crawl.db
+
+  bsbc-index:
     image: bsbang-crawler:latest
     links:
       - mar-ref-solr
     volumes:
-      - ./data/crawler/data:/crawler/data/
+      - ./data/crawler:/crawler/data/
+    command: python bsbang-index.py data/crawl.db
