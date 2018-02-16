@@ -6,7 +6,8 @@ DEFAULT_CONFIG = {
         'Thing': ['@type', 'name'],
         'DataCatalog': ['description', 'keywords'],
         'PhysicalEntity': ['additionalType'],
-        'BioChemEntity:Sample': ['identifier']
+        'BioChemEntity:Sample': ['identifier'],
+        'Sample': ['identifier']
     },
 
     # The properties that will be indexed if present
@@ -14,11 +15,13 @@ DEFAULT_CONFIG = {
         'Thing': ['alternateName', 'identifier'],
         'BioChemEntity:Sample': ['name', 'url', 'description', 'dataset', 'additionalProperty'],
         'PropertyValue': ['name', 'value', 'unitCode', 'unitText', 'valueReference'],
-        'CategoryCode': ['codeValue', 'name', 'url']
+        'CategoryCode': ['codeValue', 'name', 'url'],
+        'Sample': ['name', 'url', 'description','dataset','additionalProperty']
     },
 
     # The inheritance graph of the schemas that we care about
     'schema_inheritance_graph': {
+        'Sample': 'Thing',
         'BioChemEntity:Sample': 'Thing',
         'CreativeWork': 'Thing',
         'DataCatalog': 'CreativeWork',
