@@ -1,4 +1,3 @@
 #!/bin/bash
 
-docker stop mar-ref
-docker rm mar-ref
+docker-compose down solr mar-ref
