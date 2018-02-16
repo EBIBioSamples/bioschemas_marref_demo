@@ -4,7 +4,7 @@ import argparse
 from lxml import etree
 import requests
 
-solrPath = 'http://localhost:8983/solr/bsbang/'
+solrPath = 'http://mar-ref-solr:8983/solr/bsbang/'
 solrSchemaPath = solrPath + 'schema'
 
 
