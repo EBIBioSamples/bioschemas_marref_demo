@@ -4,5 +4,5 @@
 docker-compose build
 
 # Run the services
-docker-compose up -d solr mar-ref
+docker-compose up -d mar-ref-solr mar-ref-site
 
