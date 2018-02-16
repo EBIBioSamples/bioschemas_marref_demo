@@ -20,6 +20,8 @@ To run the containers, just lunch the `serve.sh` script
 ./serve.sh
 ```
 
+You should be able (once the container is up) to check the MarRef static pages [here](http://localhost:8080/) and solr [here](http://localhost:8983)
+
 # Stop all the containers
 To stop all the containers, just lunch `stop.sh` script
 ```bash
