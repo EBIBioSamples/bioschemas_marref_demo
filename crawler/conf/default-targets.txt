@@ -1,0 +1,8 @@
+# Newline-separated urls for bsbang-crawl.py
+http://fairsharing.org
+http://guidetopharmacology.org
+http://identifiers.org
+http://scientificdata.isa-explorer.org
+http://beta.synbiomine.org
+http://beta.synbiomine.org/synbiomine/sitemap.xml
+https://www.ebi.ac.uk/biosamples
