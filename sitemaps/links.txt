@@ -1,1 +1,1 @@
-sitemap_links.txt
+local_sitemap_links.txt
