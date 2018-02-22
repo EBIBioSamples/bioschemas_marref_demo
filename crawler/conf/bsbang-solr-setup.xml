@@ -2,7 +2,7 @@
     <!-- generic -->
     <field name='AT_type' type='string'/>
     <field name='name' type='text_en'/>
-    <field name='identifier' type='string' multiValued="true"/>
+    <field name='identifier' type='text_en' multiValued='true'/>
     <field name='description' type='text_en'/>
     <field name='url' type='string'/>
     <!-- from DataCatalog -->
