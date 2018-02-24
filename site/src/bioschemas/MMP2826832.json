@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2826832",
   "description": "Novel bacteria have been identified within epitheliocysts from Mediterranean Sparus aurata. Whole genome sequencing directly from infected material has identified them as a new genus; Ca. Ichthyocystis. Two separate species are represented in the data.",
   "dataset": [
-    "PRJEB7439",
-    null,
-    "7439",
-    "7439",
-    null,
-    "GCA_001460935.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB7439",
+    "https://www.arb-silva.de/search/show/ssu/insdc/7439",
+    "https://www.arb-silva.de/search/show/lsu/insdc/7439",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001460935.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Greece",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002945"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "bacterium 2013Arg42i",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1561003"
         }
       ]

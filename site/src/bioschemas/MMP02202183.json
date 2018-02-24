@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02202183",
   "description": "Genome sequencing of marine Synechococcus sp. KORDI 100 was conducted. The strain was isolated in surface water of tropical Pacific Ocean.",
   "dataset": [
-    "PRJNA207982",
-    null,
-    "207982",
-    "207982",
-    null,
-    "GCA_000737535.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA207982",
+    "https://www.arb-silva.de/search/show/ssu/insdc/207982",
+    "https://www.arb-silva.de/search/show/lsu/insdc/207982",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000737535.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Pacific Ocean",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000360"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Synechococcus sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280380"
         }
       ]

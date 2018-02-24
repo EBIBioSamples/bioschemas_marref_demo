@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061111",
   "description": "Oscillibacter valericigenes NBRC 101213. This strain, Sjm18-20 (=NBRC 101213 =DSM 18026), was isolated from alimentary canal material of Japanese corbicula clams and is the type strain.",
   "dataset": [
-    "PRJNA41823",
-    null,
-    "41823",
-    "41823",
-    null,
-    "GCF_000283575.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA41823",
+    "https://www.arb-silva.de/search/show/ssu/insdc/41823",
+    "https://www.arb-silva.de/search/show/lsu/insdc/41823",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000283575.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Shimane Prefecture",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00006969"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Oscillibacter valericigenes",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=693746"
         }
       ]

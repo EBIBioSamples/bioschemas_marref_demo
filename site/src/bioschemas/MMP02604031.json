@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604031",
   "description": "Synechococcus sp. CC9311. This strain was isolated in 1993 from the oligotrophic edge of the California Current.",
   "dataset": [
-    "PRJNA12530",
-    null,
-    "12530",
-    "12530",
-    null,
-    "GCA_000014585.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA12530",
+    "https://www.arb-silva.de/search/show/ssu/insdc/12530",
+    "https://www.arb-silva.de/search/show/lsu/insdc/12530",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000014585.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "North East Pacific Ocean coastal waters of California",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00051136"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Synechococcus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=64471"
         }
       ]

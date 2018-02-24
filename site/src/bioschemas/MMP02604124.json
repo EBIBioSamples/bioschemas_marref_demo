@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604124",
   "description": "Alteromonas macleodii str. 'English Channel 615' isolated on surface waters from the L4 long-term coastal monitoring station off Plymouth (English Channel).",
   "dataset": [
-    "PRJNA192229",
-    null,
-    "192229",
-    "192229",
-    null,
-    "GCA_000439475.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA192229",
+    "https://www.arb-silva.de/search/show/ssu/insdc/192229",
+    "https://www.arb-silva.de/search/show/lsu/insdc/192229",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000439475.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Coastal Station L4",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00187526"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Alteromonas macleodii",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1300253"
         }
       ]

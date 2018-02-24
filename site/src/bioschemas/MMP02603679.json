@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603679",
   "description": "Thermococcus litoralis.",
   "dataset": [
-    "PRJNA81925",
-    null,
-    "81925",
-    "81925",
-    null,
-    "GCA_000246985.3",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA81925",
+    "https://www.arb-silva.de/search/show/ssu/insdc/81925",
+    "https://www.arb-silva.de/search/show/lsu/insdc/81925",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000246985.3"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Gulf of Naples",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007709"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Thermococcus litoralis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=523849"
         }
       ]

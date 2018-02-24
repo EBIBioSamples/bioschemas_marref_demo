@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00000279",
   "description": "Thermotoga sp. RQ2. Thermotoga sp. RQ2 was isolated from the geothermally heated seafloor in the Azores. This organism will be used for comparative analysis.",
   "dataset": [
-    "PRJNA19543",
-    null,
-    "19543",
-    "19543",
-    null,
-    "GCA_000019625.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA19543",
+    "https://www.arb-silva.de/search/show/ssu/insdc/19543",
+    "https://www.arb-silva.de/search/show/lsu/insdc/19543",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000019625.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Azores",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000847"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Thermotoga",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=126740"
         }
       ]

@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03323603",
   "description": "Complete genome sequence of Confluentimicrobium sp. EMB200-NS6",
   "dataset": [
-    "PRJNA274184",
-    null,
-    "274184",
-    "274184",
-    null,
-    "GCF_001305615.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA274184",
+    "https://www.arb-silva.de/search/show/ssu/insdc/274184",
+    "https://www.arb-silva.de/search/show/lsu/insdc/274184",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001305615.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Yellow Sea",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00004690"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Confluentimicrobium",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1609966"
         }
       ]

@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02232047",
   "description": "Pyrolobus fumarii 1A. Pyrolobus fumarii 1A (DSM 11204) was isolated from the wall of a black smoker hydrothermal vent on the Mid Atlantic Ridge. This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
   "dataset": [
-    "PRJNA48579",
-    null,
-    "48579",
-    "48579",
-    null,
-    "GCA_000223395.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA48579",
+    "https://www.arb-silva.de/search/show/ssu/insdc/48579",
+    "https://www.arb-silva.de/search/show/lsu/insdc/48579",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000223395.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Mid-Atlantic Ridge",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002439"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Pyrolobus fumarii",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=694429"
         }
       ]

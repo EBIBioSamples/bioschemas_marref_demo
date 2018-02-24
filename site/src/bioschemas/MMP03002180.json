@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03002180",
   "description": "Complete genome sequence of Novosphingobium pentaromativorans type strain US6-1",
   "dataset": [
-    "PRJNA257352",
-    null,
-    "257352",
-    "257352",
-    null,
-    "GCF_000767465.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA257352",
+    "https://www.arb-silva.de/search/show/ssu/insdc/257352",
+    "https://www.arb-silva.de/search/show/lsu/insdc/257352",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000767465.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Bay of Ulsan",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00011837"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Novosphingobium pentaromativorans",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1088721"
         }
       ]

@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603342",
   "description": "The goal of this project is to characterize a denitrifying biofilm in seawater. After identifying the more abundant bacteria in the biofilm; we wish to understand what they do and how do they interact with each other.",
   "dataset": [
-    "PRJNA84457",
-    null,
-    "84457",
-    "84457",
-    null,
-    "GCA_000260985.2",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA84457",
+    "https://www.arb-silva.de/search/show/ssu/insdc/84457",
+    "https://www.arb-silva.de/search/show/lsu/insdc/84457",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000260985.2"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Montreal",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003130"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Methylophaga",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=754476"
         }
       ]

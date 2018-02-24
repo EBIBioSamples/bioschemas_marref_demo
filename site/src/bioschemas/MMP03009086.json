@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03009086",
   "description": "Genome sequencing of a novel mollicute found in marine sediment from a methane seep",
   "dataset": [
-    "PRJNA259530",
-    null,
-    "259530",
-    "259530",
-    null,
-    "GCA_000755705.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA259530",
+    "https://www.arb-silva.de/search/show/ssu/insdc/259530",
+    "https://www.arb-silva.de/search/show/lsu/insdc/259530",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000755705.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "North East Pacific Ocean",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00013765"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Mollicutes bacterium (Candidatus Izimaplasma )",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1541959"
         }
       ]

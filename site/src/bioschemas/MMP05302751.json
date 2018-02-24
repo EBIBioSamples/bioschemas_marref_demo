@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05302751",
   "description": "Genome sequence data for Vibrio natriegens strains sequenced by Synthetic Genomics, Inc.",
   "dataset": [
-    "PRJNA327130",
-    null,
-    "327130",
-    "327130",
-    null,
-    "GCF_001680085.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA327130",
+    "https://www.arb-silva.de/search/show/ssu/insdc/327130",
+    "https://www.arb-silva.de/search/show/lsu/insdc/327130",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001680085.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Oahu",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003187"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Vibrio natriegens",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=691"
         }
       ]

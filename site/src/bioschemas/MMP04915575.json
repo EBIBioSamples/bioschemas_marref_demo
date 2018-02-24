@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04915575",
   "description": "Thermococcus superprofundus sp. nov., an hyperthermophilic archaeon with a broad pressure range for growth, isolated from the Mid-Cayman Rise",
   "dataset": [
-    "PRJNA320084",
-    null,
-    "320084",
-    "320084",
-    null,
-    "GCA_001647085.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA320084",
+    "https://www.arb-silva.de/search/show/ssu/insdc/320084",
+    "https://www.arb-silva.de/search/show/lsu/insdc/320084",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001647085.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Mexico",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002852"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Thermococcus piezophilus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1712654"
         }
       ]

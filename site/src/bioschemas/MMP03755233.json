@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03755233",
   "description": "Hfx. gibonnsii strain ARA6 is a haloarchaea isolated from saline saltern samples from Vermelha lake ; located in Araruama region; Rio de Janeiro; Brazil",
   "dataset": [
-    "PRJNA285662",
-    null,
-    "285662",
-    "285662",
-    null,
-    "GCF_001190965.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA285662",
+    "https://www.arb-silva.de/search/show/ssu/insdc/285662",
+    "https://www.arb-silva.de/search/show/lsu/insdc/285662",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001190965.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Municipality of Lagoa Vermelha",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00088769"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Haloferax gibbonsii",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=35746"
         }
       ]

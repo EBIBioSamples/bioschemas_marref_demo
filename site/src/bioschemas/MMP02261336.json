@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02261336",
   "description": "The CyanoGEBA Sequencing Project is part of the DOE Joint Genome Institute Genomic Encyclopedia of Bacteria and Archaeainitiative. The CyanoGEBA project is a collaboration between the JGI and the Pasteur Culture Collection aimed at improving sequencing coverage of the cyanobacterial phylum based on phylogenetic criteria.",
   "dataset": [
-    "PRJNA158713",
-    null,
-    "158713",
-    "158713",
-    null,
-    "GCA_000317065.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA158713",
+    "https://www.arb-silva.de/search/show/ssu/insdc/158713",
+    "https://www.arb-silva.de/search/show/lsu/insdc/158713",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000317065.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Pseudanabaena",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=82654"
         }
       ]

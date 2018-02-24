@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598375",
   "description": "Candidatus Ruthia magnifica str. 'Calyptogena magnifica'. This organism is an endosymbiont of the hydrothermal vent clam Calyptogena magnifica and will be used for comparative analysis with other bacterial endosymbionts.",
   "dataset": [
-    "PRJNA16841",
-    null,
-    "16841",
-    "16841",
-    null,
-    "GCA_000015105.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA16841",
+    "https://www.arb-silva.de/search/show/ssu/insdc/16841",
+    "https://www.arb-silva.de/search/show/lsu/insdc/16841",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000015105.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "East Pacific Rise",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002416"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Candidatus Ruthia magnifica",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=413404"
         }
       ]

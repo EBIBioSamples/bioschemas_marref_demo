@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05417750",
   "description": "Planococcus donghaensis type species complete genome",
   "dataset": [
-    "PRJNA330591",
-    null,
-    "330591",
-    "330591",
-    null,
-    "GCF_001687665.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA330591",
+    "https://www.arb-silva.de/search/show/ssu/insdc/330591",
+    "https://www.arb-silva.de/search/show/lsu/insdc/330591",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001687665.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Sea of Japan",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007658"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Planococcus donghaensis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=414778"
         }
       ]

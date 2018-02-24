@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03701403",
   "description": "The study of the diversity of Marinobacter",
   "dataset": [
-    "PRJNA284323",
-    null,
-    "284323",
-    "284323",
-    null,
-    "GCF_001043175.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA284323",
+    "https://www.arb-silva.de/search/show/ssu/insdc/284323",
+    "https://www.arb-silva.de/search/show/lsu/insdc/284323",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001043175.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Canada Basin",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00051013"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Marinobacter psychrophilus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=330734"
         }
       ]

@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03295676",
   "description": "Complete genome sequence of Actinoalloteichus hymeniacidonis HPA177(T) (=DSM 45092(T)), isolated from the marine sponge Hymeniacidon perleve",
   "dataset": [
-    "PRJNA273752",
-    null,
-    "273752",
-    "273752",
-    null,
-    "GCF_001747425.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA273752",
+    "https://www.arb-silva.de/search/show/ssu/insdc/273752",
+    "https://www.arb-silva.de/search/show/lsu/insdc/273752",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001747425.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Dalian City Prefecture",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00011836"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Actinoalloteichus hymeniacidonis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=340345"
         }
       ]

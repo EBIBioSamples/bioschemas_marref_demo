@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598464",
   "description": "Denitrovibrio acetiphilus DSM 12809 (N2460) is the type strain and will be used for comparative analysis",
   "dataset": [
-    "PRJNA29431",
-    null,
-    "29431",
-    "29431",
-    null,
-    "GCA_000025725.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA29431",
+    "https://www.arb-silva.de/search/show/ssu/insdc/29431",
+    "https://www.arb-silva.de/search/show/lsu/insdc/29431",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000025725.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Bergen",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003218"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Denitrovibrio acetiphilus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=522772"
         }
       ]

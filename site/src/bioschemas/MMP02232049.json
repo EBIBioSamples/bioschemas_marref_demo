@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02232049",
   "description": "-",
   "dataset": [
-    "PRJNA63147",
-    null,
-    "63147",
-    "63147",
-    null,
-    "GCA_000316665.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA63147",
+    "https://www.arb-silva.de/search/show/ssu/insdc/63147",
+    "https://www.arb-silva.de/search/show/lsu/insdc/63147",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000316665.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "La Paz",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008676"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Rivularia",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=373994"
         }
       ]

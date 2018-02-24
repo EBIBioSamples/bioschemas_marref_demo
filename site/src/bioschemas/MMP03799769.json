@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03799769",
   "description": "Flammeovirga sp. MY04 is an agar-liquefying marine bacterium with versatile polysaccharide-degrading abilities. It potently degrades multiple carbohydrates derived from algal, plants, or animals, through the action of the extracellular enzyme systems or surface-associated enzyme complexes. This organism may be useful in bioremediation. The abundant agarase system contains agarases from the families of GH16, GH50, and GH86. The extracellular agarases are stable in a wide range of temperatures, pH values, and NaCl concentrations, and digest agarose into neoagaro-oligosaccharides efficiently. The GH16 modules of surface-associated-agarases contain novel inner peptides that are essential for the enzyme to divide neoagarooctaose into neoagarotetraose.",
   "dataset": [
-    "PRJNA167040",
-    null,
-    "167040",
-    "167040",
-    null,
-    "GCF_001682195.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA167040",
+    "https://www.arb-silva.de/search/show/ssu/insdc/167040",
+    "https://www.arb-silva.de/search/show/lsu/insdc/167040",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001682195.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Ganyu County",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00123939"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Flammeovirga sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1191459"
         }
       ]

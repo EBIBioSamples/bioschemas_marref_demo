@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03010447",
   "description": "Genome sequencing of Yersinia ruckeri YRB",
   "dataset": [
-    "PRJNA237812",
-    null,
-    "237812",
-    "237812",
-    null,
-    "GCA_000834255.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA237812",
+    "https://www.arb-silva.de/search/show/ssu/insdc/237812",
+    "https://www.arb-silva.de/search/show/lsu/insdc/237812",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000834255.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Yersinia ruckeri",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29486"
         }
       ]

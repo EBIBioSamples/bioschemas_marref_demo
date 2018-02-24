@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04451729",
   "description": "Genome sequence of a marine bacteria Wenyingzhuangia fucanilytica CZ1127",
   "dataset": [
-    "PRJNA309604",
-    null,
-    "309604",
-    "309604",
-    null,
-    "GCF_001697185.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA309604",
+    "https://www.arb-silva.de/search/show/ssu/insdc/309604",
+    "https://www.arb-silva.de/search/show/lsu/insdc/309604",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001697185.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Jiaozhou Bay",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00011756"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Wenyingzhuangia fucanilytica",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1790137"
         }
       ]

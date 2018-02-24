@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02953969",
   "description": "Rhodobacteraceae bacterium RCA23. The strain used for DNA isolation is an isolate from the German Wadden Sea.",
   "dataset": [
-    "PRJNA42833",
-    null,
-    "42833",
-    "42833",
-    null,
-    "GCA_000738435.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA42833",
+    "https://www.arb-silva.de/search/show/ssu/insdc/42833",
+    "https://www.arb-silva.de/search/show/lsu/insdc/42833",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000738435.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Neuharlinger Siel",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00050945"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Planktomarina temperata",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=666509"
         }
       ]

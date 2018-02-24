@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03074588",
   "description": "Complete genome sequence of Methanosarcina siciliae HI350",
   "dataset": [
-    "PRJNA230952",
-    null,
-    "230952",
-    "230952",
-    null,
-    "GCA_000970125.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA230952",
+    "https://www.arb-silva.de/search/show/ssu/insdc/230952",
+    "https://www.arb-silva.de/search/show/lsu/insdc/230952",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000970125.1"
   ],
   "additionalProperty": [
     {
@@ -29,9 +25,7 @@
       "valueReference": [
         {
           "@type": "CategoryCode",
-          "name": "Gulf of Mexico",
-          "codeValue": null,
-          "url": null
+          "name": "Gulf of Mexico"
         }
       ]
     },
@@ -43,7 +37,6 @@
         {
           "@type": "CategoryCode",
           "name": "Methanosarcina siciliae",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1434119"
         }
       ]

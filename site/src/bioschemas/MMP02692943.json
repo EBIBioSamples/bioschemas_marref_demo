@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02692943",
   "description": "Pseudomonas stutzeri 19SMN4 (= DSM 6084) is the reference strain of the genomovar 4 of its species. It is a benzoate-; naphthalene- and salicylate-degrading bacterium that was isolated on February 1988 from marine sediments of Barcelona coast (Spain) using 2-methylnaphthalene as unique carbon and energy source. Naphthalene degradation pathway is plasmid encoded. Naphthalene degradation proceeds via salicylate and catechol; being this last compound channeled to TCA by meta-cleavage.",
   "dataset": [
-    "PRJNA242326",
-    null,
-    "242326",
-    "242326",
-    null,
-    "GCF_000661915.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA242326",
+    "https://www.arb-silva.de/search/show/ssu/insdc/242326",
+    "https://www.arb-silva.de/search/show/lsu/insdc/242326",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000661915.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Barcelona",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00115857"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Pseudomonas stutzeri",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=316"
         }
       ]

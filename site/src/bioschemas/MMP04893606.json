@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04893606",
   "description": "Genome and catabolic subproteomes of the marine, nutritionally versatile, sulfate-reducing bacterium, Desulfococcus multivorans DSM 2059",
   "dataset": [
-    "PRJNA310394",
-    null,
-    "310394",
-    "310394",
-    null,
-    "GCF_001854245.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA310394",
+    "https://www.arb-silva.de/search/show/ssu/insdc/310394",
+    "https://www.arb-silva.de/search/show/lsu/insdc/310394",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001854245.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Lower Saxony",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003498"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Desulfococcus multivorans",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=897"
         }
       ]

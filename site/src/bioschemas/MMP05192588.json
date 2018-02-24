@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05192588",
   "description": "Nonlabens sp. Hel1_33_55",
   "dataset": [
-    "PRJEB15769",
-    null,
-    "15769",
-    "15769",
-    null,
-    "GCA_900101765.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB15769",
+    "https://www.arb-silva.de/search/show/ssu/insdc/15769",
+    "https://www.arb-silva.de/search/show/lsu/insdc/15769",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_900101765.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Nonlabens sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1336802"
         }
       ]

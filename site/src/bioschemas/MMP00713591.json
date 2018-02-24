@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713591",
   "description": "Desulfurobacterium thermolithotrophum DSM 11699.This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
   "dataset": [
-    "PRJNA51497",
-    null,
-    "51497",
-    "51497",
-    null,
-    "GCA_000191045.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA51497",
+    "https://www.arb-silva.de/search/show/ssu/insdc/51497",
+    "https://www.arb-silva.de/search/show/lsu/insdc/51497",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000191045.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Mid-Atlantic Ridge",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002439"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Desulfurobacterium thermolithotrophum",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=868864"
         }
       ]

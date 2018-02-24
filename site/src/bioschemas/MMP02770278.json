@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02770278",
   "description": "Complete genome sequence of Flavobacterium psychrophilum strain CSF259-93 used to evaluate and select rainbow trout for resistance to bacterial cold water disease.",
   "dataset": [
-    "PRJNA245044",
-    null,
-    "245044",
-    "245044",
-    null,
-    "GCF_000739395.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA245044",
+    "https://www.arb-silva.de/search/show/ssu/insdc/245044",
+    "https://www.arb-silva.de/search/show/lsu/insdc/245044",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000739395.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Idaho County",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_22223977"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Flavobacterium psychrophilum",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=96345"
         }
       ]

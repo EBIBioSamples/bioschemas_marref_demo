@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03565637",
   "description": "Ubiquitous bacteria from the genus Erythrobacter drive PAHs degradation in the largest environment on Earth; the cold and deep sea. Here we report the genome sequence of Erythrobacter sp. s21-N3.",
   "dataset": [
-    "PRJNA241282",
-    null,
-    "241282",
-    "241282",
-    null,
-    "GCF_001077815.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA241282",
+    "https://www.arb-silva.de/search/show/ssu/insdc/241282",
+    "https://www.arb-silva.de/search/show/lsu/insdc/241282",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001077815.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Atlantic Ocean",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000344"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Erythrobacter",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1648404"
         }
       ]

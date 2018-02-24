@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02954313",
   "description": "Assembly of metagenomic reads from Puget Sound; USA produced a closed marine group II Euryarchaeote genome.",
   "dataset": [
-    "PRJNA77705",
-    null,
-    "77705",
-    "77705",
-    null,
-    "GCA_000246735.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA77705",
+    "https://www.arb-silva.de/search/show/ssu/insdc/77705",
+    "https://www.arb-silva.de/search/show/lsu/insdc/77705",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000246735.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Puget Sound",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002554"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "uncultured marine group II euryarchaeote",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=274854"
         }
       ]

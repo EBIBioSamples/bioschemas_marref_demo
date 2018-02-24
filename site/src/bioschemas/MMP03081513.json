@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03081513",
   "description": "Thermococcus sp. Strain ES1 is a hyperthermophilic archaeon isolated from a Paralvinella sp. polychaete worm collected from a hydrothermal vent on the Endeavour Segment in the northeastern Pacific Ocean",
   "dataset": [
-    "PRJNA230233",
-    null,
-    "230233",
-    "230233",
-    null,
-    "GCA_000517445.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA230233",
+    "https://www.arb-silva.de/search/show/ssu/insdc/230233",
+    "https://www.arb-silva.de/search/show/lsu/insdc/230233",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000517445.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Juan de Fuca Ridge",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002438"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Thermococcus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=582419"
         }
       ]

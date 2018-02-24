@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03144720",
   "description": "Genome sequencing of Yersinia aldovae 670-83",
   "dataset": [
-    "PRJNA236105",
-    null,
-    "236105",
-    "236105",
-    null,
-    "GCA_000834395.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA236105",
+    "https://www.arb-silva.de/search/show/ssu/insdc/236105",
+    "https://www.arb-silva.de/search/show/lsu/insdc/236105",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000834395.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Kingdom of Norway",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002699"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Yersinia aldovae",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1453495"
         }
       ]

@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713638",
   "description": "Marine bacterium HP15. The genome sequence was obtained from a cultivated isolate by 454 FLX Ti pyrosequencing.",
   "dataset": [
-    "PRJNA46089",
-    null,
-    "46089",
-    "46089",
-    null,
-    "GCA_000166295.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA46089",
+    "https://www.arb-silva.de/search/show/ssu/insdc/46089",
+    "https://www.arb-silva.de/search/show/lsu/insdc/46089",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000166295.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Wadden See",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008137"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Marinobacter adhaerens",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=225937"
         }
       ]

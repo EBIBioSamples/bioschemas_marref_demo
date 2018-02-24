@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03400067",
   "description": "Characterization and genome sequence of Geobacillus sp. strain 12AMOR1 isolated from hydrothermal sediments in the Troll Wall Vent Field",
   "dataset": [
-    "PRJNA277925",
-    null,
-    "277925",
-    "277925",
-    null,
-    "GCF_001028085.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA277925",
+    "https://www.arb-silva.de/search/show/ssu/insdc/277925",
+    "https://www.arb-silva.de/search/show/lsu/insdc/277925",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001028085.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Jan Mayen",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00005853)"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Geobacillus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1629723"
         }
       ]

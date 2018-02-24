@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02261374",
   "description": "Mycobacterium chubuense NBB4.This strain will be used for comparative genome analysis.",
   "dataset": [
-    "PRJNA53215",
-    null,
-    "53215",
-    "53215",
-    null,
-    "GCA_000266905.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA53215",
+    "https://www.arb-silva.de/search/show/ssu/insdc/53215",
+    "https://www.arb-silva.de/search/show/lsu/insdc/53215",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000266905.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "New South Wales",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002793"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Mycobacterium chubuense",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=710421"
         }
       ]

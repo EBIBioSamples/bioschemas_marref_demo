@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604029",
   "description": "Persephonella marina EX-H1.This strain was collected from a deep sea hydrothermal vent on the East Pacific Rise. and isolated by dilution to extinction methods.",
   "dataset": [
-    "PRJNA12526",
-    null,
-    "12526",
-    "12526",
-    null,
-    "GCA_000021565.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA12526",
+    "https://www.arb-silva.de/search/show/ssu/insdc/12526",
+    "https://www.arb-silva.de/search/show/lsu/insdc/12526",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000021565.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "East Pacific Rise",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002416"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Persephonella marina",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=123214"
         }
       ]

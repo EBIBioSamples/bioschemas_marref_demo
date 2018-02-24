@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00100784",
   "description": "Methanothermococcus okinawensis IH1. This genome will be used for comparative analysis of the thermophilic methanococci.",
   "dataset": [
-    "PRJNA43653",
-    null,
-    "43653",
-    "43653",
-    null,
-    "GCA_000179575.2",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA43653",
+    "https://www.arb-silva.de/search/show/ssu/insdc/43653",
+    "https://www.arb-silva.de/search/show/lsu/insdc/43653",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000179575.2"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Iheya Ridge",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002431"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Methanothermococcus okinawensis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=647113"
         }
       ]

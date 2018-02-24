@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272572",
   "description": "Novosphingobium sp. PP1Y is a marine bacteria specifically adapted to use fuels as energy source. It is able to grow on a wide range of mono-; poly- and heterocyclic aromatic hydrocarbons.",
   "dataset": [
-    "PRJEA66901",
-    null,
-    "66901",
-    "66901",
-    null,
-    "GCA_000253255.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEA66901",
+    "https://www.arb-silva.de/search/show/ssu/insdc/66901",
+    "https://www.arb-silva.de/search/show/lsu/insdc/66901",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000253255.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Napoli",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00434018"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Novosphingobium",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=702113"
         }
       ]

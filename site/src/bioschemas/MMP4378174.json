@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP4378174",
   "description": "Brucella strain isolated from the gills of a bluespotted ribbontail ray (Taeniura lymma), captive bred, found dead at 16.09.2014, died in quarantine. Isolation of strain from gills only, other organs negative.",
   "dataset": [
-    "PRJEB15074",
-    null,
-    "15074",
-    "15074",
-    null,
-    "GCF_900095155.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB15074",
+    "https://www.arb-silva.de/search/show/ssu/insdc/15074",
+    "https://www.arb-silva.de/search/show/lsu/insdc/15074",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_900095155.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Frankfurt",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003551"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Brucella sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1885919"
         }
       ]

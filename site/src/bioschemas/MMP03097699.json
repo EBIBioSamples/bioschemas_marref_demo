@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03097699",
   "description": "Flavobacteriaceae bacterium Mar_2010_188",
   "dataset": [
-    "PRJEB16253",
-    null,
-    "16253",
-    "16253",
-    null,
-    "GCA_900104375.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB16253",
+    "https://www.arb-silva.de/search/show/ssu/insdc/16253",
+    "https://www.arb-silva.de/search/show/lsu/insdc/16253",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_900104375.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Flavobacteriaceae bacterium",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1250295"
         }
       ]

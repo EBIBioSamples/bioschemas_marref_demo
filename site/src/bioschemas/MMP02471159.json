@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02471159",
   "description": "Genome Sequencing of Alcanivorax pacificus W11-5.",
   "dataset": [
-    "PRJNA88101",
-    null,
-    "88101",
-    "88101",
-    null,
-    "GCA_000299335.2",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA88101",
+    "https://www.arb-silva.de/search/show/ssu/insdc/88101",
+    "https://www.arb-silva.de/search/show/lsu/insdc/88101",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000299335.2"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Pacific Ocean",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000360"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Alcanivorax",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=391936"
         }
       ]

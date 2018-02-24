@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603431",
   "description": "Nautilia profundicola AM-H. Nautilia sp.strain AM-H; also known as Nautilia profundicola; was the first published Epsilonproteobacterium to be isolated from hydrothermal vents. This strain was isolated from the epidermis of Alvinella pompejana.",
   "dataset": [
-    "PRJNA32573",
-    null,
-    "32573",
-    "32573",
-    null,
-    "GCA_000021725.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA32573",
+    "https://www.arb-silva.de/search/show/ssu/insdc/32573",
+    "https://www.arb-silva.de/search/show/lsu/insdc/32573",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000021725.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "East Pacific Rise",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002416"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Nautilia profundicola",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=598659"
         }
       ]

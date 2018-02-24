@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604302",
   "description": "Vibrio parahaemolyticus is a foodborne pathogen that is a major worldwide cause of gastroenteritis. Here we report the complete; annotated genome of the prepandemic V. parahaemolyticus strain BB22OP that has been extensively studied for its motility; quorum sensing; and phenotypic switch between opaque (OP) and translucent (TR) phenotypes.",
   "dataset": [
-    "PRJNA170885",
-    null,
-    "170885",
-    "170885",
-    null,
-    "GCA_000328405.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA170885",
+    "https://www.arb-silva.de/search/show/ssu/insdc/170885",
+    "https://www.arb-silva.de/search/show/lsu/insdc/170885",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000328405.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Bangladesh",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003750"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Vibrio parahaemolyticus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1211705"
         }
       ]

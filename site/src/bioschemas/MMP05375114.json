@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05375114",
   "description": "In this study we investigated key bacteria which have been identified as relevant polysaccharide degrader during marine phytoplankton blooms. By means of proteomic and genomic functional analyses of these marine bacteria of the phylum Bacteroidetes that are specialized on polysaccharide degradation. Physiological proteogenomics of cultivable environmentally relevant key bacteria under defined in vitro conditions will complement the in situ studies. In-depth biochemical characterizations of identified key proteins will be used to determine strategies of marine polysaccharide utilization and to unravel the specific ecophysiological roles of distinct bacterial populations during algal blooms",
   "dataset": [
-    "PRJNA328568",
-    null,
-    "328568",
-    "328568",
-    null,
-    "GCF_001735745.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA328568",
+    "https://www.arb-silva.de/search/show/ssu/insdc/328568",
+    "https://www.arb-silva.de/search/show/lsu/insdc/328568",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001735745.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Helgoland Islands",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002632"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Formosa sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1336794"
         }
       ]

@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04156175",
   "description": "To understand the degradation mechanism of this strain",
   "dataset": [
-    "PRJNA298144",
-    null,
-    "298144",
-    "298144",
-    null,
-    "GCF_001310225.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA298144",
+    "https://www.arb-silva.de/search/show/ssu/insdc/298144",
+    "https://www.arb-silva.de/search/show/lsu/insdc/298144",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001310225.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Zhoushan island",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00039574"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Algibacter sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1736674"
         }
       ]

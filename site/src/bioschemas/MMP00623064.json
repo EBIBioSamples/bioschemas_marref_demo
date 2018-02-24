@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00623064",
   "description": "Shewanella loihica PV-4. This strain is an environmental isolate from the Naha Vents; Hawaii; in the Pacific Ocean.",
   "dataset": [
-    "PRJNA13906",
-    null,
-    "13906",
-    "13906",
-    null,
-    "GCA_000016065.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13906",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13906",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13906",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000016065.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Naha Hydrothermal Vent Field",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002507"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Shewanella loihica",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=323850"
         }
       ]

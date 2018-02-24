@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02954344.1",
   "description": "Prochlorococcus clades in high-nutrient, low-chlorophyll (HNLC),iron-depleted waters in the Pacific and Indian Oceans.",
   "dataset": [
-    "PRJNA67829",
-    null,
-    "67829",
-    "67829",
-    null,
-    "GCF_000218705.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA67829",
+    "https://www.arb-silva.de/search/show/ssu/insdc/67829",
+    "https://www.arb-silva.de/search/show/lsu/insdc/67829",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000218705.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Prochlorococcus marinus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1041938"
         }
       ]

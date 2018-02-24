@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02725840",
   "description": "Draconibacterium orientale strain FH5T is the type strain of Draconibacterium orientale gen. nov.; sp. nov.; a new species within the proposed new family Draconibacteriaceae in class Bacteroidia. This strain was isolated from a marine sediment sample from coast of Weihai;China",
   "dataset": [
-    "PRJNA240267",
-    null,
-    "240267",
-    "240267",
-    null,
-    "GCA_000626635.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA240267",
+    "https://www.arb-silva.de/search/show/ssu/insdc/240267",
+    "https://www.arb-silva.de/search/show/lsu/insdc/240267",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000626635.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Weihai City Prefecture",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00025873"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Draconibacterium orientale",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1168034"
         }
       ]

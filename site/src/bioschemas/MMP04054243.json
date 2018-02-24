@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04054243",
   "description": "T. singularis PS1 is an isolate from a gamma proteobacterial sulfur oxidizing clade. Its complete genome will help elucidate the genetic diversity of the clade as well as the metabolic capabilities of this organism.",
   "dataset": [
-    "PRJNA229178",
-    null,
-    "229178",
-    "229178",
-    null,
-    "GCF_001281385.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA229178",
+    "https://www.arb-silva.de/search/show/ssu/insdc/229178",
+    "https://www.arb-silva.de/search/show/lsu/insdc/229178",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001281385.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Puget Sound",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002554"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Candidatus Thioglobus singularis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1125411"
         }
       ]

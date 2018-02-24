@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603230",
   "description": "This gammaproteobacterium was isolated from a Spanish saltern of intermediate salinity. It is a slow growing microbe and cells are slender; spiral rods. Metagenomic evidence suggests this is one of the most abundant microbes in salterns of intermediate salinity.",
   "dataset": [
-    "PRJNA179191",
-    null,
-    "179191",
-    "179191",
-    null,
-    "GCA_000319575.2",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA179191",
+    "https://www.arb-silva.de/search/show/ssu/insdc/179191",
+    "https://www.arb-silva.de/search/show/lsu/insdc/179191",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000319575.2"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Municipality of Isla Cristina",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00115057"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Spiribacter salinus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1260251"
         }
       ]

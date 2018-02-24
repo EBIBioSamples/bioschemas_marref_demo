@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138265",
   "description": "Synechococcus sp. strain RCC307. This strain was isolated from seawater taken at a depth of 15 meters from the Mediterranean Sea and will be used for comparative genomics Marine Synechococcus and Prochlorococcus are the most abundant photosynthetic organisms on earth and between them account for about half of the world's photosynthesis. RCC307 is an oceanic Synechococcus strain which presents great phylogenetic interest because trees obtained using its 16S RNA gene seem to indicate that it is rooted at the base of the radiation of marine cyanobacteria (adapted from http://www.genoscope.fr/externe/English/Projets/Projet_HP/organisme_HP.html).",
   "dataset": [
-    "PRJNA13654",
-    null,
-    "13654",
-    "13654",
-    null,
-    "GCA_000063525.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13654",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13654",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13654",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000063525.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Mediterranean Sea",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002287"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Synechococcus sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=316278"
         }
       ]

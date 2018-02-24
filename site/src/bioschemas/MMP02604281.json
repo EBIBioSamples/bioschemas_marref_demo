@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604281",
   "description": "This isolate was obtained from the Gulf of Mexico as part of the Gordon and Betty Moore Foundation Marine Microbiology Initiative by the J. Craig Venter Institute. More information in BioProject PRJNA13545.",
   "dataset": [
-    "PRJNA212797",
-    null,
-    "212797",
-    "212797",
-    null,
-    "GCA_000473245.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA212797",
+    "https://www.arb-silva.de/search/show/ssu/insdc/212797",
+    "https://www.arb-silva.de/search/show/lsu/insdc/212797",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000473245.1"
   ],
   "additionalProperty": [
     {
@@ -29,9 +25,7 @@
       "valueReference": [
         {
           "@type": "CategoryCode",
-          "name": "Gulf of Mexico",
-          "codeValue": null,
-          "url": null
+          "name": "Gulf of Mexico"
         }
       ]
     },
@@ -43,7 +37,6 @@
         {
           "@type": "CategoryCode",
           "name": "Bacillus infantis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1367477"
         }
       ]

@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02641640",
   "description": "Uncultivated symbiotic bacterium in the ascidian; Lissoclinum patella",
   "dataset": [
-    "PRJNA219340",
-    null,
-    "219340",
-    "219340",
-    null,
-    "GCA_000510265.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA219340",
+    "https://www.arb-silva.de/search/show/ssu/insdc/219340",
+    "https://www.arb-silva.de/search/show/lsu/insdc/219340",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000510265.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Papua New Guinea",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003922"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Candidatus Endolissoclinum faulkneri",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1401328"
         }
       ]

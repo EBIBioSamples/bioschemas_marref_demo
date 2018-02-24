@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05991974",
   "description": "Conjugative elements and plasmids in the genus Alteromonas",
   "dataset": [
-    "PRJNA352689",
-    null,
-    "352689",
-    "352689",
-    null,
-    "GCF_001886435.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA352689",
+    "https://www.arb-silva.de/search/show/ssu/insdc/352689",
+    "https://www.arb-silva.de/search/show/lsu/insdc/352689",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001886435.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Mediterranean Sea",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002287"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Alteromonas mediterranea",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=314275"
         }
       ]

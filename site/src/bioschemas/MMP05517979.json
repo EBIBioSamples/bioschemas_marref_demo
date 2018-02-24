@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05517979",
   "description": "To shed light on the molecular mechanism of biological control of plant diseases, and to provide the basis for good utilization in the field of this strain, we describe herein the complete genome sequence of Bacillus methylotrophicus 9912D.",
   "dataset": [
-    "PRJNA349795",
-    null,
-    "349795",
-    "349795",
-    null,
-    "GCF_001857985.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA349795",
+    "https://www.arb-silva.de/search/show/ssu/insdc/349795",
+    "https://www.arb-silva.de/search/show/lsu/insdc/349795",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001857985.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "China",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002845"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Bacillus velezensis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=492670"
         }
       ]

@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713575",
   "description": "Thermovibrio ammonificans HB-1. The isolation and characterization of microorganisms that are thermophilic; anaerobic; and chemolithoautotrophic (getting energy by oxidizing inorganic compounds) is critical to understand the ecology and biogeochemistry of geothermal environments. This genome will be used for comparative analysis.",
   "dataset": [
-    "PRJNA49403",
-    null,
-    "49403",
-    "49403",
-    null,
-    "GCA_000185805.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA49403",
+    "https://www.arb-silva.de/search/show/ssu/insdc/49403",
+    "https://www.arb-silva.de/search/show/lsu/insdc/49403",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000185805.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Pacific Ocean",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000360"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Thermovibrio ammonificans",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=648996"
         }
       ]

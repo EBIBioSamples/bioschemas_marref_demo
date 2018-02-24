@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713597",
   "description": "Hippea maritima DSM 10411.This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
   "dataset": [
-    "PRJNA48195",
-    null,
-    "48195",
-    "48195",
-    null,
-    "GCA_000194135.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA48195",
+    "https://www.arb-silva.de/search/show/ssu/insdc/48195",
+    "https://www.arb-silva.de/search/show/lsu/insdc/48195",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000194135.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Matupi Harbor",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008618"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Hippea maritima",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=760142"
         }
       ]

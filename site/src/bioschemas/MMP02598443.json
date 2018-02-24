@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598443",
   "description": "Kytococcus sedentarius DSM 20547. Kytococcus sedentarius DSM 20547 (ATCC 14392) is the type strain and will be used for comparative analysis",
   "dataset": [
-    "PRJNA21067",
-    null,
-    "21067",
-    "21067",
-    null,
-    "GCA_000023925.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA21067",
+    "https://www.arb-silva.de/search/show/ssu/insdc/21067",
+    "https://www.arb-silva.de/search/show/lsu/insdc/21067",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000023925.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "San Diego",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002579"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Kytococcus sedentarius",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=478801"
         }
       ]

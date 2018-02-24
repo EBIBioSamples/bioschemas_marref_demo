@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04487764",
   "description": "Gillisia sp. Hel1_33_143",
   "dataset": [
-    "PRJEB16403",
-    null,
-    "16403",
-    "16403",
-    null,
-    "GCA_900104765.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB16403",
+    "https://www.arb-silva.de/search/show/ssu/insdc/16403",
+    "https://www.arb-silva.de/search/show/lsu/insdc/16403",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_900104765.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Gillisia sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1336796"
         }
       ]

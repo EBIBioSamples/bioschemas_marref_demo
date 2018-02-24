@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03438109",
   "description": "A comprehensive comparison of genomes of Citromicrobium spp. Strains",
   "dataset": [
-    "PRJNA279210",
-    null,
-    "279210",
-    "279210",
-    null,
-    "GCA_001304795.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA279210",
+    "https://www.arb-silva.de/search/show/ssu/insdc/279210",
+    "https://www.arb-silva.de/search/show/lsu/insdc/279210",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001304795.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "South China Sea",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008989"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Citromicrobium",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1634516"
         }
       ]

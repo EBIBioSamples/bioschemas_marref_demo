@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604082",
   "description": "Hyperthermus butylicus DSM 5456. This organism was isolated from the sea floor of a solfataric (volcanic area that gives off gas) environment with temperatures up to 112\u00ac\u221eC at a depth of 9 m; off the shore of Sao Miguel Island; Azores.",
   "dataset": [
-    "PRJNA208",
-    null,
-    "208",
-    "208",
-    null,
-    "GCA_000015145.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA208",
+    "https://www.arb-silva.de/search/show/ssu/insdc/208",
+    "https://www.arb-silva.de/search/show/lsu/insdc/208",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000015145.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Sao Miguel Island",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00001117"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Hyperthermus butylicus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=415426"
         }
       ]

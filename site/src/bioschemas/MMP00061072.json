@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061072",
   "description": "Geobacillus kaustophilus strain HTA426. Geobacillus kaustophilus strain HTA426 was first isolated from deep sea sediment of the Mariana Trench in the Pacific Ocean and belongs to a closely related group of thermophilic Bacillus spp. Lambda-phage inserts from Geobacillus kaustophilus strain HTA426 and Geobacillus stearothermophilus strain HTA462 have been sequenced and compared.",
   "dataset": [
-    "PRJNA13233",
-    null,
-    "13233",
-    "13233",
-    null,
-    "GCA_000009785.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13233",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13233",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13233",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000009785.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Marinas Trench",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002421"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Geobacillus kaustophilus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=235909"
         }
       ]

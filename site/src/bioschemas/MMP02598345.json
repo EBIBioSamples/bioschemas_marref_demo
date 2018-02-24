@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598345",
   "description": "Psychrobacter sp. PRwf-1. This organism grows slower than Psychrobacter arcticus 273-4 at 4C; but is capable of growth at 37C; while strain 273-4 is not.",
   "dataset": [
-    "PRJNA15759",
-    null,
-    "15759",
-    "15759",
-    null,
-    "GCA_000016885.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA15759",
+    "https://www.arb-silva.de/search/show/ssu/insdc/15759",
+    "https://www.arb-silva.de/search/show/lsu/insdc/15759",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000016885.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Municipality of Loiza",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00047426"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Psychrobacter",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=349106"
         }
       ]

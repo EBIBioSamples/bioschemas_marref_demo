@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598412",
   "description": "Shewanella sediminis HAW-EB3. Shewanella sediminis HAW-EB3 (NCIMB 14036; DSM 17055) is the type strain and the genome sequence will provide information on the production and regulation of proteins involved in the degradation of RDX.",
   "dataset": [
-    "PRJNA18789",
-    null,
-    "18789",
-    "18789",
-    null,
-    "GCA_000018025.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA18789",
+    "https://www.arb-silva.de/search/show/ssu/insdc/18789",
+    "https://www.arb-silva.de/search/show/lsu/insdc/18789",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000018025.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Emerald Basin",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002452"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Shewanella sediminis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=425104"
         }
       ]

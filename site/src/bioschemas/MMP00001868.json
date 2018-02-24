@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00001868",
   "description": "Kosmotoga olearia TBF 19.5.1. Kosmotoga olearia TBF 19.5.1 was isolated from an oil deposit and will be used for comparative analysis with other members of the Thermotogales.",
   "dataset": [
-    "PRJNA29419",
-    null,
-    "29419",
-    "29419",
-    null,
-    "GCA_000023325.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA29419",
+    "https://www.arb-silva.de/search/show/ssu/insdc/29419",
+    "https://www.arb-silva.de/search/show/lsu/insdc/29419",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000023325.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "North Sea oil and gas field sector",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008609"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Kosmotoga olearia",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=521045"
         }
       ]

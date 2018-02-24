@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05967050",
   "description": "This project was used for comparative genomic analysis of genus Erythrobacter, calculating ANI value and the G+C content of whole genome in new microbial species polyphasic characterization.",
   "dataset": [
-    "PRJNA352100",
-    null,
-    "352100",
-    "352100",
-    null,
-    "GCF_001886695.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA352100",
+    "https://www.arb-silva.de/search/show/ssu/insdc/352100",
+    "https://www.arb-silva.de/search/show/lsu/insdc/352100",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001886695.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Gangjin Bay",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00128533"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Erythrobacter gangjinensis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=502682"
         }
       ]

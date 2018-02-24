@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00001870",
   "description": "Desulfovibrio salexigens DSM 2638. Desulfovibrio salexigens DSM 2638 is the type strain and will be used for comparative analysis with other sulfate reducing bacteria.",
   "dataset": [
-    "PRJNA29541",
-    null,
-    "29541",
-    "29541",
-    null,
-    "GCA_000023445.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA29541",
+    "https://www.arb-silva.de/search/show/ssu/insdc/29541",
+    "https://www.arb-silva.de/search/show/lsu/insdc/29541",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000023445.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Guyana",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002522"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Desulfovibrio salexigens",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=526222"
         }
       ]

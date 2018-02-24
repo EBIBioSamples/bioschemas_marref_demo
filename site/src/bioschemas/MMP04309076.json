@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04309076",
   "description": "Isolated from Salmo salar",
   "dataset": [
-    "PRJNA304762",
-    null,
-    "304762",
-    "304762",
-    null,
-    "GCA_001534725.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA304762",
+    "https://www.arb-silva.de/search/show/ssu/insdc/304762",
+    "https://www.arb-silva.de/search/show/lsu/insdc/304762",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001534725.1"
   ],
   "additionalProperty": [
     {
@@ -29,9 +25,7 @@
       "valueReference": [
         {
           "@type": "CategoryCode",
-          "name": "Chile",
-          "codeValue": null,
-          "url": null
+          "name": "Chile"
         }
       ]
     },
@@ -43,7 +37,6 @@
         {
           "@type": "CategoryCode",
           "name": "Piscirickettsia salmonis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1238"
         }
       ]

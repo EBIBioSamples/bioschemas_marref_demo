@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604303",
   "description": "Vibrio fischeri strain ES114. This strain was isolated from the light organs of the squid Euprymna scolopes. Interestingly; the genome encodes a cholera toxin phage-like element on chromosome II. However; the cluster of genes responsible for phage excision is missing; and the two CTS genes have been replaces. There are also a number of pilus synthesis genes present in the genome; which may function during symbiosis. Comparison of the genome from this organism and the pathogenic Vibrio spp. will shed light on both the virulence as well as symbiosis-establishing mechanisms.",
   "dataset": [
-    "PRJNA12986",
-    null,
-    "12986",
-    "12986",
-    null,
-    "GCA_000011805.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA12986",
+    "https://www.arb-silva.de/search/show/ssu/insdc/12986",
+    "https://www.arb-silva.de/search/show/lsu/insdc/12986",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000011805.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Kane'ohe Bay",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00055951"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Vibrio fischeri",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=312309"
         }
       ]

@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02401946",
   "description": "Comparative genome analysis for Marinobacter spp.",
   "dataset": [
-    "PRJNA227392",
-    null,
-    "227392",
-    "227392",
-    null,
-    "GCA_000830985.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA227392",
+    "https://www.arb-silva.de/search/show/ssu/insdc/227392",
+    "https://www.arb-silva.de/search/show/lsu/insdc/227392",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000830985.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Port Philip Bay",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00045304"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Marinobacter similis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1420916"
         }
       ]

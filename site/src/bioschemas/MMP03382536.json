@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03382536",
   "description": "Muricauda lutaonensis CC-HSB-11T is a yellow-pigmented; moderately thermophilic; Gram-negative; rod-shaped bacterium that was isolated from a coastal hot spring of a volcanic island (Lutao) in the Pacific Ocean; off the eastern coast of Taiwan. We represent the complete genome of M. lutaonensis strain CC-HSB-11; which is the type strain of the species.",
   "dataset": [
-    "PRJNA276921",
-    null,
-    "276921",
-    "276921",
-    null,
-    "GCF_000963865.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA276921",
+    "https://www.arb-silva.de/search/show/ssu/insdc/276921",
+    "https://www.arb-silva.de/search/show/lsu/insdc/276921",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000963865.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Green Island",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00146141"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Muricauda lutaonensis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=516051"
         }
       ]

@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598510",
   "description": "Nitrosococcus halophilus Nc4.This strain will be used for comparative genome analysis.",
   "dataset": [
-    "PRJNA36589",
-    null,
-    "36589",
-    "36589",
-    null,
-    "GCA_000024725.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA36589",
+    "https://www.arb-silva.de/search/show/ssu/insdc/36589",
+    "https://www.arb-silva.de/search/show/lsu/insdc/36589",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000024725.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Island of Sardinia",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008199"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Nitrosococcus halophilus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=472759"
         }
       ]

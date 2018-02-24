@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02471758",
   "description": "N-alkane degrading strain",
   "dataset": [
-    "PRJNA168177",
-    null,
-    "168177",
-    "168177",
-    null,
-    "GCF_000308235.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA168177",
+    "https://www.arb-silva.de/search/show/ssu/insdc/168177",
+    "https://www.arb-silva.de/search/show/lsu/insdc/168177",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000308235.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Venetian Lagoon",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00042039"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Acinetobacter venetianus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1197884"
         }
       ]

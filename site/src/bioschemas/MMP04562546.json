@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04562546",
   "description": "Complete genome sequencing of Colwellia sp. PAMC 20917",
   "dataset": [
-    "PRJNA315484",
-    null,
-    "315484",
-    "315484",
-    null,
-    "GCF_001767295.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA315484",
+    "https://www.arb-silva.de/search/show/ssu/insdc/315484",
+    "https://www.arb-silva.de/search/show/lsu/insdc/315484",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001767295.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Svalbard Archipelago",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00005396"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Colwellia sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1816218"
         }
       ]

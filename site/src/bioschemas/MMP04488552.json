@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04488552",
   "description": "Gramella sp. Mar_2010_102",
   "dataset": [
-    "PRJEB16425",
-    null,
-    "16425",
-    "16425",
-    null,
-    "GCA_900105035.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB16425",
+    "https://www.arb-silva.de/search/show/ssu/insdc/16425",
+    "https://www.arb-silva.de/search/show/lsu/insdc/16425",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_900105035.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Gramella sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1250231"
         }
       ]

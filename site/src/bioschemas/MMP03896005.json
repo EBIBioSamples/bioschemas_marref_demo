@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03896005",
   "description": "Be the complete genome sequence and annotation of A. epoxidivorans CGMCC 1.7731T",
   "dataset": [
-    "PRJNA290561",
-    null,
-    "290561",
-    "290561",
-    null,
-    "GCA_001281485.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA290561",
+    "https://www.arb-silva.de/search/show/ssu/insdc/290561",
+    "https://www.arb-silva.de/search/show/lsu/insdc/290561",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001281485.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Kagoshima Bay",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000056"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Altererythrobacter epoxidivorans",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=361183"
         }
       ]

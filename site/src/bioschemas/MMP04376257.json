@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04376257",
   "description": "Piscirickettsia salmonis subspecies",
   "dataset": [
-    "PRJNA306730",
-    null,
-    "306730",
-    "306730",
-    null,
-    "GCA_001932955.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA306730",
+    "https://www.arb-silva.de/search/show/ssu/insdc/306730",
+    "https://www.arb-silva.de/search/show/lsu/insdc/306730",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001932955.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Chile",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002825"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Piscirickettsia salmonis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1238"
         }
       ]

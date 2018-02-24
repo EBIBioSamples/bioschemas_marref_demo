@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598485",
   "description": "Trichodesmium erythraeum strain IMS101. Trichodesmium erythraeum strain IMS101 was isolated from the North Carolina coast in 1992 and grows in straight filaments. This organism is easily grown in the laboratory and as a result has been extensively studied particularly in regards to its ability to fix nitrogen.",
   "dataset": [
-    "PRJNA318",
-    null,
-    "318",
-    "318",
-    null,
-    "GCA_000014265.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA318",
+    "https://www.arb-silva.de/search/show/ssu/insdc/318",
+    "https://www.arb-silva.de/search/show/lsu/insdc/318",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000014265.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "North Atlantic Ocean",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000377"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Trichodesmium erythraeum",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=203124"
         }
       ]

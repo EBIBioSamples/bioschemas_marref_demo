@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598298",
   "description": "Shewanella amazonensis strain SB2B. This is the type strain (SB2B; ATCC 700329) for the species and was isolated from shallow marine deposits (coastal shelf mud) of the Amazon River delta off of the coast of Brazil.",
   "dataset": [
-    "PRJNA13385",
-    null,
-    "13385",
-    "13385",
-    null,
-    "GCA_000015245.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13385",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13385",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13385",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000015245.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "River Amazon Delta",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00047131"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Shewanella amazonensis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=326297"
         }
       ]

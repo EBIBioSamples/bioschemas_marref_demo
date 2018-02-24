@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04309069",
   "description": "Obtained from Oncorhynchus mykiss",
   "dataset": [
-    "PRJNA304760",
-    null,
-    "304760",
-    "304760",
-    null,
-    "GCA_001514395.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA304760",
+    "https://www.arb-silva.de/search/show/ssu/insdc/304760",
+    "https://www.arb-silva.de/search/show/lsu/insdc/304760",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001514395.1"
   ],
   "additionalProperty": [
     {
@@ -29,9 +25,7 @@
       "valueReference": [
         {
           "@type": "CategoryCode",
-          "name": "Chile",
-          "codeValue": null,
-          "url": null
+          "name": "Chile"
         }
       ]
     },
@@ -43,7 +37,6 @@
         {
           "@type": "CategoryCode",
           "name": "Piscirickettsia salmonis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1238"
         }
       ]

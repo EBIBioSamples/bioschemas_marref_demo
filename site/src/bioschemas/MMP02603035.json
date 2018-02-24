@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603035",
   "description": "Simiduia agarivorans Genome Sequencing",
   "dataset": [
-    "PRJNA74637",
-    null,
-    "74637",
-    "74637",
-    null,
-    "GCA_000305785.2",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA74637",
+    "https://www.arb-silva.de/search/show/ssu/insdc/74637",
+    "https://www.arb-silva.de/search/show/lsu/insdc/74637",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000305785.2"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Municipality of Keelung",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00175881"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Simiduia agarivorans",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1117647"
         }
       ]

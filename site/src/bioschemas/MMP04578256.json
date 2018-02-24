@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04578256",
   "description": "Genome sequences of Serinicoccus guishaninsula JLT9 isolated from shallow-sea hydrothermal systems in Kueishantao Island",
   "dataset": [
-    "PRJNA316485",
-    null,
-    "316485",
-    "316485",
-    null,
-    "GCF_001685415.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA316485",
+    "https://www.arb-silva.de/search/show/ssu/insdc/316485",
+    "https://www.arb-silva.de/search/show/lsu/insdc/316485",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001685415.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Taiwan Island",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00045694"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Serinicoccus sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1758689"
         }
       ]

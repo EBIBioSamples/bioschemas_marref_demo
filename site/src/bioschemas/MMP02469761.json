@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02469761",
   "description": "Edwardsiella tarda 080813. This strain is being sequenced for comparative analysis with other E. tarda strains.",
   "dataset": [
-    "PRJNA39899",
-    null,
-    "39899",
-    "39899",
-    null,
-    "GCA_000264765.2",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA39899",
+    "https://www.arb-silva.de/search/show/ssu/insdc/39899",
+    "https://www.arb-silva.de/search/show/lsu/insdc/39899",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000264765.2"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Fujian Province",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00004225"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Edwardsiella tarda",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=667120"
         }
       ]

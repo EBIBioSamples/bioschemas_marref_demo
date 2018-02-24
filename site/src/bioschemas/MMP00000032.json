@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00000032",
   "description": "Nitrosopumilus maritimus SCM1. Nitrosopumilus maritimus SCM1 was isolated from a salt-water aquarium. This organism is able to fix carbon and oxidize ammonia and will be used for comparative analysis.",
   "dataset": [
-    "PRJNA19265",
-    null,
-    "19265",
-    "19265",
-    null,
-    "GCA_000018465.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA19265",
+    "https://www.arb-silva.de/search/show/ssu/insdc/19265",
+    "https://www.arb-silva.de/search/show/lsu/insdc/19265",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000018465.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Nitrosopumilus maritimus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=436308"
         }
       ]

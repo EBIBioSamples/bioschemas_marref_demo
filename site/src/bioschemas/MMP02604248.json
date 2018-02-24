@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604248",
   "description": "Uncultivated symbiotic bacterium in the ascidian; Lissoclinum patella collected in Fiji at 3 m depth in a coral reef.",
   "dataset": [
-    "PRJNA164601",
-    null,
-    "164601",
-    "164601",
-    null,
-    "GCA_000319385.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA164601",
+    "https://www.arb-silva.de/search/show/ssu/insdc/164601",
+    "https://www.arb-silva.de/search/show/lsu/insdc/164601",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000319385.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Fiji",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00006891"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Candidatus Endolissoclinum patella",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1193729"
         }
       ]

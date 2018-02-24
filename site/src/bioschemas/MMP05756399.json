@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05756399",
   "description": "The goal was to obtain the complete genome of the strain Methanohalophilus halophilus strain Z-7982 in order to compare with others Methanohalophilus isoaltes from deep sea.",
   "dataset": [
-    "PRJNA342410",
-    null,
-    "342410",
-    "342410",
-    null,
-    "GCF_001889405.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA342410",
+    "https://www.arb-silva.de/search/show/ssu/insdc/342410",
+    "https://www.arb-silva.de/search/show/lsu/insdc/342410",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001889405.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Shark Bay",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00045580"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Methanohalophilus halophilus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2177"
         }
       ]

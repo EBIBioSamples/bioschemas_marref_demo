@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05216535",
   "description": "Pseudomonas xanthomarina LMG 23572",
   "dataset": [
-    "PRJEB15821",
-    null,
-    "15821",
-    "15821",
-    null,
-    "GCA_900108535.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB15821",
+    "https://www.arb-silva.de/search/show/ssu/insdc/15821",
+    "https://www.arb-silva.de/search/show/lsu/insdc/15821",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_900108535.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Troitsa Bay",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007660"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Pseudomonas xanthomarina",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=271420"
         }
       ]

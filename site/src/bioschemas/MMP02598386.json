@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598386",
   "description": "Shewanella pealeana ATCC 700345.This strain is being sequenced for comparative genome analysis.",
   "dataset": [
-    "PRJNA17415",
-    null,
-    "17415",
-    "17415",
-    null,
-    "GCA_000018285.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA17415",
+    "https://www.arb-silva.de/search/show/ssu/insdc/17415",
+    "https://www.arb-silva.de/search/show/lsu/insdc/17415",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000018285.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Woods Hole",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00216609"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Shewanella pealeana",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=398579"
         }
       ]

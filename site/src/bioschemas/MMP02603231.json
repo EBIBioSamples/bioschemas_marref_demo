@@ -10,16 +10,11 @@
   ],
   "name": "Spiribacter sp. UAH-SP71",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603231",
-  "description": null,
   "dataset": [
-    "PRJNA203688",
-    null,
-    "203688",
-    "203688",
-    null,
-    "GCA_000485905.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA203688",
+    "https://www.arb-silva.de/search/show/ssu/insdc/203688",
+    "https://www.arb-silva.de/search/show/lsu/insdc/203688",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000485905.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +25,6 @@
         {
           "@type": "CategoryCode",
           "name": "Municipality of Santa Pola",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00116589"
         }
       ]
@@ -43,7 +37,6 @@
         {
           "@type": "CategoryCode",
           "name": "Spiribacter",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1335757"
         }
       ]

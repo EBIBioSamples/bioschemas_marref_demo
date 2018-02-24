@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598318",
   "description": "Shewanella sp. ANA-3. This strain was isolated from an arsenate treated wood pier that was in a brackish estuary (Eel Pond) in Woods Hole; Massachusetts. It is capable of converting As(V) to arsenite and may be used in bioremediation of contaminated sites.",
   "dataset": [
-    "PRJNA13905",
-    null,
-    "13905",
-    "13905",
-    null,
-    "GCA_000203935.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13905",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13905",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13905",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000203935.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Woods Hole",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00216609"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Shewanella sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=94122"
         }
       ]

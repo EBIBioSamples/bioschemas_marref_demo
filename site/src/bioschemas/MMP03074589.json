@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03074589",
   "description": "Complete genome sequence of Methanosarcina siciliae T4/M",
   "dataset": [
-    "PRJNA230953",
-    null,
-    "230953",
-    "230953",
-    null,
-    "GCF_000970085.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA230953",
+    "https://www.arb-silva.de/search/show/ssu/insdc/230953",
+    "https://www.arb-silva.de/search/show/lsu/insdc/230953",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000970085.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Lakes of Marinello",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008193"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Methanosarcina siciliae",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1434120"
         }
       ]

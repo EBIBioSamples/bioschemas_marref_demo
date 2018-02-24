@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04487762",
   "description": "Polaribacter sp. Hel1_33_78",
   "dataset": [
-    "PRJEB16501",
-    null,
-    "16501",
-    "16501",
-    null,
-    "GCA_900106075.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB16501",
+    "https://www.arb-silva.de/search/show/ssu/insdc/16501",
+    "https://www.arb-silva.de/search/show/lsu/insdc/16501",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_900106075.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Polaribacter sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1336804"
         }
       ]

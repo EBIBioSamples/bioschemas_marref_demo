@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00622970",
   "description": "Erythrobacter litoralis HTCC2594.This strain was collected from the Sargasso Sea at a depth of 10 meters; and was isolated by dilution to extinction methods followed by plating on solid media.",
   "dataset": [
-    "PRJNA13480",
-    null,
-    "13480",
-    "13480",
-    null,
-    "GCA_000013005.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13480",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13480",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13480",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000013005.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Sargasso Sea",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002454"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Erythrobacter litoralis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=314225"
         }
       ]

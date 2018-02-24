@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603608",
   "description": "Pseudomonas stutzeri CCUG 29253 (P. stutzeri AN10) is a well characterized naphthalene degrading bacterium isolated from sediments of the West Mediterranean Sea. Although it is able to grow with naphthalene and/or salicylate as unique carbon and energy source; salicylate seem to be toxic for strain AN10 at concentrations higher than 3 mM. Evolutionary experiments to adapt strain AN10 to higher salicylate concentrations are now underway.",
   "dataset": [
-    "PRJNA167996",
-    null,
-    "167996",
-    "167996",
-    null,
-    "GCA_000267545.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA167996",
+    "https://www.arb-silva.de/search/show/ssu/insdc/167996",
+    "https://www.arb-silva.de/search/show/lsu/insdc/167996",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000267545.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Mediterranean Sea, Western Basin",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008959"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Pseudomonas stutzeri",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1196835"
         }
       ]

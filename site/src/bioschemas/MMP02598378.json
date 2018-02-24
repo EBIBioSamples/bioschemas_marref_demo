@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598378",
   "description": "Salinispora arenicola CNS-205.This strain is being sequenced for comparative genome analysis.",
   "dataset": [
-    "PRJNA17109",
-    null,
-    "17109",
-    "17109",
-    null,
-    "GCA_000018265.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA17109",
+    "https://www.arb-silva.de/search/show/ssu/insdc/17109",
+    "https://www.arb-silva.de/search/show/lsu/insdc/17109",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000018265.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Palau",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00006905"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Salinispora arenicola",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=391037"
         }
       ]

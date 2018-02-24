@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02202185",
   "description": "Genome sequencing of Synechococcus sp. KORDI 51 were conducted. The strain was isolated from surface water of the East China Sea.",
   "dataset": [
-    "PRJNA207984",
-    null,
-    "207984",
-    "207984",
-    null,
-    "GCA_000737595.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA207984",
+    "https://www.arb-silva.de/search/show/ssu/insdc/207984",
+    "https://www.arb-silva.de/search/show/lsu/insdc/207984",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000737595.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "East China Sea",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00004689"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Synechococcus sp.",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=585425"
         }
       ]

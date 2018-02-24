@@ -5,7 +5,7 @@ import hashlib
 import json
 import requests
 
-import bioschemas.utils
+import utils
 
 logger = logging.getLogger(__name__)
 # logger.level = logging.DEBUG

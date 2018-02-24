@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP4532328",
   "description": "Oleispira antarctica RB-8. Oleispira antarctica RB-8 was isolated from surface seawater in Rod Bay; Ross Sea; Antarctica. This organism is able to degrade hydrocarbons and will be used for comparative analysis.",
   "dataset": [
-    "PRJEA42413",
-    null,
-    "42413",
-    "42413",
-    null,
-    "GCF_000967895.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEA42413",
+    "https://www.arb-silva.de/search/show/ssu/insdc/42413",
+    "https://www.arb-silva.de/search/show/lsu/insdc/42413",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000967895.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Rod Bay",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00023305"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Oleispira antarctica",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=698738"
         }
       ]

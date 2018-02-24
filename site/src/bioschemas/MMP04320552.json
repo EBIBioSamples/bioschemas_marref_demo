@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04320552",
   "description": "Pseudoalteromonas rubra can produce series of bioactive compounds; provides a good resource for the study of bioactive compounds produced",
   "dataset": [
-    "PRJNA305221",
-    null,
-    "305221",
-    "305221",
-    null,
-    "GCF_001482385.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA305221",
+    "https://www.arb-silva.de/search/show/ssu/insdc/305221",
+    "https://www.arb-silva.de/search/show/lsu/insdc/305221",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001482385.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Bay of Bengal",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008966"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Pseudoalteromonas rubra",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=43658"
         }
       ]

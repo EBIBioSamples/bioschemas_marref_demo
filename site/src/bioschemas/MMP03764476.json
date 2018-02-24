@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03764476",
   "description": "Genome sequencing of Altererythrobacter marensis using the PacBio RS II sequencing platform",
   "dataset": [
-    "PRJNA286057",
-    null,
-    "286057",
-    "286057",
-    null,
-    "GCF_001028625.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA286057",
+    "https://www.arb-silva.de/search/show/ssu/insdc/286057",
+    "https://www.arb-silva.de/search/show/lsu/insdc/286057",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001028625.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Jeju-do",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002803"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Altererythrobacter marensis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=543877"
         }
       ]

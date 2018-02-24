@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598523",
   "description": "Aciduliprofundum boonei T469. Aciduliprofundum boonei T469 was isolated from the Mariner hydrothermal vent field in the South Pacific Ocean. This organism will be used for comparative analysis with other thermophilic organisms.",
   "dataset": [
-    "PRJNA38403",
-    null,
-    "38403",
-    "38403",
-    null,
-    "GCA_000025665.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA38403",
+    "https://www.arb-silva.de/search/show/ssu/insdc/38403",
+    "https://www.arb-silva.de/search/show/lsu/insdc/38403",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000025665.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Mariner Hydrothermal Vent Field",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00013767"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Aciduliprofundum boonei",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=439481"
         }
       ]

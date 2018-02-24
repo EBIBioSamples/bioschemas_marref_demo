@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603472",
   "description": "Candidatus Puniceispirillum marinum IMCC1322. This strain was isolated from the East Sea of Korea.",
   "dataset": [
-    "PRJNA28081",
-    null,
-    "28081",
-    "28081",
-    null,
-    "GCA_000024465.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA28081",
+    "https://www.arb-silva.de/search/show/ssu/insdc/28081",
+    "https://www.arb-silva.de/search/show/lsu/insdc/28081",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000024465.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Sea of Japan",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007658"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Candidatus Puniceispirillum marinum",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488538"
         }
       ]

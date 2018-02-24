@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00000031",
   "description": "Methanococcus maripaludis C7. This strain was isolated from intertidal sediments and is being sequenced for comparative genome analysis.",
   "dataset": [
-    "PRJNA18819",
-    null,
-    "18819",
-    "18819",
-    null,
-    "GCA_000017225.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA18819",
+    "https://www.arb-silva.de/search/show/ssu/insdc/18819",
+    "https://www.arb-silva.de/search/show/lsu/insdc/18819",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000017225.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "United States of America",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002459"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Methanococcus maripaludis",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=426368"
         }
       ]

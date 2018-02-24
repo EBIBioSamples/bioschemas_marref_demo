@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3283111",
   "description": "Marine Magnetospira sp. QH-2 strain was isolated from the China Sea. With the presence of magnetosomes; QH-2 cells are able to orient themselves along magnetic field lines. Comparative genome analysis with freshwater magnetospirilla and other relative genomes will provide new insights into the genome feature; adaptation and evolution of magnetotactic bacteria.",
   "dataset": [
-    "PRJEB1386",
-    null,
-    "1386",
-    "1386",
-    null,
-    "GCF_000968135.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB1386",
+    "https://www.arb-silva.de/search/show/ssu/insdc/1386",
+    "https://www.arb-silva.de/search/show/lsu/insdc/1386",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000968135.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Shandong Province",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00010877"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Magnetospira",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1288970"
         }
       ]

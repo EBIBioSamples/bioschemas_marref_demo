@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00060963",
   "description": "Shewanella violacea DSS12. Shewanella violacea DSS12 was isolated from mud; taken at a depth of 5110 m; from the Ryukyu Trench in the Philippine Sea. Shewanella violacea DSS12 will be used to study the adaptations necessary for growth at high pressures and low temperatures.",
   "dataset": [
-    "PRJDA34739",
-    null,
-    "34739",
-    "34739",
-    null,
-    "GCA_000091325.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJDA34739",
+    "https://www.arb-silva.de/search/show/ssu/insdc/34739",
+    "https://www.arb-silva.de/search/show/lsu/insdc/34739",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000091325.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Ryukyu Trench",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002430"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Shewanella violacea",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=637905"
         }
       ]

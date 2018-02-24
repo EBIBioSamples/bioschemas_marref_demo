@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598367",
   "description": "Salinispora tropica CNB-440.This strain was isolated from coarse beach sand off the Bahamas; and is being sequenced for comparative genome analysis.",
   "dataset": [
-    "PRJNA16342",
-    null,
-    "16342",
-    "16342",
-    null,
-    "GCA_000016425.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA16342",
+    "https://www.arb-silva.de/search/show/ssu/insdc/16342",
+    "https://www.arb-silva.de/search/show/lsu/insdc/16342",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000016425.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Chub Cay",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00082987"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Salinispora tropica",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=369723"
         }
       ]

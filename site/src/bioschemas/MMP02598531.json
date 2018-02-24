@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598531",
   "description": "Nitrosococcus watsoni C-113.This strain will be used for comparative genome analysis.",
   "dataset": [
-    "PRJNA40331",
-    null,
-    "40331",
-    "40331",
-    null,
-    "GCA_000143085.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA40331",
+    "https://www.arb-silva.de/search/show/ssu/insdc/40331",
+    "https://www.arb-silva.de/search/show/lsu/insdc/40331",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000143085.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Port Said",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00030981"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Nitrosococcus watsonii",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=105559"
         }
       ]

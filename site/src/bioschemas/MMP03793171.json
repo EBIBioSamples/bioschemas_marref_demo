@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03793171",
   "description": "Genome sequencing of Wenzhouxiangella marina using PacBio RS II sequencing platform",
   "dataset": [
-    "PRJNA288075",
-    null,
-    "288075",
-    "288075",
-    null,
-    "GCF_001187785.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA288075",
+    "https://www.arb-silva.de/search/show/ssu/insdc/288075",
+    "https://www.arb-silva.de/search/show/lsu/insdc/288075",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001187785.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Indian Ocean",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000372"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Wenzhouxiangella marina",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1579979"
         }
       ]

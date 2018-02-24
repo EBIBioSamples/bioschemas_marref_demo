@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02261383",
   "description": "This strain will be used for comparative analysis.",
   "dataset": [
-    "PRJNA60027",
-    null,
-    "60027",
-    "60027",
-    null,
-    "GCA_000230895.3",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA60027",
+    "https://www.arb-silva.de/search/show/ssu/insdc/60027",
+    "https://www.arb-silva.de/search/show/lsu/insdc/60027",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000230895.3"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "New South Wales",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002793"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Mycobacterium rhodesiae",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=710685"
         }
       ]

@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03081521",
   "description": "Genome comparison",
   "dataset": [
-    "PRJNA229758",
-    null,
-    "229758",
-    "229758",
-    null,
-    "GCA_000568495.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA229758",
+    "https://www.arb-silva.de/search/show/ssu/insdc/229758",
+    "https://www.arb-silva.de/search/show/lsu/insdc/229758",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000568495.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Spain",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000591"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Vibrio parahaemolyticus",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1429044"
         }
       ]

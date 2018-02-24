@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02743545",
   "description": "The genus Alteromonas contains species of marine bacteria that have been isolated often from the oceans around the world. This strain was collected one metre below the water surface in Port Philip Bay; the Tasman Sea; Pacific Ocean; in 2008",
   "dataset": [
-    "PRJNA246143",
-    null,
-    "246143",
-    "246143",
-    null,
-    "GCA_000730385.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA246143",
+    "https://www.arb-silva.de/search/show/ssu/insdc/246143",
+    "https://www.arb-silva.de/search/show/lsu/insdc/246143",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000730385.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Port Philip Bay",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00045304"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Alteromonas australica",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=589873"
         }
       ]

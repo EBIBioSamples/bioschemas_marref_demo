@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03081537",
   "description": "The sequence of this organism will provide information on horizontal gene transfer in Thermococcales",
   "dataset": [
-    "PRJNA237737",
-    null,
-    "237737",
-    "237737",
-    null,
-    "GCA_000585495.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA237737",
+    "https://www.arb-silva.de/search/show/ssu/insdc/237737",
+    "https://www.arb-silva.de/search/show/lsu/insdc/237737",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000585495.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Pacific Ocean",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000360"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Thermococcus nautili",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=195522"
         }
       ]

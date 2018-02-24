@@ -10,16 +10,11 @@
   ],
   "name": "Vibrio fischeri MJ11",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603627",
-  "description": null,
   "dataset": [
-    "PRJNA19393",
-    null,
-    "19393",
-    "19393",
-    null,
-    "GCA_000020845.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA19393",
+    "https://www.arb-silva.de/search/show/ssu/insdc/19393",
+    "https://www.arb-silva.de/search/show/lsu/insdc/19393",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000020845.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +25,6 @@
         {
           "@type": "CategoryCode",
           "name": "San Francisco",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003145"
         }
       ]
@@ -43,7 +37,6 @@
         {
           "@type": "CategoryCode",
           "name": "Vibrio fischeri",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=388396"
         }
       ]

@@ -12,14 +12,10 @@
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04867928",
   "description": "Alginate metabolism has a complex history in the Vibrionaceae, marine microbes that are typically found in coastal ecosystems. We show that a rich history of horizontal gene transfer is responsible for the diversification of this metabolic strategy.",
   "dataset": [
-    "PRJNA318805",
-    null,
-    "318805",
-    "318805",
-    null,
-    "GCF_001677275.1",
-    null,
-    null
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA318805",
+    "https://www.arb-silva.de/search/show/ssu/insdc/318805",
+    "https://www.arb-silva.de/search/show/lsu/insdc/318805",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001677275.1"
   ],
   "additionalProperty": [
     {
@@ -30,7 +26,6 @@
         {
           "@type": "CategoryCode",
           "name": "Commonwealth of Massachusetts",
-          "codeValue": null,
           "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002537"
         }
       ]
@@ -43,7 +38,6 @@
         {
           "@type": "CategoryCode",
           "name": "Vibrio breoganii",
-          "codeValue": null,
           "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=553239"
         }
       ]
