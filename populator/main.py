@@ -1,9 +1,9 @@
 import biosamples.client as biosd
 import biosamples.aap_client as AAP
-from populator import AAP_PASSWORD, AAP_USERNAME
+from biosamples.utilities import is_successful, is_ok, is_status
+from biosamples import AAP_PASSWORD, AAP_USERNAME
 import os
 import json
-import requests
 
 
 def get_sample_accession(fin):
@@ -25,8 +25,20 @@ if __name__ == "__main__":
             accession = get_sample_accession(fin)
             if accession is None:
                 print("Impossible to extract accession from {}".format(fname))
-            response = client_fetch.fetch_sample(accession=accession)
-            if response.status_code is not requests.codes.ok:
-                raise Exception("An error occurred while retrieving {} from {}".format(accession, base_url))
+            try:
+                response = client_fetch.fetch_sample(accession=accession)
+            except Exception as e:
+                if is_status(e.args[1], 404):
+                    print("Sample {} not found on {}".format(accession, base_url_get))
+                    continue
+                else:
+                    raise e
+
+            if not is_ok(response):
+                raise Exception("An error occurred while retrieving {} from {}".format(accession, base_url_get))
             sample = response.json()
-            client_post.persist_sample(sample)
+            sample["domain"] = "self.MarRef"
+            response = client_post.persist_sample(sample, jwt=aap)
+            if not is_successful(response):
+                raise Exception("An error occurred while persisting sample {} to {}".format(accession, base_url_post))
+            print("Submitted sample {} to BioSamples on {}".format(accession, base_url_post))
