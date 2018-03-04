@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02261369",
-    "MMP02261369"
+    "biosamples:SAMN02261369",
+    "mmp.ref:MMP02261369"
   ],
   "name": "Cyclobacterium marinum DSM 745",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02261369",

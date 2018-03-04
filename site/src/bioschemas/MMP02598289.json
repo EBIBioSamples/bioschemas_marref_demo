@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598289",
-    "MMP02598289"
+    "biosamples:SAMN02598289",
+    "mmp.ref:MMP02598289"
   ],
   "name": "Sulfurimonas denitrificans DSM 1251",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598289",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05172241",
-    "MMP05172241"
+    "biosamples:SAMN05172241",
+    "mmp.ref:MMP05172241"
   ],
   "name": "Candidatus Nitrosopelagicus brevis CN25",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05172241",

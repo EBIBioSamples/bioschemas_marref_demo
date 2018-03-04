@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03496287",
-    "MMP03496287"
+    "biosamples:SAMN03496287",
+    "mmp.ref:MMP03496287"
   ],
   "name": "Maribacter sp. 1_2014MBL_MicDiv",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03496287",

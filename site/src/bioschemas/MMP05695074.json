@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05695074",
-    "MMP05695074"
+    "biosamples:SAMN05695074",
+    "mmp.ref:MMP05695074"
   ],
   "name": "Flavobacterium sp. LPB0076",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05695074",

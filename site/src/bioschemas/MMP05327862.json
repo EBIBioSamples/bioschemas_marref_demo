@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05327862",
-    "MMP05327862"
+    "biosamples:SAMN05327862",
+    "mmp.ref:MMP05327862"
   ],
   "name": "Vibrio coralliilyticus strain 58",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05327862",

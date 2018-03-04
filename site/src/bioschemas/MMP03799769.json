@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03799769",
-    "MMP03799769"
+    "biosamples:SAMN03799769",
+    "mmp.ref:MMP03799769"
   ],
   "name": "Flammeovirga sp. MY04",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03799769",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03329217",
-    "MMP03329217"
+    "biosamples:SAMN03329217",
+    "mmp.ref:MMP03329217"
   ],
   "name": "Verrucomicrobia bacterium L21-Fru-AB",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03329217",

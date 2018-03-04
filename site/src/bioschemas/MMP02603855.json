@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603855",
-    "MMP02603855"
+    "biosamples:SAMN02603855",
+    "mmp.ref:MMP02603855"
   ],
   "name": "Zunongwangia profunda SM-A87",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603855",

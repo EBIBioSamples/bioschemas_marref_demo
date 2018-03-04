@@ -1,7 +1,7 @@
 import os
 import re
 
-path = './site/src'
+path = '../site/src'
 template_format = ".template.html"
 os.chdir(path)
 files = os.listdir('.')
@@ -17,5 +17,5 @@ for name in files:
             jsonld_content = f.read()
         new_html = re.sub('{content}', jsonld_content, html_content, flags=re.M)
         new_file = "{}.html".format(mmpid)
-        with open(name, 'w', encoding="UTF-8") as f:
+        with open(new_file, 'w', encoding="UTF-8") as f:
             f.writelines(new_html)

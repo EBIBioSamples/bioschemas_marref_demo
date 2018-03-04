@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04620658",
-    "MMP04620658"
+    "biosamples:SAMN04620658",
+    "mmp.ref:MMP04620658"
   ],
   "name": "Cellulophaga lytica strain DAU203",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04620658",

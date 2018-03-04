@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03757733",
-    "MMP03757733"
+    "biosamples:SAMN03757733",
+    "mmp.ref:MMP03757733"
   ],
   "name": "Croceicoccus naphthovorans strain PQ-2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03757733",

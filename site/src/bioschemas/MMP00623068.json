@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00623068",
-    "MMP00623068"
+    "biosamples:SAMN00623068",
+    "mmp.ref:MMP00623068"
   ],
   "name": "Thermosipho melanesiensis BI429",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00623068",

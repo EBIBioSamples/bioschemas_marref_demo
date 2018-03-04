@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04324273",
-    "MMP04324273"
+    "biosamples:SAMN04324273",
+    "mmp.ref:MMP04324273"
   ],
   "name": "Lacimicrobium alkaliphilum strain KCTC 32984",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04324273",

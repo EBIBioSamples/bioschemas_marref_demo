@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00000031",
-    "MMP00000031"
+    "biosamples:SAMN00000031",
+    "mmp.ref:MMP00000031"
   ],
   "name": "Methanococcus maripaludis C7",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00000031",

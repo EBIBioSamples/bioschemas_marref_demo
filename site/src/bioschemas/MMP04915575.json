@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04915575",
-    "MMP04915575"
+    "biosamples:SAMN04915575",
+    "mmp.ref:MMP04915575"
   ],
   "name": "Thermococcus sp. CDGS",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04915575",

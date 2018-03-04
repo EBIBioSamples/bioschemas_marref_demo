@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603570",
-    "MMP0260357"
+    "biosamples:SAMN02603570",
+    "mmp.ref:MMP0260357"
   ],
   "name": "Vibrio sp. Ex25",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP0260357",

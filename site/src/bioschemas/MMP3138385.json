@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3138385",
-    "MMP3138385"
+    "biosamples:SAMEA3138385",
+    "mmp.ref:MMP3138385"
   ],
   "name": "Bacteriovorax marinus SJ",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138385",

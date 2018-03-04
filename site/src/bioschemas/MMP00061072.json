@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00061072",
-    "MMP00061072"
+    "biosamples:SAMD00061072",
+    "mmp.ref:MMP00061072"
   ],
   "name": "Geobacillus kaustophilus HTA426",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061072",

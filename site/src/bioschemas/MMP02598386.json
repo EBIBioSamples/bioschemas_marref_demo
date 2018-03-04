@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598386",
-    "MMP02598386"
+    "biosamples:SAMN02598386",
+    "mmp.ref:MMP02598386"
   ],
   "name": "Shewanella pealeana ATCC 700345",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598386",

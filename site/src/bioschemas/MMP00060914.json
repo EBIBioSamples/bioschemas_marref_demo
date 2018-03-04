@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00060914",
-    "MMP00060914"
+    "biosamples:SAMD00060914",
+    "mmp.ref:MMP00060914"
   ],
   "name": "Nitratiruptor sp. SB155-2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00060914",

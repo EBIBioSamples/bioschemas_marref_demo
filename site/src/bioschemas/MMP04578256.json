@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04578256",
-    "MMP04578256"
+    "biosamples:SAMN04578256",
+    "mmp.ref:MMP04578256"
   ],
   "name": "Serinicoccus sp. JLT9",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04578256",

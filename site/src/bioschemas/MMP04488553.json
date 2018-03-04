@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04488553",
-    "MMP04488553"
+    "biosamples:SAMN04488553",
+    "mmp.ref:MMP04488553"
   ],
   "name": "Gramella sp. MAR_2010_147",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04488553",

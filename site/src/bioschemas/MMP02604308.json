@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604308",
-    "MMP02604308"
+    "biosamples:SAMN02604308",
+    "mmp.ref:MMP02604308"
   ],
   "name": "Acaryochloris marina MBIC11017",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604308",

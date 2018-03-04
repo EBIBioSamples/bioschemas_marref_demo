@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05282066",
-    "MMP05282066"
+    "biosamples:SAMN05282066",
+    "mmp.ref:MMP05282066"
   ],
   "name": "Prosthecochloris sp. CIB 2401",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05282066",

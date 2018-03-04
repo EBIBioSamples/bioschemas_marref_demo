@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00019677",
-    "MMP00019677"
+    "biosamples:SAMD00019677",
+    "mmp.ref:MMP00019677"
   ],
   "name": "Mehyloceanibacter caenitepidi Gela4",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00019677",

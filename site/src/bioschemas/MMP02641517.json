@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02641517",
-    "MMP02641517"
+    "biosamples:SAMN02641517",
+    "mmp.ref:MMP02641517"
   ],
   "name": "Spirochaeta sp. L21-RPul-D2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02641517",

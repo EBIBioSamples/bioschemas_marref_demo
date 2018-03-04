@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02261379",
-    "MMP02261379"
+    "biosamples:SAMN02261379",
+    "mmp.ref:MMP02261379"
   ],
   "name": "Rhodothermus marinus SG0.5JP17-172",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02261379",

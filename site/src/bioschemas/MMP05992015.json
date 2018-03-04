@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05992015",
-    "MMP05992015"
+    "biosamples:SAMN05992015",
+    "mmp.ref:MMP05992015"
   ],
   "name": "Alteromonas sp. RW2A1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05992015",

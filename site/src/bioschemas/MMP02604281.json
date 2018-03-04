@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604281",
-    "MMP02604281"
+    "biosamples:SAMN02604281",
+    "mmp.ref:MMP02604281"
   ],
   "name": "Bacillus infantis NRRL B-14911",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604281",

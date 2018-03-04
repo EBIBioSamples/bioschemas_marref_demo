@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02848474",
-    "MMP02848474"
+    "biosamples:SAMN02848474",
+    "mmp.ref:MMP02848474"
   ],
   "name": "Candidatus Thioglobus singularis strain GG2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02848474",

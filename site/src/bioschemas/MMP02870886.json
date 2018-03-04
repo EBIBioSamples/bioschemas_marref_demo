@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02870886",
-    "MMP02870886"
+    "biosamples:SAMN02870886",
+    "mmp.ref:MMP02870886"
   ],
   "name": "Jeotgalibacillus sp. D5",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02870886",

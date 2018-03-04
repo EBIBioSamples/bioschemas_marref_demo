@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00138949",
-    "MMP00138949"
+    "biosamples:SAMN00138949",
+    "mmp.ref:MMP00138949"
   ],
   "name": "Marivirga tractuosa DSM 4126",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00138949",

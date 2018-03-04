@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598483",
-    "MMP02598483"
+    "biosamples:SAMN02598483",
+    "mmp.ref:MMP02598483"
   ],
   "name": "Saccharophagus degradans 2-40",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598483",

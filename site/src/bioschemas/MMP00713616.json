@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00713616",
-    "MMP00713616"
+    "biosamples:SAMN00713616",
+    "mmp.ref:MMP00713616"
   ],
   "name": "Desulfovibrio africanus str. Walvis Bay",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713616",

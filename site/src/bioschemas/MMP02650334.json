@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02650334",
-    "MMP02650334"
+    "biosamples:SAMN02650334",
+    "mmp.ref:MMP02650334"
   ],
   "name": "Thermosipho melanesiensis strain 431",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02650334",

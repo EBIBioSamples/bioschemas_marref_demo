@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03248547",
-    "MMP03248547"
+    "biosamples:SAMN03248547",
+    "mmp.ref:MMP03248547"
   ],
   "name": "Campylobacter peloridis LMG 23910",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03248547",

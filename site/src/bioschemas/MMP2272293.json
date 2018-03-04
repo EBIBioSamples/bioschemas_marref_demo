@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA2272293",
-    "MMP2272293"
+    "biosamples:SAMEA2272293",
+    "mmp.ref:MMP2272293"
   ],
   "name": "Desulfobacula toluolica Tol2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272293",

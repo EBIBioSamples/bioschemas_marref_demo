@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02940556",
-    "MMP02940556"
+    "biosamples:SAMN02940556",
+    "mmp.ref:MMP02940556"
   ],
   "name": "Kosmotoga pacifica strain SLHLJ1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02940556",

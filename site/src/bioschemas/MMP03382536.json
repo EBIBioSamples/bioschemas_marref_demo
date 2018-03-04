@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03382536",
-    "MMP03382536"
+    "biosamples:SAMN03382536",
+    "mmp.ref:MMP03382536"
   ],
   "name": "Muricauda lutaonensis strain CC-HSB-11",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03382536",

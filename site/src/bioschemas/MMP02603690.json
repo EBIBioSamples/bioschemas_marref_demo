@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603690",
-    "MMP02603690"
+    "biosamples:SAMN02603690",
+    "mmp.ref:MMP02603690"
   ],
   "name": "Candidatus Pelagibacter ubique HTCC1062",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603690",

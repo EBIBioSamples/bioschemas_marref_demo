@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04909702",
-    "MMP04909702"
+    "biosamples:SAMN04909702",
+    "mmp.ref:MMP04909702"
   ],
   "name": "Pelobacter acetylenicus strain DSM 3247",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04909702",

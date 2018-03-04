@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03160553",
-    "MMP03160553"
+    "biosamples:SAMN03160553",
+    "mmp.ref:MMP03160553"
   ],
   "name": "Pseudoalteromonas sp. OCN003",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03160553",

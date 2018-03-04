@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04893606",
-    "MMP04893606"
+    "biosamples:SAMN04893606",
+    "mmp.ref:MMP04893606"
   ],
   "name": "Desulfococcus multivorans strain DSM 2059",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04893606",

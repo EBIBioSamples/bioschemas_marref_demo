@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03081496",
-    "MMP03081496"
+    "biosamples:SAMN03081496",
+    "mmp.ref:MMP03081496"
   ],
   "name": "Thalassolituus oleivorans R6-15",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03081496",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05920294",
-    "MMP05920294"
+    "biosamples:SAMN05920294",
+    "mmp.ref:MMP05920294"
   ],
   "name": "Marinobacter sp. Hb8",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05920294",

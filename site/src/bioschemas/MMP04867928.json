@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04867928",
-    "MMP04867928"
+    "biosamples:SAMN04867928",
+    "mmp.ref:MMP04867928"
   ],
   "name": "Vibrio breoganii strain FF50",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04867928",

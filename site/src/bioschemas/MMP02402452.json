@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02402452",
-    "MMP02402452"
+    "biosamples:SAMN02402452",
+    "mmp.ref:MMP02402452"
   ],
   "name": "Brucella ceti TE10759-12",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02402452",

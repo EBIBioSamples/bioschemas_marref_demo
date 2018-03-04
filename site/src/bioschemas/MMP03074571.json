@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03074571",
-    "MMP03074571"
+    "biosamples:SAMN03074571",
+    "mmp.ref:MMP03074571"
   ],
   "name": "Methanococcoides methylutens MM1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03074571",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598523",
-    "MMP02598523"
+    "biosamples:SAMN02598523",
+    "mmp.ref:MMP02598523"
   ],
   "name": "Aciduliprofundum boonei T469",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598523",

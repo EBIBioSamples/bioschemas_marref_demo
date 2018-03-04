@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03975701",
-    "MMP03975701"
+    "biosamples:SAMN03975701",
+    "mmp.ref:MMP03975701"
   ],
   "name": "Psychrobacter sp. P11G3",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03975701",

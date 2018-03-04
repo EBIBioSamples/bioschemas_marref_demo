@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04939310",
-    "MMP04939310"
+    "biosamples:SAMN04939310",
+    "mmp.ref:MMP04939310"
   ],
   "name": "Marinobacterium sp. ST58-10",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04939310",

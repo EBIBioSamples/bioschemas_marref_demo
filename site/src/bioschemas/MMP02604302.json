@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604302",
-    "MMP02604302"
+    "biosamples:SAMN02604302",
+    "mmp.ref:MMP02604302"
   ],
   "name": "Vibrio parahaemolyticus BB22OP",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604302",

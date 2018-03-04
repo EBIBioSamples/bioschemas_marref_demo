@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598295",
-    "MMP02598295"
+    "biosamples:SAMN02598295",
+    "mmp.ref:MMP02598295"
   ],
   "name": "Pelobacter carbinolicus DSM 2380",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598295",

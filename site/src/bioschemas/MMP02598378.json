@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598378",
-    "MMP02598378"
+    "biosamples:SAMN02598378",
+    "mmp.ref:MMP02598378"
   ],
   "name": "Salinispora arenicola CNS-205",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598378",

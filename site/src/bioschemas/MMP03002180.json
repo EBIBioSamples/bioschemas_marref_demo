@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03002180",
-    "MMP03002180"
+    "biosamples:SAMN03002180",
+    "mmp.ref:MMP03002180"
   ],
   "name": "Novosphingobium pentaromativorans US6-1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03002180",

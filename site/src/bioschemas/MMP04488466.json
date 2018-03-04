@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04488466",
-    "MMP04488466"
+    "biosamples:SAMN04488466",
+    "mmp.ref:MMP04488466"
   ],
   "name": "Micromonospora krabiensis strain DSM 45344",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04488466",

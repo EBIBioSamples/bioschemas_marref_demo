@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02232049",
-    "MMP02232049"
+    "biosamples:SAMN02232049",
+    "mmp.ref:MMP02232049"
   ],
   "name": "Rivularia sp. PCC 7116",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02232049",

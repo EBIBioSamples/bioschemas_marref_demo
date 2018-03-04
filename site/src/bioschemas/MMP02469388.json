@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02469388",
-    "MMP02469388"
+    "biosamples:SAMN02469388",
+    "mmp.ref:MMP02469388"
   ],
   "name": "Streptomyces sp. GBA 94-10",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02469388",

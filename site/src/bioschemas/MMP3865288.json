@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3865288",
-    "MMP3865288"
+    "biosamples:SAMEA3865288",
+    "mmp.ref:MMP3865288"
   ],
   "name": "Vibrio anguillarum NB10",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3865288",

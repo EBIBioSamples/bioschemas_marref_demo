@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04346845",
-    "MMP04346845"
+    "biosamples:SAMN04346845",
+    "mmp.ref:MMP04346845"
   ],
   "name": "Tenacibaculum dicentrarchi strain AY7486TD",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04346845",

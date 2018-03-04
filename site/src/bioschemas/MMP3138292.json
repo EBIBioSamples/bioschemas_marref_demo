@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3138292",
-    "MMP3138292"
+    "biosamples:SAMEA3138292",
+    "mmp.ref:MMP3138292"
   ],
   "name": "Salinibacter ruber M8",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138292",

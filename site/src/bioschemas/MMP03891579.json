@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03891579",
-    "MMP03891579"
+    "biosamples:SAMN03891579",
+    "mmp.ref:MMP03891579"
   ],
   "name": "Octadecabacter temperatus strain SB1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03891579",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03282272",
-    "MMP03282272"
+    "biosamples:SAMN03282272",
+    "mmp.ref:MMP03282272"
   ],
   "name": "Myroides profundi D25",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03282272",

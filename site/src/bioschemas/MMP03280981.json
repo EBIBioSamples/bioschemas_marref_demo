@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03280981",
-    "MMP03280981"
+    "biosamples:SAMN03280981",
+    "mmp.ref:MMP03280981"
   ],
   "name": "Candidatus Thioglobus sp. EF1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03280981",

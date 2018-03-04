@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05366384",
-    "MMP05366384"
+    "biosamples:SAMN05366384",
+    "mmp.ref:MMP05366384"
   ],
   "name": "Planococcus plakortidis strain DSM 23997",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05366384",

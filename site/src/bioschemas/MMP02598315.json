@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598315",
-    "MMP02598315"
+    "biosamples:SAMN02598315",
+    "mmp.ref:MMP02598315"
   ],
   "name": "Shewanella sp. W3-18-1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598315",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00060915",
-    "MMP00060915"
+    "biosamples:SAMD00060915",
+    "mmp.ref:MMP00060915"
   ],
   "name": "Sulfurovum sp. NBC37-1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00060915",

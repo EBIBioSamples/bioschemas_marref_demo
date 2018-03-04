@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03701450",
-    "MMP03701450"
+    "biosamples:SAMN03701450",
+    "mmp.ref:MMP03701450"
   ],
   "name": "Halanaeroarchaeum sulfurireducens strain M27-SA2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03701450",

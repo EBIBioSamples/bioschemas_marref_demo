@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00036750",
-    "MMP00036750"
+    "biosamples:SAMD00036750",
+    "mmp.ref:MMP00036750"
   ],
   "name": "Rhodovulum sulfidophilum DSM 1374",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00036750",

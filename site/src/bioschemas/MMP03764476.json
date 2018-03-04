@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03764476",
-    "MMP03764476"
+    "biosamples:SAMN03764476",
+    "mmp.ref:MMP03764476"
   ],
   "name": "Altererythrobacter marensis strain KCTC 22370",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03764476",

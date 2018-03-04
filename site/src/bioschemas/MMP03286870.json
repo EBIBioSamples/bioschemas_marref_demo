@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03286870",
-    "MMP03286870"
+    "biosamples:SAMN03286870",
+    "mmp.ref:MMP03286870"
   ],
   "name": "Streptococcus iniae strain YSFST01-82",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03286870",

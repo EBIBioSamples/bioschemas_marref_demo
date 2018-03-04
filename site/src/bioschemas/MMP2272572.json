@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA2272572",
-    "MMP2272572"
+    "biosamples:SAMEA2272572",
+    "mmp.ref:MMP2272572"
   ],
   "name": "Novosphingobium sp. PP1Y",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272572",

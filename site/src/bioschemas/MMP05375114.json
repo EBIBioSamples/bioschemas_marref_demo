@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05375114",
-    "MMP05375114"
+    "biosamples:SAMN05375114",
+    "mmp.ref:MMP05375114"
   ],
   "name": "Formosa sp. Hel1_33_131",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05375114",

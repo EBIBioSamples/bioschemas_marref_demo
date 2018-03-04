@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02401947",
-    "MMP02401947"
+    "biosamples:SAMN02401947",
+    "mmp.ref:MMP02401947"
   ],
   "name": "Marinobacter salarius R9SW1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02401947",

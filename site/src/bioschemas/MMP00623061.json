@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00623061",
-    "MMP00623061"
+    "biosamples:SAMN00623061",
+    "mmp.ref:MMP00623061"
   ],
   "name": "Shewanella baltica OS195",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00623061",

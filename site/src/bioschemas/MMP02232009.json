@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02232009",
-    "MMP02232009"
+    "biosamples:SAMN02232009",
+    "mmp.ref:MMP02232009"
   ],
   "name": "Belliella baltica DSM 15883",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02232009",

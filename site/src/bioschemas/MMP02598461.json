@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598461",
-    "MMP02598461"
+    "biosamples:SAMN02598461",
+    "mmp.ref:MMP02598461"
   ],
   "name": "Chloroherpeton thalassium ATCC 35110",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598461",

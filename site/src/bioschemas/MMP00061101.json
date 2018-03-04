@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00061101",
-    "MMP00061101"
+    "biosamples:SAMD00061101",
+    "mmp.ref:MMP00061101"
   ],
   "name": "Oceanobacillus iheyensis HTE831",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061101",

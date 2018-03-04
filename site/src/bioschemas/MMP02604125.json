@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604125",
-    "MMP02604125"
+    "biosamples:SAMN02604125",
+    "mmp.ref:MMP02604125"
   ],
   "name": "Alteromonas macleodii str. 'Ionian Sea U8'",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604125",

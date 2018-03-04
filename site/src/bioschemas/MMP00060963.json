@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00060963",
-    "MMP00060963"
+    "biosamples:SAMD00060963",
+    "mmp.ref:MMP00060963"
   ],
   "name": "Shewanella violacea DSS12",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00060963",

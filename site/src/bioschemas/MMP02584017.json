@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02584017",
-    "MMP02584017"
+    "biosamples:SAMN02584017",
+    "mmp.ref:MMP02584017"
   ],
   "name": "Francisella noatunensis subsp. orientalis FNO24",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02584017",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN01919351",
-    "MMP01919351"
+    "biosamples:SAMN01919351",
+    "mmp.ref:MMP01919351"
   ],
   "name": "Thermotoga maritima MSB8",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP01919351",

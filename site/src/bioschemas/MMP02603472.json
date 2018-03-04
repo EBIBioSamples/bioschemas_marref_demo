@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603472",
-    "MMP02603472"
+    "biosamples:SAMN02603472",
+    "mmp.ref:MMP02603472"
   ],
   "name": "Candidatus Puniceispirillum marinum IMCC1322",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603472",

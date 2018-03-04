@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598510",
-    "MMP02598510"
+    "biosamples:SAMN02598510",
+    "mmp.ref:MMP02598510"
   ],
   "name": "Nitrosococcus halophilus Nc 4",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598510",

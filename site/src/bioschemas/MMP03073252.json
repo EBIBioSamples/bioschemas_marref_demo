@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03073252",
-    "MMP03073252"
+    "biosamples:SAMN03073252",
+    "mmp.ref:MMP03073252"
   ],
   "name": "Francisella sp. FSC1006",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03073252",

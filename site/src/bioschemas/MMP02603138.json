@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603138",
-    "MMP02603138"
+    "biosamples:SAMN02603138",
+    "mmp.ref:MMP02603138"
   ],
   "name": "Candidatus Nitrosopumilus sp. AR2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603138",

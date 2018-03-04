@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05178567",
-    "MMP05178567"
+    "biosamples:SAMN05178567",
+    "mmp.ref:MMP05178567"
   ],
   "name": "Bacillus sp. Alg07",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05178567",

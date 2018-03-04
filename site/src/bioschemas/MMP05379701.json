@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05379701",
-    "MMP05379701"
+    "biosamples:SAMN05379701",
+    "mmp.ref:MMP05379701"
   ],
   "name": "Helicobacter sp. MIT 01-6242",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05379701",

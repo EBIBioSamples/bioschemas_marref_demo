@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02988852",
-    "MMP02988852"
+    "biosamples:SAMN02988852",
+    "mmp.ref:MMP02988852"
   ],
   "name": "Geoglobus ahangari strain 234",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02988852",

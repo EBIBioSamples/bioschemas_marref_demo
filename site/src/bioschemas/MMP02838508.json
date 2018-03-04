@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02838508",
-    "MMP02838508"
+    "biosamples:SAMN02838508",
+    "mmp.ref:MMP02838508"
   ],
   "name": "Thermococcus eurythermalis A501",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02838508",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03074588",
-    "MMP03074588"
+    "biosamples:SAMN03074588",
+    "mmp.ref:MMP03074588"
   ],
   "name": "Methanosarcina siciliae HI350",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03074588",

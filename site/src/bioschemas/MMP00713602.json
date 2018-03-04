@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00713602",
-    "MMP00713602"
+    "biosamples:SAMN00713602",
+    "mmp.ref:MMP00713602"
   ],
   "name": "Marinithermus hydrothermalis DSM 14884",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713602",

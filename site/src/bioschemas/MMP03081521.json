@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03081521",
-    "MMP03081521"
+    "biosamples:SAMN03081521",
+    "mmp.ref:MMP03081521"
   ],
   "name": "Vibrio parahaemolyticus UCM-V493",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03081521",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02940923",
-    "MMP02940923"
+    "biosamples:SAMN02940923",
+    "mmp.ref:MMP02940923"
   ],
   "name": "Vibrio coralliilyticus RE98",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02940923",

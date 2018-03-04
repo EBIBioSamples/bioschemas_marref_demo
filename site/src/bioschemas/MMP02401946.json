@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02401946",
-    "MMP02401946"
+    "biosamples:SAMN02401946",
+    "mmp.ref:MMP02401946"
   ],
   "name": "Marinobacter similis A3d10",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02401946",

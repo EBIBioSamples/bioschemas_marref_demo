@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598300",
-    "MMP02598300"
+    "biosamples:SAMN02598300",
+    "mmp.ref:MMP02598300"
   ],
   "name": "Shewanella denitrificans OS217",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598300",

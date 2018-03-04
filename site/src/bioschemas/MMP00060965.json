@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00060965",
-    "MMP00060965"
+    "biosamples:SAMD00060965",
+    "mmp.ref:MMP00060965"
   ],
   "name": "Deferribacter desulfuricans SSM1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00060965",

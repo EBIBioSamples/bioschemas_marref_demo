@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598271",
-    "MMP02598271"
+    "biosamples:SAMN02598271",
+    "mmp.ref:MMP02598271"
   ],
   "name": "Chlorobium phaeovibrioides DSM 265",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598271",

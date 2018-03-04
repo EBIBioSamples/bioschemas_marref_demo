@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03081537",
-    "MMP03081537"
+    "biosamples:SAMN03081537",
+    "mmp.ref:MMP03081537"
   ],
   "name": "Thermococcus nautili strain 30-1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03081537",

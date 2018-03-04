@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05991975",
-    "MMP05991975"
+    "biosamples:SAMN05991975",
+    "mmp.ref:MMP05991975"
   ],
   "name": "Alteromonas sp. Mex14",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05991975",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04255090",
-    "MMP04255090"
+    "biosamples:SAMN04255090",
+    "mmp.ref:MMP04255090"
   ],
   "name": "Colwellia sp. MT41",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04255090",

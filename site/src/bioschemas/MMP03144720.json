@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03144720",
-    "MMP03144720"
+    "biosamples:SAMN03144720",
+    "mmp.ref:MMP03144720"
   ],
   "name": "Yersinia aldovae 670-83",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03144720",

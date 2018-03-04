@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02471159",
-    "MMP02471159"
+    "biosamples:SAMN02471159",
+    "mmp.ref:MMP02471159"
   ],
   "name": "Alcanivorax sp. W11-5",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02471159",

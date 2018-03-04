@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02992126",
-    "MMP02992126"
+    "biosamples:SAMN02992126",
+    "mmp.ref:MMP02992126"
   ],
   "name": "Streptococcus agalactiae strain HN016",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02992126",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00713593",
-    "MMP00713593"
+    "biosamples:SAMN00713593",
+    "mmp.ref:MMP00713593"
   ],
   "name": "Marinomonas mediterranea MMB-1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713593",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00017418",
-    "MMP00017418"
+    "biosamples:SAMD00017418",
+    "mmp.ref:MMP00017418"
   ],
   "name": "Pseudomonas sp. MT-1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00017418",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02953969",
-    "MMP02953969"
+    "biosamples:SAMN02953969",
+    "mmp.ref:MMP02953969"
   ],
   "name": "Planktomarina temperata RCA23",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02953969",

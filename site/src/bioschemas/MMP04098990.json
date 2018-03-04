@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04098990",
-    "MMP04098990"
+    "biosamples:SAMN04098990",
+    "mmp.ref:MMP04098990"
   ],
   "name": "Psychrobacter sp. AntiMn-1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04098990",

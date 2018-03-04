@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3245995",
-    "MMP3245995"
+    "biosamples:SAMEA3245995",
+    "mmp.ref:MMP3245995"
   ],
   "name": "Halomonas sp.R57-5",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3245995",

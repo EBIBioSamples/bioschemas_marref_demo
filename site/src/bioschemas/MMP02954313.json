@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02954313",
-    "MMP02954313"
+    "biosamples:SAMN02954313",
+    "mmp.ref:MMP02954313"
   ],
   "name": "uncultured marine group II euryarchaeote",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02954313",

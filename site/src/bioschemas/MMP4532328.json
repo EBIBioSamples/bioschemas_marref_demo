@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA4532328",
-    "MMP4532328"
+    "biosamples:SAMEA4532328",
+    "mmp.ref:MMP4532328"
   ],
   "name": "Oleispira antarctica RB-8",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP4532328",

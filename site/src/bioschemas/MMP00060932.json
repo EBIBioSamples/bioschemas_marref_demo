@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00060932",
-    "MMP00060932"
+    "biosamples:SAMD00060932",
+    "mmp.ref:MMP00060932"
   ],
   "name": "Rhodococcus erythropolis PR4",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00060932",

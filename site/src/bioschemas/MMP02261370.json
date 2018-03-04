@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02261370",
-    "MMP02261370"
+    "biosamples:SAMN02261370",
+    "mmp.ref:MMP02261370"
   ],
   "name": "Flexibacter litoralis DSM 6794",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02261370",

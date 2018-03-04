@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05933025",
-    "MMP05933025"
+    "biosamples:SAMN05933025",
+    "mmp.ref:MMP05933025"
   ],
   "name": "Paenibacillus sp. LPB0068",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05933025",

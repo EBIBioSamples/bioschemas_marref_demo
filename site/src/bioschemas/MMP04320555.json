@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04320555",
-    "MMP04320555"
+    "biosamples:SAMN04320555",
+    "mmp.ref:MMP04320555"
   ],
   "name": "Vibrio alginolyticus strain ATCC 33787",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04320555",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00017484",
-    "MMP00017484"
+    "biosamples:SAMN00017484",
+    "mmp.ref:MMP00017484"
   ],
   "name": "Methanocaldococcus infernus ME",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00017484",

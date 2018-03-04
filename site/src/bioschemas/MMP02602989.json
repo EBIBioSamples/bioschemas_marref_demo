@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02602989",
-    "MMP02602989"
+    "biosamples:SAMN02602989",
+    "mmp.ref:MMP02602989"
   ],
   "name": "Saprospira grandis str. Lewin",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02602989",

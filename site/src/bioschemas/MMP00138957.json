@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00138957",
-    "MMP00138957"
+    "biosamples:SAMN00138957",
+    "mmp.ref:MMP00138957"
   ],
   "name": "Oceanithermus profundus DSM 14977",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00138957",

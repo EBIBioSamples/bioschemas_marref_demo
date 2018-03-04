@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02208949",
-    "MMP02208949"
+    "biosamples:SAMN02208949",
+    "mmp.ref:MMP02208949"
   ],
   "name": "Cellulophaga baltica 18",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02208949",

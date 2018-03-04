@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598298",
-    "MMP02598298"
+    "biosamples:SAMN02598298",
+    "mmp.ref:MMP02598298"
   ],
   "name": "Shewanella amazonensis SB2B",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598298",

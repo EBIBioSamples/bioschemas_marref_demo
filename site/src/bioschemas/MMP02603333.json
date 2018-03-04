@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603333",
-    "MMP02603333"
+    "biosamples:SAMN02603333",
+    "mmp.ref:MMP02603333"
   ],
   "name": "Thermococcus gammatolerans EJ3",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603333",

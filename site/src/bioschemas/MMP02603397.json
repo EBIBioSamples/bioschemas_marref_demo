@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603397",
-    "MMP02603397"
+    "biosamples:SAMN02603397",
+    "mmp.ref:MMP02603397"
   ],
   "name": "Haloferax mediterranei ATCC 33500",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603397",

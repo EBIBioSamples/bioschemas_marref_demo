@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3283111",
-    "MMP3283111"
+    "biosamples:SAMEA3283111",
+    "mmp.ref:MMP3283111"
   ],
   "name": "Magnetospira sp. QH-2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3283111",

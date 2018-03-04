@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00015125",
-    "MMP00015125"
+    "biosamples:SAMN00015125",
+    "mmp.ref:MMP00015125"
   ],
   "name": "Methanohalobium evestigatum Z-7303",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00015125",

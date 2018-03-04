@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00017459",
-    "MMP00017459"
+    "biosamples:SAMN00017459",
+    "mmp.ref:MMP00017459"
   ],
   "name": "Archaeoglobus profundus DSM 5631",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00017459",

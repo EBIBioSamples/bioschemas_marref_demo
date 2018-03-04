@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3234138",
-    "MMP3234138"
+    "biosamples:SAMEA3234138",
+    "mmp.ref:MMP3234138"
   ],
   "name": "Filomicrobium sp. W1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3234138",

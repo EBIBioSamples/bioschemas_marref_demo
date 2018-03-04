@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA2272784",
-    "MMP2272784"
+    "biosamples:SAMEA2272784",
+    "mmp.ref:MMP2272784"
   ],
   "name": "Halomonas elongata DSM 2581",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272784",

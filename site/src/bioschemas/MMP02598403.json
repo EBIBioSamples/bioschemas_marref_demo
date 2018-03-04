@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598403",
-    "MMP02598403"
+    "biosamples:SAMN02598403",
+    "mmp.ref:MMP02598403"
   ],
   "name": "Methanococcus vannielii SB",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598403",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03379852",
-    "MMP03379852"
+    "biosamples:SAMN03379852",
+    "mmp.ref:MMP03379852"
   ],
   "name": "Photobacterium gaetbulicola Gung47",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03379852",

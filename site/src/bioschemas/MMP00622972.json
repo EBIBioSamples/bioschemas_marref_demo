@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00622972",
-    "MMP00622972"
+    "biosamples:SAMN00622972",
+    "mmp.ref:MMP00622972"
   ],
   "name": "Prochlorococcus marinus str. MIT 9211",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00622972",

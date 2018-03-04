@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03421018",
-    "MMP03421018"
+    "biosamples:SAMN03421018",
+    "mmp.ref:MMP03421018"
   ],
   "name": "Yersinia ruckeri strain Big Creek 74",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03421018",

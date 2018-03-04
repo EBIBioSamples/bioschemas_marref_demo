@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598367",
-    "MMP02598367"
+    "biosamples:SAMN02598367",
+    "mmp.ref:MMP02598367"
   ],
   "name": "Salinispora tropica CNB-440",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598367",

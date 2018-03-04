@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05216488",
-    "MMP05216488"
+    "biosamples:SAMN05216488",
+    "mmp.ref:MMP05216488"
   ],
   "name": "Microbacterium sp. LKL04",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05216488",

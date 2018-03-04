@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA1705917",
-    "MMP1705917"
+    "biosamples:SAMEA1705917",
+    "mmp.ref:MMP1705917"
   ],
   "name": "Aliivibrio salmonicida LFI1238",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP1705917",

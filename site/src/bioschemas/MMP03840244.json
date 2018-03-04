@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03840244",
-    "MMP03840244"
+    "biosamples:SAMN03840244",
+    "mmp.ref:MMP03840244"
   ],
   "name": "Marinovum algicola DG 898",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03840244",

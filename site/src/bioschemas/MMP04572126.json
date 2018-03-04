@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04572126",
-    "MMP04572126"
+    "biosamples:SAMN04572126",
+    "mmp.ref:MMP04572126"
   ],
   "name": "Dokdonia donghaensis DSW-1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04572126",

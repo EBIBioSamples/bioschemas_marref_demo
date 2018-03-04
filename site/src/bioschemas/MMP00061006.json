@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00061006",
-    "MMP00061006"
+    "biosamples:SAMD00061006",
+    "mmp.ref:MMP00061006"
   ],
   "name": "Aeropyrum camini SY1 = JCM 12091",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061006",

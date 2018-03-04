@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598485",
-    "MMP02598485"
+    "biosamples:SAMN02598485",
+    "mmp.ref:MMP02598485"
   ],
   "name": "Trichodesmium erythraeum IMS101",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598485",

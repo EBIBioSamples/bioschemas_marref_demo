@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03571531",
-    "MMP03571531"
+    "biosamples:SAMN03571531",
+    "mmp.ref:MMP03571531"
   ],
   "name": "Nonlabens sp. MIC269",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03571531",

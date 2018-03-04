@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03377048",
-    "MMP03377048"
+    "biosamples:SAMN03377048",
+    "mmp.ref:MMP03377048"
   ],
   "name": "Methylophilales bacterium MBRSG12",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03377048",

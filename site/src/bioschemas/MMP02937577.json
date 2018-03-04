@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02937577",
-    "MMP02937577"
+    "biosamples:SAMN02937577",
+    "mmp.ref:MMP02937577"
   ],
   "name": "Cellulophaga lytica strain HI1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02937577",

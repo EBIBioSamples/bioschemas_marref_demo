@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05271497",
-    "MMP05271497"
+    "biosamples:SAMN05271497",
+    "mmp.ref:MMP05271497"
   ],
   "name": "Vibrio alginolyticus strain ZJ-T",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05271497",

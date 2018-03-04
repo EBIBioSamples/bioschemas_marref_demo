@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02951366",
-    "MMP02951366"
+    "biosamples:SAMN02951366",
+    "mmp.ref:MMP02951366"
   ],
   "name": "Methanocaldococcus sp. JH146",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02951366",

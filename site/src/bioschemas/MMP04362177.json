@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04362177",
-    "MMP04362177"
+    "biosamples:SAMN04362177",
+    "mmp.ref:MMP04362177"
   ],
   "name": "Piscirickettsia salmonis strain PM49811B",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04362177",

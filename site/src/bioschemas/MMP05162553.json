@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05162553",
-    "MMP05162553"
+    "biosamples:SAMN05162553",
+    "mmp.ref:MMP05162553"
   ],
   "name": "Nocardiopsis dassonvillei strain NOCA502F",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05162553",

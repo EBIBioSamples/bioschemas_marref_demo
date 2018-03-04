@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03325855",
-    "MMP03325855"
+    "biosamples:SAMN03325855",
+    "mmp.ref:MMP03325855"
   ],
   "name": "Vibrio parahaemolyticus strain CHN25",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03325855",

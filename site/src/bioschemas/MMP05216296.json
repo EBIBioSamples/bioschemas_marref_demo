@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05216296",
-    "MMP05216296"
+    "biosamples:SAMN05216296",
+    "mmp.ref:MMP05216296"
   ],
   "name": "Pseudomonas pohangensis strain DSM 17875",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05216296",

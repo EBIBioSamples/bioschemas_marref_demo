@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598345",
-    "MMP02598345"
+    "biosamples:SAMN02598345",
+    "mmp.ref:MMP02598345"
   ],
   "name": "Psychrobacter sp. PRwf-1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598345",

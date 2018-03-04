@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03074593",
-    "MMP03074593"
+    "biosamples:SAMN03074593",
+    "mmp.ref:MMP03074593"
   ],
   "name": "Methanosarcina sp. WH1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03074593",

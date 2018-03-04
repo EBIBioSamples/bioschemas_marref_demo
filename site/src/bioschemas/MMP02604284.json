@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604284",
-    "MMP02604284"
+    "biosamples:SAMN02604284",
+    "mmp.ref:MMP02604284"
   ],
   "name": "Pyrococcus furiosus DSM 3638",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604284",

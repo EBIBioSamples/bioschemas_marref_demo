@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598375",
-    "MMP02598375"
+    "biosamples:SAMN02598375",
+    "mmp.ref:MMP02598375"
   ],
   "name": "Candidatus Ruthia magnifica str. Cm (Calyptogena magnifica)",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598375",

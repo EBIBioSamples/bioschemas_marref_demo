@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03069110",
-    "MMP03069110"
+    "biosamples:SAMN03069110",
+    "mmp.ref:MMP03069110"
   ],
   "name": "Marinitoga sp. 1137",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03069110",

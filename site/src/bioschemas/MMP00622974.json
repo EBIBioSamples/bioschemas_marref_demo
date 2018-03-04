@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00622974",
-    "MMP00622974"
+    "biosamples:SAMN00622974",
+    "mmp.ref:MMP00622974"
   ],
   "name": "Psychromonas sp. CNPT3",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00622974",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02232018",
-    "MMP02232018"
+    "biosamples:SAMN02232018",
+    "mmp.ref:MMP02232018"
   ],
   "name": "Echinicola vietnamensis DSM 17526",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02232018",

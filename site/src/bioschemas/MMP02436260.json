@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02436260",
-    "MMP02436260"
+    "biosamples:SAMN02436260",
+    "mmp.ref:MMP02436260"
   ],
   "name": "Synechococcus sp. WH 8109",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02436260",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05946030",
-    "MMP05946030"
+    "biosamples:SAMN05946030",
+    "mmp.ref:MMP05946030"
   ],
   "name": "Caldithrix abyssi DSM 13497",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05946030",

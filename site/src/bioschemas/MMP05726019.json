@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05726019",
-    "MMP05726019"
+    "biosamples:SAMN05726019",
+    "mmp.ref:MMP05726019"
   ],
   "name": "Hydrogenophaga sp. LPB0072",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05726019",

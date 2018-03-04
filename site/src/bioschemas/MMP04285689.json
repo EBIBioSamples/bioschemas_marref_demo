@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04285689",
-    "MMP04285689"
+    "biosamples:SAMN04285689",
+    "mmp.ref:MMP04285689"
   ],
   "name": "Vibrio parahaemolyticus strain FORC_018",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04285689",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04316368",
-    "MMP04316368"
+    "biosamples:SAMN04316368",
+    "mmp.ref:MMP04316368"
   ],
   "name": "Ignicoccus islandicus DSM 13165",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04316368",

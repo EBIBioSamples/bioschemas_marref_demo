@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02769646",
-    "MMP02769646"
+    "biosamples:SAMN02769646",
+    "mmp.ref:MMP02769646"
   ],
   "name": "Leisingera methylohalidivorans DSM 14336",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02769646",

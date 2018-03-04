@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02900760",
-    "MMP02900760"
+    "biosamples:SAMN02900760",
+    "mmp.ref:MMP02900760"
   ],
   "name": "Flavobacterium psychrophilum V4-24",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02900760",

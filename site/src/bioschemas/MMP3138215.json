@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3138215",
-    "MMP3138215"
+    "biosamples:SAMEA3138215",
+    "mmp.ref:MMP3138215"
   ],
   "name": "Methanococcus maripaludis S2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138215",

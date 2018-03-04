@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604121",
-    "MMP02604121"
+    "biosamples:SAMN02604121",
+    "mmp.ref:MMP02604121"
   ],
   "name": "Alteromonas macleodii str. 'English Channel 673'",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604121",

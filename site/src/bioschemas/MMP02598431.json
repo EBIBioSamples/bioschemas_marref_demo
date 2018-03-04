@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598431",
-    "MMP02598431"
+    "biosamples:SAMN02598431",
+    "mmp.ref:MMP02598431"
   ],
   "name": "Shewanella halifaxensis HAW-EB4",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598431",

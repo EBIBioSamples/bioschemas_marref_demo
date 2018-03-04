@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03280159",
-    "MMP03280159"
+    "biosamples:SAMN03280159",
+    "mmp.ref:MMP03280159"
   ],
   "name": "Celeribacter indicus P73",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03280159",

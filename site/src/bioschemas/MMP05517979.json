@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05517979",
-    "MMP05517979"
+    "biosamples:SAMN05517979",
+    "mmp.ref:MMP05517979"
   ],
   "name": "Bacillus velezensis strain 9912D",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05517979",

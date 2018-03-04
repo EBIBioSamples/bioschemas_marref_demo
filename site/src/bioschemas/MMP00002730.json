@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00002730",
-    "MMP00002730"
+    "biosamples:SAMN00002730",
+    "mmp.ref:MMP00002730"
   ],
   "name": "Staphylothermus hellenicus DSM 12710",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00002730",

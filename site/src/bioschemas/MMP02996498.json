@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02996498",
-    "MMP02996498"
+    "biosamples:SAMN02996498",
+    "mmp.ref:MMP02996498"
   ],
   "name": "Corynebacterium phocae strain M408/89/1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02996498",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05225364",
-    "MMP05225364"
+    "biosamples:SAMN05225364",
+    "mmp.ref:MMP05225364"
   ],
   "name": "Vibrio scophthalmi strain VS-12",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05225364",

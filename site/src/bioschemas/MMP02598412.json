@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598412",
-    "MMP02598412"
+    "biosamples:SAMN02598412",
+    "mmp.ref:MMP02598412"
   ],
   "name": "Shewanella sediminis HAW-EB3",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598412",

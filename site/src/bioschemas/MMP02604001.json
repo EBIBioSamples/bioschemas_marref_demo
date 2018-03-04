@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604001",
-    "MMP02604001"
+    "biosamples:SAMN02604001",
+    "mmp.ref:MMP02604001"
   ],
   "name": "Colwellia psychrerythraea 34H",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604001",

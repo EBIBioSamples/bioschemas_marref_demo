@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03793171",
-    "MMP03793171"
+    "biosamples:SAMN03793171",
+    "mmp.ref:MMP03793171"
   ],
   "name": "Wenzhouxiangella marina strain KCTC 42284",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03793171",

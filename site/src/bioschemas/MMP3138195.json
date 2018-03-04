@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3138195",
-    "MMP3138195"
+    "biosamples:SAMEA3138195",
+    "mmp.ref:MMP3138195"
   ],
   "name": "Haloquadratum walsbyi DSM 16790",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138195",

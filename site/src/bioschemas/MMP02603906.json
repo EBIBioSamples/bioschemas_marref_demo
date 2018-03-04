@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603906",
-    "MMP02603906"
+    "biosamples:SAMN02603906",
+    "mmp.ref:MMP02603906"
   ],
   "name": "Pusillimonas sp. T7-7",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603906",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02687544",
-    "MMP02687544"
+    "biosamples:SAMN02687544",
+    "mmp.ref:MMP02687544"
   ],
   "name": "Thalassolituus oleivorans strain K188",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02687544",

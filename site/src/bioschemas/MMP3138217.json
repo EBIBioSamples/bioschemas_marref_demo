@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3138217",
-    "MMP3138217"
+    "biosamples:SAMEA3138217",
+    "mmp.ref:MMP3138217"
   ],
   "name": "Desulfotalea psychrophila LSv54",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138217",

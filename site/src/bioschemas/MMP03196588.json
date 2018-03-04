@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03196588",
-    "MMP03196588"
+    "biosamples:SAMN03196588",
+    "mmp.ref:MMP03196588"
   ],
   "name": "Arthrobacter sp. PAMC25486",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03196588",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04101985",
-    "MMP04101985"
+    "biosamples:SAMN04101985",
+    "mmp.ref:MMP04101985"
   ],
   "name": "Rhodococcus sp. 008",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04101985",

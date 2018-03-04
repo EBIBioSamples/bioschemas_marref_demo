@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN06041746",
-    "MMP06041746"
+    "biosamples:SAMN06041746",
+    "mmp.ref:MMP06041746"
   ],
   "name": "Vibrio harveyi strain QT520",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP06041746",

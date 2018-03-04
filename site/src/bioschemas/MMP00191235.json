@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00191235",
-    "MMP00191235"
+    "biosamples:SAMN00191235",
+    "mmp.ref:MMP00191235"
   ],
   "name": "Spirochaeta thermophila DSM 6578",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00191235",

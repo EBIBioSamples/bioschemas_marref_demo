@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN06046509",
-    "MMP06046509"
+    "biosamples:SAMN06046509",
+    "mmp.ref:MMP06046509"
   ],
   "name": "Donghicola sp. JLT3646",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP06046509",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05225369",
-    "MMP05225369"
+    "biosamples:SAMN05225369",
+    "mmp.ref:MMP05225369"
   ],
   "name": "Nocardia seriolae strain EM150506",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05225369",

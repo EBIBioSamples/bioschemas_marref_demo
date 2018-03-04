@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA4378174",
-    "MMP4378174"
+    "biosamples:SAMEA4378174",
+    "mmp.ref:MMP4378174"
   ],
   "name": "Brucella sp. 141012304",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP4378174",

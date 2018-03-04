@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3146254",
-    "MMP3146254"
+    "biosamples:SAMEA3146254",
+    "mmp.ref:MMP3146254"
   ],
   "name": "Halomonas sp. A3H3",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3146254",

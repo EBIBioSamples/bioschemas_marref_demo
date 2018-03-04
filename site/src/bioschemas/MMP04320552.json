@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04320552",
-    "MMP04320552"
+    "biosamples:SAMN04320552",
+    "mmp.ref:MMP04320552"
   ],
   "name": "Pseudoalteromonas rubra strain SCSIO 6842",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04320552",

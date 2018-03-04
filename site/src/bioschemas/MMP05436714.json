@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05436714",
-    "MMP05436714"
+    "biosamples:SAMN05436714",
+    "mmp.ref:MMP05436714"
   ],
   "name": "Streptomyces pactum strain KLBMP 5084",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05436714",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604303",
-    "MMP02604303"
+    "biosamples:SAMN02604303",
+    "mmp.ref:MMP02604303"
   ],
   "name": "Vibrio fischeri ES114",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604303",

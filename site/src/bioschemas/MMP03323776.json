@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03323776",
-    "MMP03323776"
+    "biosamples:SAMN03323776",
+    "mmp.ref:MMP03323776"
   ],
   "name": "Kangiella geojedonensis strain YCS-5",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03323776",

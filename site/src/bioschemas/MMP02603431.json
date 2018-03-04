@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603431",
-    "MMP02603431"
+    "biosamples:SAMN02603431",
+    "mmp.ref:MMP02603431"
   ],
   "name": "Nautilia profundicola AmH",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603431",

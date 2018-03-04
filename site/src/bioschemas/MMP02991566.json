@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02991566",
-    "MMP02991566"
+    "biosamples:SAMN02991566",
+    "mmp.ref:MMP02991566"
   ],
   "name": "Streptococcus agalactiae strain GX064",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02991566",

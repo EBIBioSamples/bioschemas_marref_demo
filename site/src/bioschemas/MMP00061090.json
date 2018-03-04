@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00061090",
-    "MMP00061090"
+    "biosamples:SAMD00061090",
+    "mmp.ref:MMP00061090"
   ],
   "name": "Pyrococcus horikoshii OT3",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061090",

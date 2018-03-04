@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00016662",
-    "MMP00016662"
+    "biosamples:SAMN00016662",
+    "mmp.ref:MMP00016662"
   ],
   "name": "alpha proteobacterium HIMB5",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00016662",

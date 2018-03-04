@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00713578",
-    "MMP00713578"
+    "biosamples:SAMN00713578",
+    "mmp.ref:MMP00713578"
   ],
   "name": "Nitratifractor salsuginis DSM 16511",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713578",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00061055",
-    "MMP00061055"
+    "biosamples:SAMD00061055",
+    "mmp.ref:MMP00061055"
   ],
   "name": "Endosymbiont of unidentified scaly snail isolate Monju",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061055",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603921",
-    "MMP02603921"
+    "biosamples:SAMN02603921",
+    "mmp.ref:MMP02603921"
   ],
   "name": "Prochlorococcus marinus AS9601",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603921",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN01915661",
-    "MMP01915661"
+    "biosamples:SAMN01915661",
+    "mmp.ref:MMP01915661"
   ],
   "name": "Nodularia spumigena CCY9414",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP01915661",

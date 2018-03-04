@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04299559",
-    "MMP04299559"
+    "biosamples:SAMN04299559",
+    "mmp.ref:MMP04299559"
   ],
   "name": "Pseudoalteromonas issachenkonii strain KCTC 12958",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04299559",

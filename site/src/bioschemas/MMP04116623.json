@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04116623",
-    "MMP04116623"
+    "biosamples:SAMN04116623",
+    "mmp.ref:MMP04116623"
   ],
   "name": "Salegentibacter sp. T436",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04116623",

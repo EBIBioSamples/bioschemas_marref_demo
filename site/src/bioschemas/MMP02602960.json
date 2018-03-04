@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02602960",
-    "MMP02602960"
+    "biosamples:SAMN02602960",
+    "mmp.ref:MMP02602960"
   ],
   "name": "Haloarcula hispanica ATCC 33960",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02602960",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN01081740",
-    "MMP01081740"
+    "biosamples:SAMN01081740",
+    "mmp.ref:MMP01081740"
   ],
   "name": "Synechococcus sp. PCC 7002",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP01081740",

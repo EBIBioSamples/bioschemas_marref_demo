@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03278120",
-    "MMP03278120"
+    "biosamples:SAMN03278120",
+    "mmp.ref:MMP03278120"
   ],
   "name": "Haloarcula sp. CBA1115",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03278120",

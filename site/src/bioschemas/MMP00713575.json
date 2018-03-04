@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00713575",
-    "MMP00713575"
+    "biosamples:SAMN00713575",
+    "mmp.ref:MMP00713575"
   ],
   "name": "Hermovibrio ammonificans HB-1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713575",

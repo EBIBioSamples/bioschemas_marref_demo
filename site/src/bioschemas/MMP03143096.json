@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03143096",
-    "MMP03143096"
+    "biosamples:SAMN03143096",
+    "mmp.ref:MMP03143096"
   ],
   "name": "Thermotoga sp. Cell2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03143096",

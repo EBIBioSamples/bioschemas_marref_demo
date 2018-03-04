@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598320",
-    "MMP02598320"
+    "biosamples:SAMN02598320",
+    "mmp.ref:MMP02598320"
   ],
   "name": "Rhodoferax ferrireducens T118",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598320",

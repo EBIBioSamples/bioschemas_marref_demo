@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02471010",
-    "MMP02471010"
+    "biosamples:SAMN02471010",
+    "mmp.ref:MMP02471010"
   ],
   "name": "Candidatus Nitrosoarchaeum limnia SFB1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02471010",

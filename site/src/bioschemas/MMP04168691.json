@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04168691",
-    "MMP04168691"
+    "biosamples:SAMN04168691",
+    "mmp.ref:MMP04168691"
   ],
   "name": "Vibrio cholerae strain Env-390",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04168691",

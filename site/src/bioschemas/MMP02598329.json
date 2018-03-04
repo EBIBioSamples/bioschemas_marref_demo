@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598329",
-    "MMP02598329"
+    "biosamples:SAMN02598329",
+    "mmp.ref:MMP02598329"
   ],
   "name": "Nitrosococcus oceani ATCC 19707",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598329",

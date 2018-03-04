@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02996501",
-    "MMP02996501"
+    "biosamples:SAMN02996501",
+    "mmp.ref:MMP02996501"
   ],
   "name": "Corynebacterium stationis strain 622=DSM 20302",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02996501",

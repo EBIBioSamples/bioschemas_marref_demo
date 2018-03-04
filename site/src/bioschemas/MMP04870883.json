@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04870883",
-    "MMP04870883"
+    "biosamples:SAMN04870883",
+    "mmp.ref:MMP04870883"
   ],
   "name": "Altererythrobacter ishigakiensis strain NBRC 107699",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04870883",

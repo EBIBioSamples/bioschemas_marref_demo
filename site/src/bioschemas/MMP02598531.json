@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598531",
-    "MMP02598531"
+    "biosamples:SAMN02598531",
+    "mmp.ref:MMP02598531"
   ],
   "name": "Nitrosococcus watsonii C-113",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598531",

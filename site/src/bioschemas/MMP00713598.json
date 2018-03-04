@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00713598",
-    "MMP00713598"
+    "biosamples:SAMN00713598",
+    "mmp.ref:MMP00713598"
   ],
   "name": "Archaeoglobus veneficus SNP6",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713598",

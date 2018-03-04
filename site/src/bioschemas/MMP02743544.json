@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02743544",
-    "MMP02743544"
+    "biosamples:SAMN02743544",
+    "mmp.ref:MMP02743544"
   ],
   "name": "Alteromonas australica DE170",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02743544",

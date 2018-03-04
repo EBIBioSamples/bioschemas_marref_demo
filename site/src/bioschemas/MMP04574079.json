@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04574079",
-    "MMP04574079"
+    "biosamples:SAMN04574079",
+    "mmp.ref:MMP04574079"
   ],
   "name": "Phaeobacter gallaeciensis strain JL2886",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04574079",

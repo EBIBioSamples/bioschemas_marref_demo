@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA2272703",
-    "MMP2272703"
+    "biosamples:SAMEA2272703",
+    "mmp.ref:MMP2272703"
   ],
   "name": "Desulfovibrio piezophilus strain C1TLV30",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272703",

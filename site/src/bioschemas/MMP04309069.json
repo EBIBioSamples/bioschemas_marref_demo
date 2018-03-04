@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04309069",
-    "MMP04309069"
+    "biosamples:SAMN04309069",
+    "mmp.ref:MMP04309069"
   ],
   "name": "Piscirickettsia salmonis strain PSCGR01",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04309069",

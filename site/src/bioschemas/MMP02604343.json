@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604343",
-    "MMP02604343"
+    "biosamples:SAMN02604343",
+    "mmp.ref:MMP02604343"
   ],
   "name": "Pelagibacterium halotolerans B2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604343",

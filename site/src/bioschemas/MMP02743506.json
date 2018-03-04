@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02743506",
-    "MMP02743506"
+    "biosamples:SAMN02743506",
+    "mmp.ref:MMP02743506"
   ],
   "name": "Bdellovibrio bacteriovorus strain 109J",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02743506",

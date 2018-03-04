@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03272543",
-    "MMP03272543"
+    "biosamples:SAMN03272543",
+    "mmp.ref:MMP03272543"
   ],
   "name": "Sediminicola sp. YIK13",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03272543",

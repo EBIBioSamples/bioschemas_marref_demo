@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02770278",
-    "MMP02770278"
+    "biosamples:SAMN02770278",
+    "mmp.ref:MMP02770278"
   ],
   "name": "Flavobacterium psychrophilum strain CSF259-93",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02770278",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA2735904",
-    "MMP2735904"
+    "biosamples:SAMEA2735904",
+    "mmp.ref:MMP2735904"
   ],
   "name": "Aliivibrio wodanis 06/09/139",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2735904",

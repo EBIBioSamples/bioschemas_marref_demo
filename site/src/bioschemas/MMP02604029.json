@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604029",
-    "MMP02604029"
+    "biosamples:SAMN02604029",
+    "mmp.ref:MMP02604029"
   ],
   "name": "Persephonella marina EX-H1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604029",

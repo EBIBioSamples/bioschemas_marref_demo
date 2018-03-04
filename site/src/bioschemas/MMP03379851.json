@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03379851",
-    "MMP03379851"
+    "biosamples:SAMN03379851",
+    "mmp.ref:MMP03379851"
   ],
   "name": "Siansivirga zeaxanthinifaciens CC-SAMT-1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03379851",

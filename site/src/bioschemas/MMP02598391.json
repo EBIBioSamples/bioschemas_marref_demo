@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598391",
-    "MMP02598391"
+    "biosamples:SAMN02598391",
+    "mmp.ref:MMP02598391"
   ],
   "name": "Shewanella woodyi ATCC 51908",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598391",

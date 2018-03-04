@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02261417",
-    "MMP02261417"
+    "biosamples:SAMN02261417",
+    "mmp.ref:MMP02261417"
   ],
   "name": "Owenweeksia hongkongensis DSM 17368",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02261417",

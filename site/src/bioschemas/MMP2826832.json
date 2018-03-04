@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA2826832",
-    "MMP2826832"
+    "biosamples:SAMEA2826832",
+    "mmp.ref:MMP2826832"
   ],
   "name": "bacterium 2013Arg42i strain 2013Ark11",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2826832",

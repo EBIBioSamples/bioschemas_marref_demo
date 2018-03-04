@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603050",
-    "MMP02603050"
+    "biosamples:SAMN02603050",
+    "mmp.ref:MMP02603050"
   ],
   "name": "Paraglaciecola psychrophila 170",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603050",

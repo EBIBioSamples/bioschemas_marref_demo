@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04098991",
-    "MMP04098991"
+    "biosamples:SAMN04098991",
+    "mmp.ref:MMP04098991"
   ],
   "name": "Alteromonas stellipolaris LMG 21856",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04098991",

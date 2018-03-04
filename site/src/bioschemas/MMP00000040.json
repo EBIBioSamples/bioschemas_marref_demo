@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00000040",
-    "MMP00000040"
+    "biosamples:SAMN00000040",
+    "mmp.ref:MMP00000040"
   ],
   "name": "Methanococcus voltae A3",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00000040",

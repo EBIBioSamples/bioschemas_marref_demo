@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03377047",
-    "MMP03377047"
+    "biosamples:SAMN03377047",
+    "mmp.ref:MMP03377047"
   ],
   "name": "Methylophilales bacterium MBRSH7",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03377047",

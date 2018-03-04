@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00061027",
-    "MMP00061027"
+    "biosamples:SAMD00061027",
+    "mmp.ref:MMP00061027"
   ],
   "name": "Nonlabens marinus S1-08",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061027",

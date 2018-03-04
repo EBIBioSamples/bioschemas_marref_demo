@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00115627",
-    "MMP00115627"
+    "biosamples:SAMN00115627",
+    "mmp.ref:MMP00115627"
   ],
   "name": "Ferrimonas balearica DSM 9799",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00115627",

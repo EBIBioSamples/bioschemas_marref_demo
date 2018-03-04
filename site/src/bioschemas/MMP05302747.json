@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05302747",
-    "MMP05302747"
+    "biosamples:SAMN05302747",
+    "mmp.ref:MMP05302747"
   ],
   "name": "Vibrio natriegens NBRC 15636 = ATCC 14048 = DSM 759",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05302747",

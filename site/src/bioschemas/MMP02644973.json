@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02644973",
-    "MMP02644973"
+    "biosamples:SAMN02644973",
+    "mmp.ref:MMP02644973"
   ],
   "name": "Thermosipho sp. 1063",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02644973",

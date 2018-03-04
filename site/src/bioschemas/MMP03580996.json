@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03580996",
-    "MMP03580996"
+    "biosamples:SAMN03580996",
+    "mmp.ref:MMP03580996"
   ],
   "name": "Campylobacter lari strain Slaughter Beach",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03580996",

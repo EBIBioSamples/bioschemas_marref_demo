@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598304",
-    "MMP02598304"
+    "biosamples:SAMN02598304",
+    "mmp.ref:MMP02598304"
   ],
   "name": "Desulfotomaculum reducens MI-1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598304",

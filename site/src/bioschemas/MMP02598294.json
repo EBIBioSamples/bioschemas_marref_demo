@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598294",
-    "MMP02598294"
+    "biosamples:SAMN02598294",
+    "mmp.ref:MMP02598294"
   ],
   "name": "Marinobacter aquaeolei VT8",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598294",

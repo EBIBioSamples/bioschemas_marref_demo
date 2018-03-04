@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02232015",
-    "MMP02232015"
+    "biosamples:SAMN02232015",
+    "mmp.ref:MMP02232015"
   ],
   "name": "Desulfovibrio desulfuricans ND132",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02232015",

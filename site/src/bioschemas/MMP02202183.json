@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02202183",
-    "MMP02202183"
+    "biosamples:SAMN02202183",
+    "mmp.ref:MMP02202183"
   ],
   "name": "Synechococcus sp. KORDI-100",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02202183",

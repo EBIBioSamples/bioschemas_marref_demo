@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03010338",
-    "MMP03010338"
+    "biosamples:SAMN03010338",
+    "mmp.ref:MMP03010338"
   ],
   "name": "Paenibacillus durus DSM 1735",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03010338",

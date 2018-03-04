@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03290989",
-    "MMP03290989"
+    "biosamples:SAMN03290989",
+    "mmp.ref:MMP03290989"
   ],
   "name": "Flavobacterium psychrophilum FPG101",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03290989",

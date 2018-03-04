@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00000279",
-    "MMP00000279"
+    "biosamples:SAMN00000279",
+    "mmp.ref:MMP00000279"
   ],
   "name": "Thermotoga sp. RQ2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00000279",

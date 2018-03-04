@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04331436",
-    "MMP04331436"
+    "biosamples:SAMN04331436",
+    "mmp.ref:MMP04331436"
   ],
   "name": "Planococcus kocurii strain ATCC 43650",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04331436",

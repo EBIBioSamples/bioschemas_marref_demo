@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05756399",
-    "MMP05756399"
+    "biosamples:SAMN05756399",
+    "mmp.ref:MMP05756399"
   ],
   "name": "Methanohalophilus halophilus strain Z-7982",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05756399",

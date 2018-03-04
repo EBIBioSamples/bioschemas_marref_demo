@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA2272383",
-    "MMP2272383"
+    "biosamples:SAMEA2272383",
+    "mmp.ref:MMP2272383"
   ],
   "name": "Marinobacter hydrocarbonoclasticus ATCC 49840",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272383",

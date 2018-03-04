@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598324",
-    "MMP02598324"
+    "biosamples:SAMN02598324",
+    "mmp.ref:MMP02598324"
   ],
   "name": "Ignicoccus hospitalis KIN4/I",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598324",

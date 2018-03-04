@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02726853",
-    "MMP02726853"
+    "biosamples:SAMN02726853",
+    "mmp.ref:MMP02726853"
   ],
   "name": "Streptococcus iniae strain ISET0901",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02726853",

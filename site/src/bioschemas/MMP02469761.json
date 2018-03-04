@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02469761",
-    "MMP02469761"
+    "biosamples:SAMN02469761",
+    "mmp.ref:MMP02469761"
   ],
   "name": "Edwardsiella tarda 080813",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02469761",

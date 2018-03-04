@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598275",
-    "MMP02598275"
+    "biosamples:SAMN02598275",
+    "mmp.ref:MMP02598275"
   ],
   "name": "Chromohalobacter salexigens DSM 3043",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598275",

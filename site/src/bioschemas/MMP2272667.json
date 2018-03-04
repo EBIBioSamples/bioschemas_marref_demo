@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA2272667",
-    "MMP2272667"
+    "biosamples:SAMEA2272667",
+    "mmp.ref:MMP2272667"
   ],
   "name": "Gramella forsetii KT0803",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272667",

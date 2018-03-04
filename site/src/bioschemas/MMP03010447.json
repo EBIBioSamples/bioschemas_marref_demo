@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03010447",
-    "MMP03010447"
+    "biosamples:SAMN03010447",
+    "mmp.ref:MMP03010447"
   ],
   "name": "Yersinia ruckeri YRB",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03010447",

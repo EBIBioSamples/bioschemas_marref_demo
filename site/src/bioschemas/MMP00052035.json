@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00052035",
-    "MMP00052035"
+    "biosamples:SAMD00052035",
+    "mmp.ref:MMP00052035"
   ],
   "name": "Formosa haliotis strain LMG 28520",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00052035",

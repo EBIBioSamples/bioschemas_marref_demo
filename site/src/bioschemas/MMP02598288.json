@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598288",
-    "MMP02598288"
+    "biosamples:SAMN02598288",
+    "mmp.ref:MMP02598288"
   ],
   "name": "Thiomicrospira crunogena XCL-2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598288",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05428979",
-    "MMP05428979"
+    "biosamples:SAMN05428979",
+    "mmp.ref:MMP05428979"
   ],
   "name": "Stappia sp. ES.058",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05428979",

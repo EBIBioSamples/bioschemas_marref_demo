@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02602964",
-    "MMP02602964"
+    "biosamples:SAMN02602964",
+    "mmp.ref:MMP02602964"
   ],
   "name": "Desulfocapsa sulfexigens DSM 10523",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02602964",

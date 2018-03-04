@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04487762",
-    "MMP04487762"
+    "biosamples:SAMN04487762",
+    "mmp.ref:MMP04487762"
   ],
   "name": "Polaribacter sp. Hel1_33_78",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04487762",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00713590",
-    "MMP00713590"
+    "biosamples:SAMN00713590",
+    "mmp.ref:MMP00713590"
   ],
   "name": "Cellulophaga lytica DSM 7489",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713590",

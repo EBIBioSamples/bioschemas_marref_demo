@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05832834",
-    "MMP05832834"
+    "biosamples:SAMN05832834",
+    "mmp.ref:MMP05832834"
   ],
   "name": "Salmonella enterica subsp. enterica serovar Typhimurium",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05832834",

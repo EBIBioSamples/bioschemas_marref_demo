@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604003",
-    "MMP02604003"
+    "biosamples:SAMN02604003",
+    "mmp.ref:MMP02604003"
   ],
   "name": "Ruegeria pomeroyi DSS-3",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604003",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05417750",
-    "MMP05417750"
+    "biosamples:SAMN05417750",
+    "mmp.ref:MMP05417750"
   ],
   "name": "Planococcus donghaensis strain DSM 22276",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05417750",

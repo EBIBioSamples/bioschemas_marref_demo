@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03436066",
-    "MMP03436066"
+    "biosamples:SAMN03436066",
+    "mmp.ref:MMP03436066"
   ],
   "name": "Synechococcus sp. WH 8020",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03436066",

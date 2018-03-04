@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03339750",
-    "MMP03339750"
+    "biosamples:SAMN03339750",
+    "mmp.ref:MMP03339750"
   ],
   "name": "Actinoalloteichus sp. ADI127-7",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03339750",

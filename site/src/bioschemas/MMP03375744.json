@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03375744",
-    "MMP03375744"
+    "biosamples:SAMN03375744",
+    "mmp.ref:MMP03375744"
   ],
   "name": "Hoeflea sp. IMCC20628",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03375744",

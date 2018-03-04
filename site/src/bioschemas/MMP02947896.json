@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02947896",
-    "MMP02947896"
+    "biosamples:SAMN02947896",
+    "mmp.ref:MMP02947896"
   ],
   "name": "Weissella ceti strain WS105",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02947896",

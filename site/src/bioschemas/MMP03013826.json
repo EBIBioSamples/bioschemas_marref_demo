@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03013826",
-    "MMP03013826"
+    "biosamples:SAMN03013826",
+    "mmp.ref:MMP03013826"
   ],
   "name": "Thermotoga sp. 2812B",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03013826",

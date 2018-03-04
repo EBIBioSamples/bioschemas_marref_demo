@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMD00061092",
-    "MMP00061092"
+    "biosamples:SAMD00061092",
+    "mmp.ref:MMP00061092"
   ],
   "name": "Aeropyrum pernix K1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061092",

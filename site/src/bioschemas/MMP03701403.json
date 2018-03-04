@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03701403",
-    "MMP03701403"
+    "biosamples:SAMN03701403",
+    "mmp.ref:MMP03701403"
   ],
   "name": "Marinobacter psychrophilus strain 20041",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03701403",

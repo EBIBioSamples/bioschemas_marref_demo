@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00713558",
-    "MMP00713558"
+    "biosamples:SAMN00713558",
+    "mmp.ref:MMP00713558"
   ],
   "name": "Thermosediminibacter oceani DSM 16646",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713558",

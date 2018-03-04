@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3283067",
-    "MMP3283067"
+    "biosamples:SAMEA3283067",
+    "mmp.ref:MMP3283067"
   ],
   "name": "Pyrococcus abyssi GE5",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3283067",

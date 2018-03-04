@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03581174",
-    "MMP03581174"
+    "biosamples:SAMN03581174",
+    "mmp.ref:MMP03581174"
   ],
   "name": "Sedimenticola sp. SIP-G1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03581174",

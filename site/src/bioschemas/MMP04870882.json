@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04870882",
-    "MMP04870882"
+    "biosamples:SAMN04870882",
+    "mmp.ref:MMP04870882"
   ],
   "name": "Altererythrobacter dongtanensis strain KCTC 22672",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04870882",

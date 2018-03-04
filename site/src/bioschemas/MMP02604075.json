@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604075",
-    "MMP02604075"
+    "biosamples:SAMN02604075",
+    "mmp.ref:MMP02604075"
   ],
   "name": "Pyrobaculum aerophilum str. IM2",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604075",

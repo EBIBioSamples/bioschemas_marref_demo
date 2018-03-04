@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA2271992",
-    "MMP2271992"
+    "biosamples:SAMEA2271992",
+    "mmp.ref:MMP2271992"
   ],
   "name": "Halorhabdus tiamatea SARL4B",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2271992",

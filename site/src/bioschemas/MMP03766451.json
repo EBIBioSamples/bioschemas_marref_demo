@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03766451",
-    "MMP03766451"
+    "biosamples:SAMN03766451",
+    "mmp.ref:MMP03766451"
   ],
   "name": "bacterium AB1 strain AB1-8",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03766451",

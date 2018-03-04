@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00623064",
-    "MMP00623064"
+    "biosamples:SAMN00623064",
+    "mmp.ref:MMP00623064"
   ],
   "name": "Shewanella loihica PV-4",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00623064",

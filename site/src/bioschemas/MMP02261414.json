@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02261414",
-    "MMP02261414"
+    "biosamples:SAMN02261414",
+    "mmp.ref:MMP02261414"
   ],
   "name": "Thermoanaerobacter siderophilus SR4",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02261414",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02604312",
-    "MMP02604312"
+    "biosamples:SAMN02604312",
+    "mmp.ref:MMP02604312"
   ],
   "name": "Cyanothece sp. ATCC 51142",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604312",

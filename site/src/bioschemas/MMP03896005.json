@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03896005",
-    "MMP03896005"
+    "biosamples:SAMN03896005",
+    "mmp.ref:MMP03896005"
   ],
   "name": "Altererythrobacter epoxidivorans CGMCC 1.7731",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03896005",

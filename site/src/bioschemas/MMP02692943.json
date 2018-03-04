@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02692943",
-    "MMP02692943"
+    "biosamples:SAMN02692943",
+    "mmp.ref:MMP02692943"
   ],
   "name": "Pseudomonas stutzeri strain 19SMN4",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02692943",

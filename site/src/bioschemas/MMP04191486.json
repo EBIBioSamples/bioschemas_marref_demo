@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04191486",
-    "MMP04191486"
+    "biosamples:SAMN04191486",
+    "mmp.ref:MMP04191486"
   ],
   "name": "Nanohaloarchaea archaeon SG9",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04191486",

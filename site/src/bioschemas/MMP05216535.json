@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05216535",
-    "MMP05216535"
+    "biosamples:SAMN05216535",
+    "mmp.ref:MMP05216535"
   ],
   "name": "Pseudomonas xanthomarina strain LMG 23572",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05216535",

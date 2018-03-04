@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00001870",
-    "MMP00001870"
+    "biosamples:SAMN00001870",
+    "mmp.ref:MMP00001870"
   ],
   "name": "Desulfovibrio salexigens DSM 2638",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00001870",

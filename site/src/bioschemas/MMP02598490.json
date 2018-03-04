@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598490",
-    "MMP02598490"
+    "biosamples:SAMN02598490",
+    "mmp.ref:MMP02598490"
   ],
   "name": "Methanocaldococcus fervens AG86",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598490",

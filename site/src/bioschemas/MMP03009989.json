@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03009989",
-    "MMP03009989"
+    "biosamples:SAMN03009989",
+    "mmp.ref:MMP03009989"
   ],
   "name": "Vibrio vulnificus strain 93U204",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03009989",

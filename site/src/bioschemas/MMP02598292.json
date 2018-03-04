@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598292",
-    "MMP02598292"
+    "biosamples:SAMN02598292",
+    "mmp.ref:MMP02598292"
   ],
   "name": "Ruegeria sp. TM1040",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598292",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN05285282",
-    "MMP05285282"
+    "biosamples:SAMN05285282",
+    "mmp.ref:MMP05285282"
   ],
   "name": "Woeseia oceani strain XK5",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05285282",

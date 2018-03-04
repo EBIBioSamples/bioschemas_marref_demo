@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598443",
-    "MMP02598443"
+    "biosamples:SAMN02598443",
+    "mmp.ref:MMP02598443"
   ],
   "name": "Kytococcus sedentarius DSM 20547",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598443",

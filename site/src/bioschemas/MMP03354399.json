@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03354399",
-    "MMP03354399"
+    "biosamples:SAMN03354399",
+    "mmp.ref:MMP03354399"
   ],
   "name": "Francisella noatunensis subsp. orientalis strain FNO01",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03354399",

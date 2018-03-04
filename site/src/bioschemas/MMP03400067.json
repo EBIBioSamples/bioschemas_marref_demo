@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03400067",
-    "MMP03400067"
+    "biosamples:SAMN03400067",
+    "mmp.ref:MMP03400067"
   ],
   "name": "Geobacillus sp. 12AMOR1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03400067",

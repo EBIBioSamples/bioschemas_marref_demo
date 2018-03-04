@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598319",
-    "MMP02598319"
+    "biosamples:SAMN02598319",
+    "mmp.ref:MMP02598319"
   ],
   "name": "Sphingopyxis alaskensis RB2256",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598319",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3139019",
-    "MMP3139019"
+    "biosamples:SAMEA3139019",
+    "mmp.ref:MMP3139019"
   ],
   "name": "Formosa agariphila KMM 3901",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3139019",

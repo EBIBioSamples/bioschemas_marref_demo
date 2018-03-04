@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03097699",
-    "MMP03097699"
+    "biosamples:SAMN03097699",
+    "mmp.ref:MMP03097699"
   ],
   "name": "Flavobacteriaceae bacterium MAR_2010_188",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03097699",

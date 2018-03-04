@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN06016472",
-    "MMP06016472"
+    "biosamples:SAMN06016472",
+    "mmp.ref:MMP06016472"
   ],
   "name": "Bacillus safensis strain KCTC 12796BP",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP06016472",

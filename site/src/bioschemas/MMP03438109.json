@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03438109",
-    "MMP03438109"
+    "biosamples:SAMN03438109",
+    "mmp.ref:MMP03438109"
   ],
   "name": "Citromicrobium sp. JL477",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03438109",

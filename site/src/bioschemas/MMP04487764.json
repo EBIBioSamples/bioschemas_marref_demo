@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04487764",
-    "MMP04487764"
+    "biosamples:SAMN04487764",
+    "mmp.ref:MMP04487764"
   ],
   "name": "Gillisia sp. Hel1_33_143",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04487764",

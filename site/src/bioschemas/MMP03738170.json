@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03738170",
-    "MMP03738170"
+    "biosamples:SAMN03738170",
+    "mmp.ref:MMP03738170"
   ],
   "name": "Acidobacteria bacterium Mor1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03738170",

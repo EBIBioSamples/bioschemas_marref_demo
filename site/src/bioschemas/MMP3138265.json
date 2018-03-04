@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA3138265",
-    "MMP3138265"
+    "biosamples:SAMEA3138265",
+    "mmp.ref:MMP3138265"
   ],
   "name": "Synechococcus sp. RCC307",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138265",

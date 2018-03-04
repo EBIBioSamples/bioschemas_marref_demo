@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02641510",
-    "MMP02641510"
+    "biosamples:SAMN02641510",
+    "mmp.ref:MMP02641510"
   ],
   "name": "Hyphomicrobium nitrativorans NL23",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02641510",

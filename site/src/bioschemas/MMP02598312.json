@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598312",
-    "MMP02598312"
+    "biosamples:SAMN02598312",
+    "mmp.ref:MMP02598312"
   ],
   "name": "Synechococcus sp. CC9902",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598312",

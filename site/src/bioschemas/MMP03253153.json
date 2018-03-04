@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN03253153",
-    "MMP03253153"
+    "biosamples:SAMN03253153",
+    "mmp.ref:MMP03253153"
   ],
   "name": "Candidatus Nitrosopumilus sp. NF5",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03253153",

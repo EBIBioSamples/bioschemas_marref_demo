@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603914",
-    "MMP02603914"
+    "biosamples:SAMN02603914",
+    "mmp.ref:MMP02603914"
   ],
   "name": "Psychrobacter sp. G",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603914",

@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN04451729",
-    "MMP04451729"
+    "biosamples:SAMN04451729",
+    "mmp.ref:MMP04451729"
   ],
   "name": "Wenyingzhuangia fucanilytica strain CZ1127",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04451729",

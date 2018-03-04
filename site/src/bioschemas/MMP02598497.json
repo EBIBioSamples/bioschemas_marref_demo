@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02598497",
-    "MMP02598497"
+    "biosamples:SAMN02598497",
+    "mmp.ref:MMP02598497"
   ],
   "name": "Hirschia baltica ATCC 49814",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598497",

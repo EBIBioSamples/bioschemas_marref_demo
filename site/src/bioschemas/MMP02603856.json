@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02603856",
-    "MMP02603856"
+    "biosamples:SAMN02603856",
+    "mmp.ref:MMP02603856"
   ],
   "name": "Pseudoalteromonas sp. SM9913",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603856",

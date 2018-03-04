@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02725840",
-    "MMP02725840"
+    "biosamples:SAMN02725840",
+    "mmp.ref:MMP02725840"
   ],
   "name": "Draconibacterium orientale strain FH5",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02725840",

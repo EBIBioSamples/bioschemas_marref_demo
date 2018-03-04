@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02954477",
-    "MMP02954477"
+    "biosamples:SAMN02954477",
+    "mmp.ref:MMP02954477"
   ],
   "name": "Fervidobacterium pennivorans strain DYC",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02954477",

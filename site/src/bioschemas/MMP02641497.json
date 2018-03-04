@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02641497",
-    "MMP02641497"
+    "biosamples:SAMN02641497",
+    "mmp.ref:MMP02641497"
   ],
   "name": "Phaeobacter gallaeciensis DSM 26640",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02641497",

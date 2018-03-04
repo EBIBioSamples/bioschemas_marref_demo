@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00001868",
-    "MMP00001868"
+    "biosamples:SAMN00001868",
+    "mmp.ref:MMP00001868"
   ],
   "name": "Kosmotoga olearia TBF 19.5.1",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00001868",

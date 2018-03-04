@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMEA2272799",
-    "MMP2272799"
+    "biosamples:SAMEA2272799",
+    "mmp.ref:MMP2272799"
   ],
   "name": "Haloquadratum walsbyi C23",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272799",

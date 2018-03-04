@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN02232047",
-    "MMP02232047"
+    "biosamples:SAMN02232047",
+    "mmp.ref:MMP02232047"
   ],
   "name": "Pyrolobus fumarii 1A",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02232047",

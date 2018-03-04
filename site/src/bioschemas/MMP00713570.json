@@ -5,8 +5,8 @@
     "Sample"
   ],
   "identifier": [
-    "SAMN00713570",
-    "MMP00713570"
+    "biosamples:SAMN00713570",
+    "mmp.ref:MMP00713570"
   ],
   "name": "Thermaerobacter marianensis DSM 12885",
   "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713570",
