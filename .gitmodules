@@ -1,0 +1,3 @@
+[submodule "biosamples-v4"]
+	path = biosamples-v4
+	url = git@github.com:EBIBioSamples/biosamples-v4.git
