@@ -20,10 +20,9 @@ class Client:
             .get()
         return response
 
-    def persist_sample(self, sample, jwt=None):
+    def persist_sample(self, sample):
         print("Submitting sample with accession {}".format(sample["accession"]))
-        if jwt is None:
-            jwt = aap_client.get_token()
+        jwt = aap_client.get_token()
         traverson = Traverson(self._baseurl)
         response = traverson \
             .follow("samples") \
