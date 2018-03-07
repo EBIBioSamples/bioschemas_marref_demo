@@ -5,7 +5,7 @@ import hashlib
 import json
 import requests
 
-import utils
+import bioschemas.utils as utils
 
 logger = logging.getLogger(__name__)
 # logger.level = logging.DEBUG
@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 class SolrIndexer:
     def __init__(self, config):
         self.config = config
-        self.utils = bioschemas.utils.Utils(config)
+        self.utils = utils.Utils(config)
 
     def index(self, url, jsonld):
         headers = {'Content-type': 'application/json'}

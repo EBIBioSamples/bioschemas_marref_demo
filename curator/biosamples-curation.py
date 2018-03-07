@@ -31,7 +31,7 @@ if not os.path.exists(args.path_to_crawl_db):
     exit(1)
 
 config = dict({
-    'biosamples_base_url': 'http://localhost:8081/biosamples',
+    'biosamples_base_url': 'http://biosamples-webapps-core:8080/biosamples',
     'aap_username': AAP_USERNAME,
     'aap_password': AAP_PASSWORD,
     'curation_domain': 'self.MarRef'
