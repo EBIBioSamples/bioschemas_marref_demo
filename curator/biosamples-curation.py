@@ -4,7 +4,7 @@ import json
 import logging
 import sqlite3
 import os
-from biosamples import AAP_PASSWORD, AAP_USERNAME, BASEURL
+from biosamples import AAP_PASSWORD, AAP_USERNAME
 import biosamples.converter as converter
 import biosamples.client as biosamples
 import biosamples.aap_client as AAP
@@ -34,7 +34,7 @@ config = dict({
     'biosamples_base_url': 'http://biosamples-webapps-core:8080/biosamples',
     'aap_username': AAP_USERNAME,
     'aap_password': AAP_PASSWORD,
-    'curation_domain': 'self.MarRef'
+    'curation_domain': 'self.MarRef_curation'
 })
 
 jwt = AAP.get_token(AAP_USERNAME, AAP_PASSWORD)
