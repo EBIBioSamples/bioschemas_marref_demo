@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03975701",
+    "mmp.ref:MMP03975701"
+  ],
+  "name": "Psychrobacter sp. P11G3",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03975701",
+  "description": "The goal of the project was to search for potentially laccase producing bacterial isolates from an already existing psychrophile/psychrotolorant bacterial collection and search for gene candidates.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA292375",
+    "https://www.arb-silva.de/search/show/ssu/insdc/292375",
+    "https://www.arb-silva.de/search/show/lsu/insdc/292375",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001435845.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Norwegian Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Norwegian Sea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008643"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Psychrobacter",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Psychrobacter",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1699623"
+        }
+      ]
+    }
+  ]
+}

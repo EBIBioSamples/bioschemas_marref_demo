@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03081513",
+    "mmp.ref:MMP03081513"
+  ],
+  "name": "Thermococcus sp. ES1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03081513",
+  "description": "Thermococcus sp. Strain ES1 is a hyperthermophilic archaeon isolated from a Paralvinella sp. polychaete worm collected from a hydrothermal vent on the Endeavour Segment in the northeastern Pacific Ocean",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA230233",
+    "https://www.arb-silva.de/search/show/ssu/insdc/230233",
+    "https://www.arb-silva.de/search/show/lsu/insdc/230233",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000517445.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Juan de Fuca Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Juan de Fuca Ridge",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002438"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermococcus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermococcus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=582419"
+        }
+      ]
+    }
+  ]
+}

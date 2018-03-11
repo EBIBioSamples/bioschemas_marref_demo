@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02261417",
+    "mmp.ref:MMP02261417"
+  ],
+  "name": "Owenweeksia hongkongensis DSM 17368",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02261417",
+  "description": "This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA65297",
+    "https://www.arb-silva.de/search/show/ssu/insdc/65297",
+    "https://www.arb-silva.de/search/show/lsu/insdc/65297",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000236705.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Hong Kong",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Hong Kong",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003203"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Owenweeksia hongkongensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Owenweeksia hongkongensis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=926562"
+        }
+      ]
+    }
+  ]
+}

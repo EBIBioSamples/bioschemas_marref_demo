@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMD00060997",
+    "mmp.ref:MMP00060997"
+  ],
+  "name": "Thiolapillus brandeum Hiromi 1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00060997",
+  "description": "Includes a 3.19Mb chromosome and two plasmids (pTBH10 - 10.9Kb; and pTBH13 - 13.4Kb)",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJDA72157",
+    "https://www.arb-silva.de/search/show/ssu/insdc/72157",
+    "https://www.arb-silva.de/search/show/lsu/insdc/72157",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000828615.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Okinawa Trough",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Okinawa Trough",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002413"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thiolapillus brandeum Hiromi",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thiolapillus brandeum Hiromi",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1076588"
+        }
+      ]
+    }
+  ]
+}

@@ -6,3 +6,6 @@
 */__pycache__/
 *.dbcrawler/.vscode
 data
+crawler/biosamples/__init__.py
+populator/__init__.py
+biosamples/__init__.py

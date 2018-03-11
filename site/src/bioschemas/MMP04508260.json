@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN04508260",
+    "mmp.ref:MMP04508260"
+  ],
+  "name": "Pseudoalteromonas luteoviolacea strain S4054",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04508260",
+  "description": "Genome sequencing of Pseudoalteromonas luteoviolacea and two mutant strains to show that violacein is not the major antibiotic compound in this strain.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA312897",
+    "https://www.arb-silva.de/search/show/ssu/insdc/312897",
+    "https://www.arb-silva.de/search/show/lsu/insdc/312897",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001750185.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Pacific Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pacific Ocean",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000360"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pseudoalteromonas luteoviolacea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pseudoalteromonas luteoviolacea",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=43657"
+        }
+      ]
+    }
+  ]
+}

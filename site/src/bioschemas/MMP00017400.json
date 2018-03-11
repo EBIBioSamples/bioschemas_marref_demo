@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00017400",
+    "mmp.ref:MMP00017400"
+  ],
+  "name": "Methanoplanus petrolearius DSM 11571",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00017400",
+  "description": "Methanoplanus petrolearius DSM 11571. This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA40773",
+    "https://www.arb-silva.de/search/show/ssu/insdc/40773",
+    "https://www.arb-silva.de/search/show/lsu/insdc/40773",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000147875.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Gulf of Guinea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gulf of Guinea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008961"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanoplanus petrolearius",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanoplanus petrolearius",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=679926"
+        }
+      ]
+    }
+  ]
+}

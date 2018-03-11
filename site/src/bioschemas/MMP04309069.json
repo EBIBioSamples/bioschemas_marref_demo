@@ -1,0 +1,45 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN04309069",
+    "mmp.ref:MMP04309069"
+  ],
+  "name": "Piscirickettsia salmonis strain PSCGR01",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04309069",
+  "description": "Obtained from Oncorhynchus mykiss",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA304760",
+    "https://www.arb-silva.de/search/show/ssu/insdc/304760",
+    "https://www.arb-silva.de/search/show/lsu/insdc/304760",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001514395.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Chile",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Chile"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Piscirickettsia salmonis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Piscirickettsia salmonis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1238"
+        }
+      ]
+    }
+  ]
+}

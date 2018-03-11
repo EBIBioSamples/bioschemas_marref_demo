@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN06013870",
+    "mmp.ref:MMP06013870"
+  ],
+  "name": "Sulfitobacter sp. AM1-D1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP06013870",
+  "description": "To gain insight into the genes related to bacterial PSTs biosynthesis",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA353330",
+    "https://www.arb-silva.de/search/show/ssu/insdc/353330",
+    "https://www.arb-silva.de/search/show/lsu/insdc/353330",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001886735.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "China",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "China",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002845"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Sulfitobacter sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sulfitobacter sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1917485"
+        }
+      ]
+    }
+  ]
+}

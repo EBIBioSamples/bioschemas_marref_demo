@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02604284",
+    "mmp.ref:MMP02604284"
+  ],
+  "name": "Pyrococcus furiosus DSM 3638",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604284",
+  "description": "Pyrococcus furiosus strain DSM 3638. This strain was isolated from a shallow marine solfataric (volcanic area that gives off sulfuric gases) region at Vulcano Island; Italy.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA287",
+    "https://www.arb-silva.de/search/show/ssu/insdc/287",
+    "https://www.arb-silva.de/search/show/lsu/insdc/287",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000007305.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Vulcano",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vulcano",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002689"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pyrococcus furiosus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pyrococcus furiosus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=186497"
+        }
+      ]
+    }
+  ]
+}

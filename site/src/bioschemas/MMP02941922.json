@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02941922",
+    "mmp.ref:MMP02941922"
+  ],
+  "name": "Flavobacterium psychrophilum strain PG2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02941922",
+  "description": "Comparative genomics and genetic diversity of environmental strains of Flavobacterium psychrophilum",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA256263",
+    "https://www.arb-silva.de/search/show/ssu/insdc/256263",
+    "https://www.arb-silva.de/search/show/lsu/insdc/256263",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000971645.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Region of Los Lagos",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Region of Los Lagos",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00004643"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Flavobacterium psychrophilum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Flavobacterium psychrophilum",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=96345"
+        }
+      ]
+    }
+  ]
+}

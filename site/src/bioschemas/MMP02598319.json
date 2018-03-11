@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598319",
+    "mmp.ref:MMP02598319"
+  ],
+  "name": "Sphingopyxis alaskensis RB2256",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598319",
+  "description": "Sphingopyxis alaskensis RB2256. This strain (RB2256; CCUG 45028; CIP 106977; DSM 13593; LMG 18877) is the type strain for the species and was isolated from Resurrection Bay in the Gulf of Alaska. It is a model oligotrophic organism and forms a very small cell size. Seawater samples were collected off the Seward Marine Center pier at Resurrection Bay, Seward, Alaska, on 24 March 1990, (60\u00b003'N, 149\u00b025'W). The sampling depth was 10 m.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13907",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13907",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13907",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000013985.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Resurrection Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Resurrection Bay",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002555"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Sphingopyxis alaskensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sphingopyxis alaskensis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=317655"
+        }
+      ]
+    }
+  ]
+}

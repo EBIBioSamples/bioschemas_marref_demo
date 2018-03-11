@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02603867",
+    "mmp.ref:MMP02603867"
+  ],
+  "name": "Pyrococcus yayanosii CH1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603867",
+  "description": "Pyrococcus yayanosii CH1. This strain will be used for comparative genome analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA66055",
+    "https://www.arb-silva.de/search/show/ssu/insdc/66055",
+    "https://www.arb-silva.de/search/show/lsu/insdc/66055",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000215995.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Mid-Atlantic Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mid-Atlantic Ridge",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002439"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pyrococcus yayanosii",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pyrococcus yayanosii",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=529709"
+        }
+      ]
+    }
+  ]
+}

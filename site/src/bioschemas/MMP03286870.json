@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03286870",
+    "mmp.ref:MMP03286870"
+  ],
+  "name": "Streptococcus iniae strain YSFST01-82",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03286870",
+  "description": "Streptococcus iniae YSFST01-82 isolated from oliver flounder with streptococcosis disease in Jeju of South Korea.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA271544",
+    "https://www.arb-silva.de/search/show/ssu/insdc/271544",
+    "https://www.arb-silva.de/search/show/lsu/insdc/271544",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000831485.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Jeju-do",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Jeju-do",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002803"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Streptococcus iniae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Streptococcus iniae",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1346"
+        }
+      ]
+    }
+  ]
+}

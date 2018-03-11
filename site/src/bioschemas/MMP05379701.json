@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05379701",
+    "mmp.ref:MMP05379701"
+  ],
+  "name": "Helicobacter sp. MIT 01-6242",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05379701",
+  "description": "Helicobacter infection and stomach ulcers",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA328770",
+    "https://www.arb-silva.de/search/show/ssu/insdc/328770",
+    "https://www.arb-silva.de/search/show/lsu/insdc/328770",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001693335.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Commonwealth of Massachusetts",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Commonwealth of Massachusetts",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002537"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Helicobacter sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Helicobacter sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=222136"
+        }
+      ]
+    }
+  ]
+}

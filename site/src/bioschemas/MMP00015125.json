@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00015125",
+    "mmp.ref:MMP00015125"
+  ],
+  "name": "Methanohalobium evestigatum Z-7303",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00015125",
+  "description": "Methanohalobium evestigatum Z-7303. Methanohalobium evestigatum Z-7303 was isolated from mud from a salt lagoon in the Crimea.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA37945",
+    "https://www.arb-silva.de/search/show/ssu/insdc/37945",
+    "https://www.arb-silva.de/search/show/lsu/insdc/37945",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000196655.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Crimean Peninsula",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Crimean Peninsula",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008733"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanohalobium evestigatum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanohalobium evestigatum",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=644295"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMD00061101",
+    "mmp.ref:MMP00061101"
+  ],
+  "name": "Oceanobacillus iheyensis HTE831",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061101",
+  "description": "Oceanobacillus iheyensis strain HTE831. This organism was isolated from deep sea mud (1050 m) from the Iheya ridge near Okinawa; Japan in 1998. Strain HTE831 is the type strain for this species.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA284",
+    "https://www.arb-silva.de/search/show/ssu/insdc/284",
+    "https://www.arb-silva.de/search/show/lsu/insdc/284",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000011245.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Iheya Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Iheya Ridge",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002431"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Oceanobacillus iheyensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Oceanobacillus iheyensis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=221109"
+        }
+      ]
+    }
+  ]
+}

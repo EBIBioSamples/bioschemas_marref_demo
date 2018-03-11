@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03766451",
+    "mmp.ref:MMP03766451"
+  ],
+  "name": "bacterium AB1 strain AB1-8",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03766451",
+  "description": "Our objective was to implement shotgun metagenomic and metatranscriptomic sequencing to recover and characterize the genome of the uncultured, bryostatin-producing endosymbiont, Ca. Endobugula sertula, directly from host tissue. Dissected tissue (ovicells) of the marine invertebrate Bugula neritina, collected for Atlantic Bay, North Carolina.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA322176",
+    "https://www.arb-silva.de/search/show/ssu/insdc/322176",
+    "https://www.arb-silva.de/search/show/lsu/insdc/322176",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001729625.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "State of North Carolina",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "State of North Carolina",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002520"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Firmicutes bacterium (ex Bugula neritina AB1)",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Firmicutes bacterium (ex Bugula neritina AB1)",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1898108"
+        }
+      ]
+    }
+  ]
+}

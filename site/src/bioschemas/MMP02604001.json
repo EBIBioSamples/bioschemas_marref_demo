@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02604001",
+    "mmp.ref:MMP02604001"
+  ],
+  "name": "Colwellia psychrerythraea 34H",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604001",
+  "description": "Colwellia psychrerythraea strain 34H . This strain was isolated from Arctic marine sediments.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA275",
+    "https://www.arb-silva.de/search/show/ssu/insdc/275",
+    "https://www.arb-silva.de/search/show/lsu/insdc/275",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000012325.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Greenland Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Greenland Sea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008644"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Colwellia psychrerythraea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Colwellia psychrerythraea",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=167879"
+        }
+      ]
+    }
+  ]
+}

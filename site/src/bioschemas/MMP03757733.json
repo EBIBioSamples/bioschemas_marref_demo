@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03757733",
+    "mmp.ref:MMP03757733"
+  ],
+  "name": "Croceicoccus naphthovorans strain PQ-2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03757733",
+  "description": "Complete genome sequence of Croceicoccus naphthovorans type strain PQ-2",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA285726",
+    "https://www.arb-silva.de/search/show/ssu/insdc/285726",
+    "https://www.arb-silva.de/search/show/lsu/insdc/285726",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001028705.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Zhoushan island",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Zhoushan island",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00039574"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Croceicoccus naphthovorans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Croceicoccus naphthovorans",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1348774"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03196588",
+    "mmp.ref:MMP03196588"
+  ],
+  "name": "Arthrobacter sp. PAMC25486",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03196588",
+  "description": "The Arthrobacter sp. PAMC 25486 is isolated from Spitsbergen; Norway in the Arctic. It can grow at low temperature (10~25C)",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA244892",
+    "https://www.arb-silva.de/search/show/ssu/insdc/244892",
+    "https://www.arb-silva.de/search/show/lsu/insdc/244892",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000785535.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Spitzbergen",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Spitzbergen",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_0000539"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Arthrobacter",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Arthrobacter",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1494608"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05695074",
+    "mmp.ref:MMP05695074"
+  ],
+  "name": "Flavobacterium sp. LPB0076",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05695074",
+  "description": "Flavobacterium crassostreae Genome sequencing and assembly",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA340213",
+    "https://www.arb-silva.de/search/show/ssu/insdc/340213",
+    "https://www.arb-silva.de/search/show/lsu/insdc/340213",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001831475.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Incheon Metropolitan City",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Incheon Metropolitan City",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00010096"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Flavobacterium crassostreae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Flavobacterium crassostreae",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1763534"
+        }
+      ]
+    }
+  ]
+}

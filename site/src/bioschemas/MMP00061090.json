@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMD00061090",
+    "mmp.ref:MMP00061090"
+  ],
+  "name": "Pyrococcus horikoshii OT3",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061090",
+  "description": "Pyrococcus horikoshii strain OT3. This organism was isolated from a hydrothermal vent at Okinawa Trough in the Pacific Ocean at a depth of 1395 m. env_temp: 110-130",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA207",
+    "https://www.arb-silva.de/search/show/ssu/insdc/207",
+    "https://www.arb-silva.de/search/show/lsu/insdc/207",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000011105.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Okinawa Trough",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Okinawa Trough",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002413"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pyrococcus horikoshii",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pyrococcus horikoshii",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=70601"
+        }
+      ]
+    }
+  ]
+}

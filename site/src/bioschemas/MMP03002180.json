@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03002180",
+    "mmp.ref:MMP03002180"
+  ],
+  "name": "Novosphingobium pentaromativorans US6-1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03002180",
+  "description": "Complete genome sequence of Novosphingobium pentaromativorans type strain US6-1",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA257352",
+    "https://www.arb-silva.de/search/show/ssu/insdc/257352",
+    "https://www.arb-silva.de/search/show/lsu/insdc/257352",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000767465.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Bay of Ulsan",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bay of Ulsan",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00011837"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Novosphingobium pentaromativorans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Novosphingobium pentaromativorans",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1088721"
+        }
+      ]
+    }
+  ]
+}

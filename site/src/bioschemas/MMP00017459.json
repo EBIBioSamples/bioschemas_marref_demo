@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00017459",
+    "mmp.ref:MMP00017459"
+  ],
+  "name": "Archaeoglobus profundus DSM 5631",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00017459",
+  "description": "Archaeoglobus profundus DSM 5631. This is the type strain. It will be used for comparative analysis with other hyperthermophiles.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA32583",
+    "https://www.arb-silva.de/search/show/ssu/insdc/32583",
+    "https://www.arb-silva.de/search/show/lsu/insdc/32583",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000025285.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Guaymas Basin",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Guaymas Basin",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002281"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Archaeoglobus profundus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Archaeoglobus profundus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=572546"
+        }
+      ]
+    }
+  ]
+}

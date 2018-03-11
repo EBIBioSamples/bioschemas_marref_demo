@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN04346845",
+    "mmp.ref:MMP04346845"
+  ],
+  "name": "Tenacibaculum dicentrarchi strain AY7486TD",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04346845",
+  "description": "Complete genome of Tenacibaculum dicentrarchi isolated from Atlantic salmon",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA305919",
+    "https://www.arb-silva.de/search/show/ssu/insdc/305919",
+    "https://www.arb-silva.de/search/show/lsu/insdc/305919",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001483385.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Province of Aysen",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Province of Aysen",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00012352"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Tenacibaculum dicentrarchi",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Tenacibaculum dicentrarchi",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=669041"
+        }
+      ]
+    }
+  ]
+}

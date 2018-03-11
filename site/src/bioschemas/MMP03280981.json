@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03280981",
+    "mmp.ref:MMP03280981"
+  ],
+  "name": "Candidatus Thioglobus sp. EF1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03280981",
+  "description": "This bacterium was isolated from an anoxic fjord. It is the first isolate from the subclade SUP05 and has been implicated in various biogeochemical cycles in oxygen minimum zone throughout the world.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA272361",
+    "https://www.arb-silva.de/search/show/ssu/insdc/272361",
+    "https://www.arb-silva.de/search/show/lsu/insdc/272361",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001293165.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Vancouver Island",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vancouver Island",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00004564"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Candidatus Thioglobus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Candidatus Thioglobus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1705394"
+        }
+      ]
+    }
+  ]
+}

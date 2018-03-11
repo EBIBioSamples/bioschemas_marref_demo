@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02641510",
+    "mmp.ref:MMP02641510"
+  ],
+  "name": "Hyphomicrobium nitrativorans NL23",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02641510",
+  "description": "The goal of this project is to characterize a denitrifying biofilm treating seawater. After identifying the more abundant bacteria in the biofilm; we aim at understanding their functions and interactions within the biofilm.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA229194",
+    "https://www.arb-silva.de/search/show/ssu/insdc/229194",
+    "https://www.arb-silva.de/search/show/lsu/insdc/229194",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000503895.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Montreal",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Montreal",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003130"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Hyphomicrobium nitrativorans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Hyphomicrobium nitrativorans",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1029756"
+        }
+      ]
+    }
+  ]
+}

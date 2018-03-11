@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05920294",
+    "mmp.ref:MMP05920294"
+  ],
+  "name": "Marinobacter sp. Hb8",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05920294",
+  "description": "Complete genome sequencing of Marinobacter salinus, thiosulphate and benzene reducing organism.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA349097",
+    "https://www.arb-silva.de/search/show/ssu/insdc/349097",
+    "https://www.arb-silva.de/search/show/lsu/insdc/349097",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001854125.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Gunsan City",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gunsan City",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008641"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Marinobacter salinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Marinobacter salinus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1874317"
+        }
+      ]
+    }
+  ]
+}

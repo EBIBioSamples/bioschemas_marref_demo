@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05826286",
+    "mmp.ref:MMP05826286"
+  ],
+  "name": "Hyphomonas sp. Mor2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05826286",
+  "description": "The non-axenic culture of Moorea producens PAL was sequenced by both short and long reads (Illumina MiSeq and PacBio RS II), which were assembled together using the software SPAdes 3.5. Besides the complete of M. producens PAL, our binning procedure identified a possibly fully assembled large linear contig of 3.63 Mb that represents a draft genome of a Hyphomonas sp. strain Mor2, an uncultured alpha-proteobacteria associated with M. producens PAL.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA345363",
+    "https://www.arb-silva.de/search/show/ssu/insdc/345363",
+    "https://www.arb-silva.de/search/show/lsu/insdc/345363",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001854405.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Palmyra Atoll",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Palmyra Atoll",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007115"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Hyphomonas sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Hyphomonas sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1906738"
+        }
+      ]
+    }
+  ]
+}

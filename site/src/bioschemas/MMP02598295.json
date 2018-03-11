@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598295",
+    "mmp.ref:MMP02598295"
+  ],
+  "name": "Pelobacter carbinolicus DSM 2380",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598295",
+  "description": "Pelobacter carbinolicus DSM 2380. Pelobacter carbinolicus DSM 2380 was isolated from mud in Venice; Italy. This strain is the type strain and will be used in comparative genomics.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13337",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13337",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13337",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000012885.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Venetian Lagoon",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Venetian Lagoon",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00042039"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pelobacter carbinolicus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pelobacter carbinolicus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=338963"
+        }
+      ]
+    }
+  ]
+}

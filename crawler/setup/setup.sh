@@ -2,7 +2,6 @@
 set -e
 
 echo "Clear the sqlite database"
-rm -f /crawler/data/crawl.db
 touch /crawler/data/crawl.db
 
 echo "Initialize the sqlite database"

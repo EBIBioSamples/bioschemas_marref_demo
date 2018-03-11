@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00713616",
+    "mmp.ref:MMP00713616"
+  ],
+  "name": "Desulfovibrio africanus str. Walvis Bay",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713616",
+  "description": "This strain will be used for comparative analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA52831",
+    "https://www.arb-silva.de/search/show/ssu/insdc/52831",
+    "https://www.arb-silva.de/search/show/lsu/insdc/52831",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000212675.2"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Walvis Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Walvis Bay",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007873"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Desulfovibrio africanus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Desulfovibrio africanus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=690850"
+        }
+      ]
+    }
+  ]
+}

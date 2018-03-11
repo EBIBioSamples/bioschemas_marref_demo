@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598398",
+    "mmp.ref:MMP02598398"
+  ],
+  "name": "Shewanella baltica OS185",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598398",
+  "description": "Shewanella baltica OS185.This strain is being sequenced for comparative genome analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA17643",
+    "https://www.arb-silva.de/search/show/ssu/insdc/17643",
+    "https://www.arb-silva.de/search/show/lsu/insdc/17643",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000017325.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Gotland Deep",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gotland Deep",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002295"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Shewanella baltica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Shewanella baltica",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=402882"
+        }
+      ]
+    }
+  ]
+}

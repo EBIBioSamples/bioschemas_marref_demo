@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03160553",
+    "mmp.ref:MMP03160553"
+  ],
+  "name": "Pseudoalteromonas sp. OCN003",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03160553",
+  "description": "This species of Pseudoalteromonas was isolated from a diseased coral; Montipora capitata.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA266250",
+    "https://www.arb-silva.de/search/show/ssu/insdc/266250",
+    "https://www.arb-silva.de/search/show/lsu/insdc/266250",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000788395.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Hawaii",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Hawaii",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003182"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pseudoalteromonas",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pseudoalteromonas",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1348114"
+        }
+      ]
+    }
+  ]
+}

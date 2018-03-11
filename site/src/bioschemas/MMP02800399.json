@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02800399",
+    "mmp.ref:MMP02800399"
+  ],
+  "name": "Corynebacterium marinum DSM 44953",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02800399",
+  "description": "Complete genome sequence of Corynebacterium marinum DSM 44953(T); isolated from marine sediment.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA172963",
+    "https://www.arb-silva.de/search/show/ssu/insdc/172963",
+    "https://www.arb-silva.de/search/show/lsu/insdc/172963",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000835165.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Shandong Province",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Shandong Province",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00010877"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Corynebacterium marinum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Corynebacterium marinum",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1224162"
+        }
+      ]
+    }
+  ]
+}

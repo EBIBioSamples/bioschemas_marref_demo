@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05933025",
+    "mmp.ref:MMP05933025"
+  ],
+  "name": "Paenibacillus sp. LPB0068",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05933025",
+  "description": "Paenibacillus sp. LPB0068",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA349787",
+    "https://www.arb-silva.de/search/show/ssu/insdc/349787",
+    "https://www.arb-silva.de/search/show/lsu/insdc/349787",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001857945.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "South Korea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "South Korea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002802"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Paenibacillus sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Paenibacillus sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1763538"
+        }
+      ]
+    }
+  ]
+}

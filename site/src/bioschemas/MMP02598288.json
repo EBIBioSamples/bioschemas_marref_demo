@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598288",
+    "mmp.ref:MMP02598288"
+  ],
+  "name": "Thiomicrospira crunogena XCL-2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598288",
+  "description": "Thiomicrospira crunogena XCL-2. This organism is a colorless sulfur-oxidizing bacterium isolated from a deep-sea hydrothermal vent.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13018",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13018",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13018",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000012605.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Galapagos Rift",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Galapagos Rift",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00055986"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thiomicrospira crunogena",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thiomicrospira crunogena",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=317025"
+        }
+      ]
+    }
+  ]
+}

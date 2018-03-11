@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN06041746",
+    "mmp.ref:MMP06041746"
+  ],
+  "name": "Vibrio harveyi strain QT520",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP06041746",
+  "description": "The microorganism is a virulent strain, based on the results of arti\ufb01cial infection tests.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA340970",
+    "https://www.arb-silva.de/search/show/ssu/insdc/340970",
+    "https://www.arb-silva.de/search/show/lsu/insdc/340970",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001908435.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "China",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "China",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002845"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio harveyi",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio harveyi",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=669"
+        }
+      ]
+    }
+  ]
+}

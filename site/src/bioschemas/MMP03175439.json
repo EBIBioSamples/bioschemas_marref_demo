@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03175439",
+    "mmp.ref:MMP03175439"
+  ],
+  "name": "Vibrio anguillarum strain 90-11-286",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03175439",
+  "description": "Proaqua proyect has a objetive to reduce larval pathogenic vibrio using vibrio-antagonistic bacteria (probiotics) and bacteriophages.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA266919",
+    "https://www.arb-silva.de/search/show/ssu/insdc/266919",
+    "https://www.arb-silva.de/search/show/lsu/insdc/266919",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001660505.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kingdom of Denmark",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kingdom of Denmark",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002635"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio anguillarum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio anguillarum",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=55601"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00713578",
+    "mmp.ref:MMP00713578"
+  ],
+  "name": "Nitratifractor salsuginis DSM 16511",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713578",
+  "description": "Nitratifractor salsuginis DSM 16511.This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA46883",
+    "https://www.arb-silva.de/search/show/ssu/insdc/46883",
+    "https://www.arb-silva.de/search/show/lsu/insdc/46883",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000186245.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Iheya North Field",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Iheya North Field",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000037"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Nitratifractor salsuginis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Nitratifractor salsuginis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=749222"
+        }
+      ]
+    }
+  ]
+}

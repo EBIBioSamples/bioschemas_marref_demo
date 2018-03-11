@@ -1,0 +1,45 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05464625",
+    "mmp.ref:MMP05464625"
+  ],
+  "name": "Francisella sp. TX077310",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05464625",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA67141",
+    "https://www.arb-silva.de/search/show/ssu/insdc/67141",
+    "https://www.arb-silva.de/search/show/lsu/insdc/67141",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001895265.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Galveston Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Galveston Bay",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00143381"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Francisella sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Francisella sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573570"
+        }
+      ]
+    }
+  ]
+}

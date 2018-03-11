@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02584017",
+    "mmp.ref:MMP02584017"
+  ],
+  "name": "Francisella noatunensis subsp. orientalis FNO24",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02584017",
+  "description": "Francisella noatunensis subs. orientalis is the aetilogic agent of a systemic granulomatous disease of cultured Nile tilapia (Oreochromis niloticus). The outbreaks of franciselosis cause high mortality rates in farms; mainly in Nile tilapia fingerlings and juveniles. This emergent disease has recently been described in Americas; Europe; and Asia.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA234502",
+    "https://www.arb-silva.de/search/show/ssu/insdc/234502",
+    "https://www.arb-silva.de/search/show/lsu/insdc/234502",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001042545.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Municipality of Areado",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Municipality of Areado",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00094231"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Francisella noatunensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Francisella noatunensis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1449091"
+        }
+      ]
+    }
+  ]
+}

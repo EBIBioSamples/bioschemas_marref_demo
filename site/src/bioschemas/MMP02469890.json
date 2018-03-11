@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02469890",
+    "mmp.ref:MMP02469890"
+  ],
+  "name": "Dokdonia sp. PRO95",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02469890",
+  "description": "Comparitive genome analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA176625",
+    "https://www.arb-silva.de/search/show/ssu/insdc/176625",
+    "https://www.arb-silva.de/search/show/lsu/insdc/176625",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000355805.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Helgoland Islands",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Helgoland Islands",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002632"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Dokdonia sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Dokdonia sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1239415"
+        }
+      ]
+    }
+  ]
+}

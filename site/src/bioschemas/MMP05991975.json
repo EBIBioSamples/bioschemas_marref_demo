@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05991975",
+    "mmp.ref:MMP05991975"
+  ],
+  "name": "Alteromonas sp. Mex14",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05991975",
+  "description": "Conjugative elements and plasmids in the genus Alteromonas",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA352689",
+    "https://www.arb-silva.de/search/show/ssu/insdc/352689",
+    "https://www.arb-silva.de/search/show/lsu/insdc/352689",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001886375.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Gulf of Mexico",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gulf of Mexico",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002853"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Alteromonas sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Alteromonas sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1917157"
+        }
+      ]
+    }
+  ]
+}

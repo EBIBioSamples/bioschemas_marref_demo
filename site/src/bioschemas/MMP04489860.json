@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN04489860",
+    "mmp.ref:MMP04489860"
+  ],
+  "name": "Paraoerskovia marina strain DSM 22126",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04489860",
+  "description": "Paraoerskovia marina DSM 22126",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB16383",
+    "https://www.arb-silva.de/search/show/ssu/insdc/16383",
+    "https://www.arb-silva.de/search/show/lsu/insdc/16383",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_900105445.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Jeju-do",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Jeju-do",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002803"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Paraoerskovia marina",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Paraoerskovia marina",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=545619"
+        }
+      ]
+    }
+  ]
+}

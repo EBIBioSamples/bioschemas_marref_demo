@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMEA2272572",
+    "mmp.ref:MMP2272572"
+  ],
+  "name": "Novosphingobium sp. PP1Y",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272572",
+  "description": "Novosphingobium sp. PP1Y is a marine bacteria specifically adapted to use fuels as energy source. It is able to grow on a wide range of mono-; poly- and heterocyclic aromatic hydrocarbons.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEA66901",
+    "https://www.arb-silva.de/search/show/ssu/insdc/66901",
+    "https://www.arb-silva.de/search/show/lsu/insdc/66901",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000253255.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Napoli",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Napoli",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00434018"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Novosphingobium",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Novosphingobium",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=702113"
+        }
+      ]
+    }
+  ]
+}

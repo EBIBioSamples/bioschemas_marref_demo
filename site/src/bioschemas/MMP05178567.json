@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05178567",
+    "mmp.ref:MMP05178567"
+  ],
+  "name": "Bacillus sp. Alg07",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05178567",
+  "description": "Bacillus species Alg07 was isolated from marine area of Weihai City, Shandong Province, China. This strain showed extremely high extracellular activity towards alginate, and exhibited extraordinary metabolic ability to degrade brown algae. Notably, the phylogenetic analysis based on 16S rRNA gene sequences suggested that Alg07 might be a novel species within Bacillus genus. In order to elucidate the metabolic capability and ecological adaptation with respect to brown algae degradation, we have sequenced the complete genome of Bacillus weihaiensis Alg07.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA323409",
+    "https://www.arb-silva.de/search/show/ssu/insdc/323409",
+    "https://www.arb-silva.de/search/show/lsu/insdc/323409",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001889165.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Weihai City Prefecture",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Weihai City Prefecture",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00025873"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Bacillus weihaiensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bacillus weihaiensis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1547283"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598298",
+    "mmp.ref:MMP02598298"
+  ],
+  "name": "Shewanella amazonensis SB2B",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598298",
+  "description": "Shewanella amazonensis strain SB2B. This is the type strain (SB2B; ATCC 700329) for the species and was isolated from shallow marine deposits (coastal shelf mud) of the Amazon River delta off of the coast of Brazil.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13385",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13385",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13385",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000015245.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "River Amazon Delta",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "River Amazon Delta",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00047131"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Shewanella amazonensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Shewanella amazonensis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=326297"
+        }
+      ]
+    }
+  ]
+}

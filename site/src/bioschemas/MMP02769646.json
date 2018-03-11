@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02769646",
+    "mmp.ref:MMP02769646"
+  ],
+  "name": "Leisingera methylohalidivorans DSM 14336",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02769646",
+  "description": "Members of the Phaeobacter-Leisingera-Marinovum cluster are physiologically highly diverse. Overall they are able to use a large variety of substrates; produce several secondary metabolites and signalling molecules; and form biofilms. While Phaeobacter spp. have very broad substrate spectra; Leisingera spp. are methylotrophic; i.e. they can grow on a very limited number of methylated substrates. This indicates a specific adaptation which is probably reflected in the genome; possibly by loss of genes coding for specific metabolic pathways.The strains proposed to be sequenced originate from diverse marine habitats (mostly natural surfaces) from all over the world; i.e. tidal flats of the North Sea and the Yellow Sea; marine sediments of the Arctic Ocean and the South China Sea; from a marine electroactive biofilm exposed to natural seawater taken at Genoa; Italy; and from seawater collected from a tide pool off the coast of central California. Some strains of this cluster were found to be associated with higher organisms; such as P. gallaeciensis; which was isolated from rearings and collectors of the scallop Pecten maximus (in Galicia; Spain); and M. algicola; which was isolated from a stationary culture of the toxin-producing marine dinoflagellate Prorocentrum lima (in Vigo; Spain). While most organisms of this group are mesophilic; P. arcticus is a psychrophile.The already sequenced Phaeobacter genomes contain several plasmids which encode genes involved in specific adaptations such as secondary metabolism and biofilm formation. The genome of M. algicola comprises the highest number (10) of plasmids found within the Roseobacter clade. Preliminary experiments (pulsed field gel electrophoresis) with some of the organisms proposed to be sequenced showed that these also contain several plasmids of different size. For P. inhibens and P. daeponensis we detected five plasmids in each organism; while for L. methylohalidivorans only one plasmid was found.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA74371",
+    "https://www.arb-silva.de/search/show/ssu/insdc/74371",
+    "https://www.arb-silva.de/search/show/lsu/insdc/74371",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000511355.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "United States of America",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "United States of America",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002459"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Leisingera methylohalidivorans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Leisingera methylohalidivorans",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=999552"
+        }
+      ]
+    }
+  ]
+}

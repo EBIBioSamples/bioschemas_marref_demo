@@ -1,0 +1,45 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMEA3138385",
+    "mmp.ref:MMP3138385"
+  ],
+  "name": "Bacteriovorax marinus SJ",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138385",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA50431",
+    "https://www.arb-silva.de/search/show/ssu/insdc/50431",
+    "https://www.arb-silva.de/search/show/lsu/insdc/50431",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000210915.2"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Saint John",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Saint John",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00005387"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Bacteriovorax marinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bacteriovorax marinus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=862908"
+        }
+      ]
+    }
+  ]
+}

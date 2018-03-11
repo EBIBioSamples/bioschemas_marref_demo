@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03074593",
+    "mmp.ref:MMP03074593"
+  ],
+  "name": "Methanosarcina sp. WH1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03074593",
+  "description": "Complete genome sequence of Methanosarcina sp. WH1",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA230957",
+    "https://www.arb-silva.de/search/show/ssu/insdc/230957",
+    "https://www.arb-silva.de/search/show/lsu/insdc/230957",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000970005.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Sippewisset Marsh",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sippewisset Marsh",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008285"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanosarcina",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanosarcina",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1434102"
+        }
+      ]
+    }
+  ]
+}

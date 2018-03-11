@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598367",
+    "mmp.ref:MMP02598367"
+  ],
+  "name": "Salinispora tropica CNB-440",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598367",
+  "description": "Salinispora tropica CNB-440.This strain was isolated from coarse beach sand off the Bahamas; and is being sequenced for comparative genome analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA16342",
+    "https://www.arb-silva.de/search/show/ssu/insdc/16342",
+    "https://www.arb-silva.de/search/show/lsu/insdc/16342",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000016425.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Chub Cay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Chub Cay",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00082987"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Salinispora tropica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Salinispora tropica",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=369723"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMEA2272250",
+    "mmp.ref:MMP2272250"
+  ],
+  "name": "Fibrella aestuarina strain BUZ 2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272250",
+  "description": "-",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEA114711",
+    "https://www.arb-silva.de/search/show/ssu/insdc/114711",
+    "https://www.arb-silva.de/search/show/lsu/insdc/114711",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000331105.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "North Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "North Sea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002284"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Fibrella aestuarina",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Fibrella aestuarina",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=651143"
+        }
+      ]
+    }
+  ]
+}

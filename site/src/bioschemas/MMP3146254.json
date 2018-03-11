@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMEA3146254",
+    "mmp.ref:MMP3146254"
+  ],
+  "name": "Halomonas sp. A3H3",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3146254",
+  "description": "The genome from Halomonas sp. A3H3; a bacterial strain isolated from the harbour of l'Estaque; highly contaminated by arsenic; heavy metals and organic pollutants; was sequenced by HiSeq2000 and assembled into contigs and scaffolds using SOAPdenovo. Annotation was performed with the Genoscope's MicroScope platform (https://www.genoscope.cns.fr/agc/microscope/).",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB4184",
+    "https://www.arb-silva.de/search/show/ssu/insdc/4184",
+    "https://www.arb-silva.de/search/show/lsu/insdc/4184",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000982975.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "L'Estaque",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "L'Estaque",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00390754"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Halomonas",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Halomonas",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1346287"
+        }
+      ]
+    }
+  ]
+}

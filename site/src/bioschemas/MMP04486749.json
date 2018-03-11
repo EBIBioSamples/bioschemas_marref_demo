@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN04486749",
+    "mmp.ref:MMP04486749"
+  ],
+  "name": "Flavobacteriaceae bacterium UJ101",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04486749",
+  "description": "This uj101 strain will be used for comparative genome.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA311623",
+    "https://www.arb-silva.de/search/show/ssu/insdc/311623",
+    "https://www.arb-silva.de/search/show/lsu/insdc/311623",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001880285.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Sea of Japan",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sea of Japan",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007658"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Flavobacteriaceae bacterium",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Flavobacteriaceae bacterium",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1150389"
+        }
+      ]
+    }
+  ]
+}

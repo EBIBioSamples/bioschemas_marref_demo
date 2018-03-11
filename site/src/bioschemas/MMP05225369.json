@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05225369",
+    "mmp.ref:MMP05225369"
+  ],
+  "name": "Nocardia seriolae strain EM150506",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05225369",
+  "description": "Genome sequencing of Nocardia seriolae strain EM150506, an isolated from Anguilla japonica.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA325707",
+    "https://www.arb-silva.de/search/show/ssu/insdc/325707",
+    "https://www.arb-silva.de/search/show/lsu/insdc/325707",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001865855.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "South Korea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "South Korea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002802"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Nocardia seriolae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Nocardia seriolae",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=37332"
+        }
+      ]
+    }
+  ]
+}

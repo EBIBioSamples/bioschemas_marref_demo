@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03764476",
+    "mmp.ref:MMP03764476"
+  ],
+  "name": "Altererythrobacter marensis strain KCTC 22370",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03764476",
+  "description": "Genome sequencing of Altererythrobacter marensis using the PacBio RS II sequencing platform",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA286057",
+    "https://www.arb-silva.de/search/show/ssu/insdc/286057",
+    "https://www.arb-silva.de/search/show/lsu/insdc/286057",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001028625.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Jeju-do",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Jeju-do",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002803"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Altererythrobacter marensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Altererythrobacter marensis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=543877"
+        }
+      ]
+    }
+  ]
+}

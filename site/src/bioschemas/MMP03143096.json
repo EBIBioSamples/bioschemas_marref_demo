@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03143096",
+    "mmp.ref:MMP03143096"
+  ],
+  "name": "Thermotoga sp. Cell2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03143096",
+  "description": "-",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA86989",
+    "https://www.arb-silva.de/search/show/ssu/insdc/86989",
+    "https://www.arb-silva.de/search/show/lsu/insdc/86989",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000789375.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "North Sea oil and gas field sector",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "North Sea oil and gas field sector",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008609"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermotoga",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermotoga",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1157947"
+        }
+      ]
+    }
+  ]
+}

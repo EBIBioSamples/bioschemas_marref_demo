@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598410",
+    "mmp.ref:MMP02598410"
+  ],
+  "name": "Prochlorococcus marinus str. MIT 9215",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598410",
+  "description": "Prochlorococcus marinus MIT 9215.This strain is being sequenced for comparative genome analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA18633",
+    "https://www.arb-silva.de/search/show/ssu/insdc/18633",
+    "https://www.arb-silva.de/search/show/lsu/insdc/18633",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000018065.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Equatorial Pacific Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Equatorial Pacific Ocean",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002409"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Prochlorococcus marinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Prochlorococcus marinus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=93060"
+        }
+      ]
+    }
+  ]
+}

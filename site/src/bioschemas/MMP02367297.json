@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02367297",
+    "mmp.ref:MMP02367297"
+  ],
+  "name": "Neorickettsia helminthoeca str. Oregon",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02367297",
+  "description": "Sequencing and Comparison of Genomes and Transcriptome Profiles of Human Ehrlichiosis Agents.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA187358",
+    "https://www.arb-silva.de/search/show/ssu/insdc/187358",
+    "https://www.arb-silva.de/search/show/lsu/insdc/187358",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000632985.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "United States of America",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "United States of America",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002459"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Neorickettsia helminthoeca",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Neorickettsia helminthoeca",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1286528"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMEA3138195",
+    "mmp.ref:MMP3138195"
+  ],
+  "name": "Haloquadratum walsbyi DSM 16790",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138195",
+  "description": "Haloquadratum walsbyi DSM 16790. This strain is being sequenced for comparative genome analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA17185",
+    "https://www.arb-silva.de/search/show/ssu/insdc/17185",
+    "https://www.arb-silva.de/search/show/lsu/insdc/17185",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000009185.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Alicante",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Alicante",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00323081"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Haloquadratum walsbyi",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Haloquadratum walsbyi",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=362976"
+        }
+      ]
+    }
+  ]
+}

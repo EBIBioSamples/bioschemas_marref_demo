@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN04939310",
+    "mmp.ref:MMP04939310"
+  ],
+  "name": "Marinobacterium sp. ST58-10",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04939310",
+  "description": "Complete genome of Marinobacterium sp. ST58-10",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA320435",
+    "https://www.arb-silva.de/search/show/ssu/insdc/320435",
+    "https://www.arb-silva.de/search/show/lsu/insdc/320435",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001651805.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Boryeong City",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Boryeong City",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00028021"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Marinobacterium sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Marinobacterium sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1821621"
+        }
+      ]
+    }
+  ]
+}

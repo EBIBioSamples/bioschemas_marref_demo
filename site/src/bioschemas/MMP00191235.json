@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00191235",
+    "mmp.ref:MMP00191235"
+  ],
+  "name": "Spirochaeta thermophila DSM 6578",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00191235",
+  "description": "Spirochaeta thermophila DSM 6578.This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA50823",
+    "https://www.arb-silva.de/search/show/ssu/insdc/50823",
+    "https://www.arb-silva.de/search/show/lsu/insdc/50823",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000184345.2"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Shiashkotan Island",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Shiashkotan Island",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00035161"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Spirochaeta thermophila",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Spirochaeta thermophila",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=869211"
+        }
+      ]
+    }
+  ]
+}

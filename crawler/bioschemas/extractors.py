@@ -57,6 +57,15 @@ class ExtractorFromHtml:
         jsonlds = []
 
         for ldjson_script_section in ldjson_script_sections:
+            # if ldjson_script_section.string is None:
+            #     if "src" in ldjson_script_section.attrs:
+            #         src = ldjson_script_section.attrs['src']
+            #         logger.debug('Found ld+json source in the script')
+            #         requests_session = requests.session()
+            #         requests_session.mount('file://', LocalFileAdapter())
+            #         r = requests_session.get(src)
+            #         jsonlds.append(r.content)
+            # else:
             jsonlds.append(json.loads(ldjson_script_section.string))
 
         return jsonlds

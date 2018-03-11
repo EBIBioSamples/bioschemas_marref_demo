@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN04874701",
+    "mmp.ref:MMP04874701"
+  ],
+  "name": "Alteromonas stellipolaris strain PQQ-44",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04874701",
+  "description": "Complete genome sequencing and assembly of Alteromonas stellipolaris PQQ-44",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA319007",
+    "https://www.arb-silva.de/search/show/ssu/insdc/319007",
+    "https://www.arb-silva.de/search/show/lsu/insdc/319007",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001632825.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Granada",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Granada",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007251"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Alteromonas stellipolaris",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Alteromonas stellipolaris",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=233316"
+        }
+      ]
+    }
+  ]
+}

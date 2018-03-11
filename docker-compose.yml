@@ -1,15 +1,23 @@
 version: '2'
 services:
   bsbang-crawler:
-    build: .
+    build:
+      context: .
+      dockerfile: DockerFiles/bsbang-crawler/Dockerfile
     links:
       - mar-ref-solr
     image: bsbang-crawler:latest
 
+  biosd-curator:
+    build:
+      context: .
+      dockerfile: DockerFiles/biosd-curator/Dockerfile
+    image: biosd-curator:latest
+
   mar-ref-solr:
     image: solr:6.6.2-alpine
     ports:
-      - "8983:8983"
+      - "8984:8983"
     volumes: 
       - ./data/solr:/opt/solr/server/solr/mycores
     entrypoint:
@@ -60,3 +68,15 @@ services:
     volumes:
       - ./data/crawler:/crawler/data/
     command: python bsbang-index.py data/crawl.db
+
+  biosd-curate:
+    image: biosd-curator:latest
+    volumes:
+      - ./data/crawler:/curator/data
+    networks:
+      - biosamplesv4_default
+    command: python biosamples-curation.py data/crawl.db http://biosamples-webapps-core:8080/biosamples
+
+networks:
+    biosamplesv4_default:
+        external: true

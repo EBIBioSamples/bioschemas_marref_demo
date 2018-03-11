@@ -1,0 +1,5 @@
+version: '2'
+services:
+ mar-ref-solr:
+  ports:
+   - 8984:8983

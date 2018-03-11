@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03372068",
+    "mmp.ref:MMP03372068"
+  ],
+  "name": "Thermotoga maritima strain Tma200",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03372068",
+  "description": "Thermotoga maritima Genome sequencing and assembly. Sequenced by JGI",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA279291",
+    "https://www.arb-silva.de/search/show/ssu/insdc/279291",
+    "https://www.arb-silva.de/search/show/lsu/insdc/279291",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000978535.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "State of Nebraska",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "State of Nebraska",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00005070"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermotoga maritima",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermotoga maritima",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2336"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02838508",
+    "mmp.ref:MMP02838508"
+  ],
+  "name": "Thermococcus eurythermalis A501",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02838508",
+  "description": "Thermococcus sp. A501 Genome sequencing; hydrothermal vent",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA251677",
+    "https://www.arb-silva.de/search/show/ssu/insdc/251677",
+    "https://www.arb-silva.de/search/show/lsu/insdc/251677",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000769655.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Guaymas Basin",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Guaymas Basin",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002281"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermococcus eurythermalis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermococcus eurythermalis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1505907"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598365",
+    "mmp.ref:MMP02598365"
+  ],
+  "name": "Methanoculleus marisnigri JR1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598365",
+  "description": "Methanoculleus marisnigri JR1. Methanoculleus marisnigri JR1 (ATCC 35101) is the type strain and will be used for comparative genomics with other methanogens.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA16330",
+    "https://www.arb-silva.de/search/show/ssu/insdc/16330",
+    "https://www.arb-silva.de/search/show/lsu/insdc/16330",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000015825.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanoculleus marisnigri",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanoculleus marisnigri",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=368407"
+        }
+      ]
+    }
+  ]
+}

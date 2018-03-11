@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598318",
+    "mmp.ref:MMP02598318"
+  ],
+  "name": "Shewanella sp. ANA-3",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598318",
+  "description": "Shewanella sp. ANA-3. This strain was isolated from an arsenate treated wood pier that was in a brackish estuary (Eel Pond) in Woods Hole; Massachusetts. It is capable of converting As(V) to arsenite and may be used in bioremediation of contaminated sites.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13905",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13905",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13905",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000203935.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Woods Hole",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Woods Hole",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00216609"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Shewanella sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Shewanella sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=94122"
+        }
+      ]
+    }
+  ]
+}

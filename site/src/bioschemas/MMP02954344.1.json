@@ -1,0 +1,34 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02954344",
+    "mmp.ref:MMP02954344.1"
+  ],
+  "name": "Prochlorococcus marinus bv. HNLC1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02954344.1",
+  "description": "Prochlorococcus clades in high-nutrient, low-chlorophyll (HNLC),iron-depleted waters in the Pacific and Indian Oceans.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA67829",
+    "https://www.arb-silva.de/search/show/ssu/insdc/67829",
+    "https://www.arb-silva.de/search/show/lsu/insdc/67829",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000218705.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Prochlorococcus marinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Prochlorococcus marinus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1041938"
+        }
+      ]
+    }
+  ]
+}

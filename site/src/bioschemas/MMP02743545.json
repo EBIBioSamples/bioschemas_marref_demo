@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02743545",
+    "mmp.ref:MMP02743545"
+  ],
+  "name": "Alteromonas australica H 17",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02743545",
+  "description": "The genus Alteromonas contains species of marine bacteria that have been isolated often from the oceans around the world. This strain was collected one metre below the water surface in Port Philip Bay; the Tasman Sea; Pacific Ocean; in 2008",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA246143",
+    "https://www.arb-silva.de/search/show/ssu/insdc/246143",
+    "https://www.arb-silva.de/search/show/lsu/insdc/246143",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000730385.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Port Philip Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Port Philip Bay",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00045304"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Alteromonas australica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Alteromonas australica",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=589873"
+        }
+      ]
+    }
+  ]
+}

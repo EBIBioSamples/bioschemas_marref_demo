@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02232009",
+    "mmp.ref:MMP02232009"
+  ],
+  "name": "Belliella baltica DSM 15883",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02232009",
+  "description": "Belliella baltica DSM 15883. This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA50619",
+    "https://www.arb-silva.de/search/show/ssu/insdc/50619",
+    "https://www.arb-silva.de/search/show/lsu/insdc/50619",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000265405.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Baltic Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Baltic Sea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002283"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Belliella baltica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Belliella baltica",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=866536"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05216296",
+    "mmp.ref:MMP05216296"
+  ],
+  "name": "Pseudomonas pohangensis strain DSM 17875",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05216296",
+  "description": "Pseudomonas pohangensis DSM 17875",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB16450",
+    "https://www.arb-silva.de/search/show/ssu/insdc/16450",
+    "https://www.arb-silva.de/search/show/lsu/insdc/16450",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_900105995.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Pohang city",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pohang city",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00027925"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pseudomonas pohangensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pseudomonas pohangensis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=364197"
+        }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,8 @@ then
 	echo "Cleaning existing volumes"
 	#remove any images, in case of out-of-date or corrupt images
 	docker-compose down --volumes --rmi local --remove-orphans
+
+	./clean.sh
 else
 	docker-compose down --remove-orphans
 fi

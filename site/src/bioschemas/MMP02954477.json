@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02954477",
+    "mmp.ref:MMP02954477"
+  ],
+  "name": "Fervidobacterium pennivorans strain DYC",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02954477",
+  "description": "A thermophilic strict anaerobe capable of cellobiose fermentation",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA257745",
+    "https://www.arb-silva.de/search/show/ssu/insdc/257745",
+    "https://www.arb-silva.de/search/show/lsu/insdc/257745",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001644665.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "New Zealand",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "New Zealand",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000469"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Fervidobacterium pennivorans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Fervidobacterium pennivorans",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=93466"
+        }
+      ]
+    }
+  ]
+}

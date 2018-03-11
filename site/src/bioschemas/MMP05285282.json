@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05285282",
+    "mmp.ref:MMP05285282"
+  ],
+  "name": "Woeseia oceani strain XK5",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05285282",
+  "description": "Complete genome sequence of a deep-branching marine Gamma Proteobacterium Woeseia oceani",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA326567",
+    "https://www.arb-silva.de/search/show/ssu/insdc/326567",
+    "https://www.arb-silva.de/search/show/lsu/insdc/326567",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001677435.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Weihai City Prefecture",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Weihai City Prefecture",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00025873"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Woeseia oceani",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Woeseia oceani",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1548547"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05756399",
+    "mmp.ref:MMP05756399"
+  ],
+  "name": "Methanohalophilus halophilus strain Z-7982",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05756399",
+  "description": "The goal was to obtain the complete genome of the strain Methanohalophilus halophilus strain Z-7982 in order to compare with others Methanohalophilus isoaltes from deep sea.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA342410",
+    "https://www.arb-silva.de/search/show/ssu/insdc/342410",
+    "https://www.arb-silva.de/search/show/lsu/insdc/342410",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001889405.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Shark Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Shark Bay",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00045580"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanohalophilus halophilus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanohalophilus halophilus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2177"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02988852",
+    "mmp.ref:MMP02988852"
+  ],
+  "name": "Geoglobus ahangari strain 234",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02988852",
+  "description": "To further characterize the Archeoglobaceae and identify genes of interest to the iron reduction strategy of Geoglobus ahangari along with genes of importance for fatty-acid degradation in the environment.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA258102",
+    "https://www.arb-silva.de/search/show/ssu/insdc/258102",
+    "https://www.arb-silva.de/search/show/lsu/insdc/258102",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001006045.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Guaymas Basin",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Guaymas Basin",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002281"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Geoglobus ahangari",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Geoglobus ahangari",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=113653"
+        }
+      ]
+    }
+  ]
+}

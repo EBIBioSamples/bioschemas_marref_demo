@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00190054",
+    "mmp.ref:MMP00190054"
+  ],
+  "name": "Cellulophaga algicola DSM 14237",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00190054",
+  "description": "Cellulophaga algicola DSM 14237. This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA41529",
+    "https://www.arb-silva.de/search/show/ssu/insdc/41529",
+    "https://www.arb-silva.de/search/show/lsu/insdc/41529",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000186265.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "East Antarctica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "East Antarctica",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00014132"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Cellulophaga algicola",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Cellulophaga algicola",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=688270"
+        }
+      ]
+    }
+  ]
+}

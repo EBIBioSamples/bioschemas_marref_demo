@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02202185",
+    "mmp.ref:MMP02202185"
+  ],
+  "name": "Synechococcus sp. KORDI 52",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02202185",
+  "description": "Genome sequencing of Synechococcus sp. KORDI 51 were conducted. The strain was isolated from surface water of the East China Sea.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA207984",
+    "https://www.arb-silva.de/search/show/ssu/insdc/207984",
+    "https://www.arb-silva.de/search/show/lsu/insdc/207984",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000737595.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "East China Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "East China Sea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00004689"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Synechococcus sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Synechococcus sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=585425"
+        }
+      ]
+    }
+  ]
+}

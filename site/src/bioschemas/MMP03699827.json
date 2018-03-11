@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03699827",
+    "mmp.ref:MMP03699827"
+  ],
+  "name": "Streptomyces sp. CNQ-509",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03699827",
+  "description": "The MAR4 streptomycete lineage has a particularly large capacity to generate hybrid polyketide-terpenoid compounds. Streptomyces sp. CNQ-509; a MAR4 strain; was sequenced to study the genetic basis of this meroterpenoid chemistry.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA284218",
+    "https://www.arb-silva.de/search/show/ssu/insdc/284218",
+    "https://www.arb-silva.de/search/show/lsu/insdc/284218",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001011035.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Scripps Pier",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Scripps Pier",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002545"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Streptomyces",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Streptomyces",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=444103"
+        }
+      ]
+    }
+  ]
+}

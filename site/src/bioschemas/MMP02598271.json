@@ -1,0 +1,34 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598271",
+    "mmp.ref:MMP02598271"
+  ],
+  "name": "Chlorobium phaeovibrioides DSM 265",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598271",
+  "description": "Prosthecochloris vibrioformis DSM 265 .This strain (recently listed as Chlorobium phaeovibrioides Pfennig 1968) is being used for comparative genome analysis. Previously known as Chlorobium phaeovibrioides DSM 265 and Chlorobium vibrioforme f. thiosulfatophilum DSM 265.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA12607",
+    "https://www.arb-silva.de/search/show/ssu/insdc/12607",
+    "https://www.arb-silva.de/search/show/lsu/insdc/12607",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000016085.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Chlorobium phaeovibrioides",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Chlorobium phaeovibrioides",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=290318"
+        }
+      ]
+    }
+  ]
+}

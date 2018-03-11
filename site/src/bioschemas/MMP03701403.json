@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03701403",
+    "mmp.ref:MMP03701403"
+  ],
+  "name": "Marinobacter psychrophilus strain 20041",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03701403",
+  "description": "The study of the diversity of Marinobacter",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA284323",
+    "https://www.arb-silva.de/search/show/ssu/insdc/284323",
+    "https://www.arb-silva.de/search/show/lsu/insdc/284323",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001043175.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Canada Basin",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Canada Basin",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00051013"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Marinobacter psychrophilus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Marinobacter psychrophilus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=330734"
+        }
+      ]
+    }
+  ]
+}

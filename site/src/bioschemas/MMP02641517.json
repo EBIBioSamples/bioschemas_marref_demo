@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02641517",
+    "mmp.ref:MMP02641517"
+  ],
+  "name": "Spirochaeta sp. L21-RPul-D2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02641517",
+  "description": "High diversity of culturable anaerobic prokaryotes in a mineralizing microbial mat of the hypersaline Lake 21 on the Kiritimati Atoll",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA227794",
+    "https://www.arb-silva.de/search/show/ssu/insdc/227794",
+    "https://www.arb-silva.de/search/show/lsu/insdc/227794",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000507245.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kiritimati Atoll",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kiritimati Atoll",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00144268"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Spirochaeta",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Spirochaeta",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1307761"
+        }
+      ]
+    }
+  ]
+}

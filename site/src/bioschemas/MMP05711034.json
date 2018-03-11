@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05711034",
+    "mmp.ref:MMP05711034"
+  ],
+  "name": "Luteimonas sp. JM171",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05711034",
+  "description": "Genome sequence of Luteimonas sp. JM171",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA340268",
+    "https://www.arb-silva.de/search/show/ssu/insdc/340268",
+    "https://www.arb-silva.de/search/show/lsu/insdc/340268",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001717465.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Oahu",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Oahu",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003187"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Luteimonas sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Luteimonas sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1896164"
+        }
+      ]
+    }
+  ]
+}

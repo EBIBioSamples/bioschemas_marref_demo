@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02603479",
+    "mmp.ref:MMP02603479"
+  ],
+  "name": "Nonlabens dokdonensis DSW-6",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603479",
+  "description": "Persicivirga dokdonensis DSW-6. Persicivirga dokdonensis DSW-6 (DSM 17205) is the type strain and will be used for comparative analysis with other marine bacteria.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA33015",
+    "https://www.arb-silva.de/search/show/ssu/insdc/33015",
+    "https://www.arb-silva.de/search/show/lsu/insdc/33015",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000332115.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Liancourt Rocks",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Liancourt Rocks",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000006"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Nonlabens dokdonensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Nonlabens dokdonensis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=592029"
+        }
+      ]
+    }
+  ]
+}

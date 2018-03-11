@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMEA2272293",
+    "mmp.ref:MMP2272293"
+  ],
+  "name": "Desulfobacula toluolica Tol2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272293",
+  "description": "-",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEA38433",
+    "https://www.arb-silva.de/search/show/ssu/insdc/38433",
+    "https://www.arb-silva.de/search/show/lsu/insdc/38433",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000307105.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Woods Hole",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Woods Hole",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00216609"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Desulfobacula toluolica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Desulfobacula toluolica",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=651182"
+        }
+      ]
+    }
+  ]
+}

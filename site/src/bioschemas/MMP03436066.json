@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03436066",
+    "mmp.ref:MMP03436066"
+  ],
+  "name": "Synechococcus sp. WH 8020",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03436066",
+  "description": "This project aimed at enhancing the genomic information for coastal Synechococcus through the addition of the Synechococcus WH8020 genome.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA278997",
+    "https://www.arb-silva.de/search/show/ssu/insdc/278997",
+    "https://www.arb-silva.de/search/show/lsu/insdc/278997",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001040845.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Atlantic Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Atlantic Ocean",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000344"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Synechococcus sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Synechococcus sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=32052"
+        }
+      ]
+    }
+  ]
+}

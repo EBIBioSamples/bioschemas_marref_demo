@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05302750",
+    "mmp.ref:MMP05302750"
+  ],
+  "name": "Vibrio natriegens strain CCUG 16373",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05302750",
+  "description": "Genome sequence data for Vibrio natriegens strains sequenced by Synthetic Genomics, Inc.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA327130",
+    "https://www.arb-silva.de/search/show/ssu/insdc/327130",
+    "https://www.arb-silva.de/search/show/lsu/insdc/327130",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001680065.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Oahu",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Oahu",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003187"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio natriegens",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio natriegens",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=691"
+        }
+      ]
+    }
+  ]
+}

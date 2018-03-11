@@ -1,0 +1,34 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN04488553",
+    "mmp.ref:MMP04488553"
+  ],
+  "name": "Gramella sp. MAR_2010_147",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04488553",
+  "description": "Gramella sp. MAR_2010_147",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJEB16428",
+    "https://www.arb-silva.de/search/show/ssu/insdc/16428",
+    "https://www.arb-silva.de/search/show/lsu/insdc/16428",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_900105135.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Gramella sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gramella sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1250205"
+        }
+      ]
+    }
+  ]
+}

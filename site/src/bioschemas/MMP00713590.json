@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00713590",
+    "mmp.ref:MMP00713590"
+  ],
+  "name": "Cellulophaga lytica DSM 7489",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713590",
+  "description": "Cellulophaga lytica DSM 7489.This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA50743",
+    "https://www.arb-silva.de/search/show/ssu/insdc/50743",
+    "https://www.arb-silva.de/search/show/lsu/insdc/50743",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000190595.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Limon Canton",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Limon Canton",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00068720"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Cellulophaga lytica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Cellulophaga lytica",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=867900"
+        }
+      ]
+    }
+  ]
+}

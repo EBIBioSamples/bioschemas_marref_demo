@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03701450",
+    "mmp.ref:MMP03701450"
+  ],
+  "name": "Halanaeroarchaeum sulfurireducens strain M27-SA2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03701450",
+  "description": "An obligatory anaerobic haloarchaea growing by dissimilatory sulfur reduction.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA284332",
+    "https://www.arb-silva.de/search/show/ssu/insdc/284332",
+    "https://www.arb-silva.de/search/show/lsu/insdc/284332",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001305655.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Ionian Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Ionian Sea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008916"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Halanaeroarchaeum sulfurireducens",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Halanaeroarchaeum sulfurireducens",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1604004"
+        }
+      ]
+    }
+  ]
+}

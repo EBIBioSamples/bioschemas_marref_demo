@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00138949",
+    "mmp.ref:MMP00138949"
+  ],
+  "name": "Marivirga tractuosa DSM 4126",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00138949",
+  "description": "Flexibacter tractuosus DSM 4126. This species will be used for comparative genome analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA37901",
+    "https://www.arb-silva.de/search/show/ssu/insdc/37901",
+    "https://www.arb-silva.de/search/show/lsu/insdc/37901",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000183425.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Nha Trang",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Nha Trang",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007869"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Marivirga tractuosa",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Marivirga tractuosa",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=643867"
+        }
+      ]
+    }
+  ]
+}

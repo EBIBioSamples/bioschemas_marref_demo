@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02650334",
+    "mmp.ref:MMP02650334"
+  ],
+  "name": "Thermosipho melanesiensis strain 431",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02650334",
+  "description": "Genome sequencing of Thermotogales isolates from hydrothermal vents",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA231770",
+    "https://www.arb-silva.de/search/show/ssu/insdc/231770",
+    "https://www.arb-silva.de/search/show/lsu/insdc/231770",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001941385.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Lau Basin",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Lau Basin",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002279"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermosipho melanesiensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermosipho melanesiensis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=46541"
+        }
+      ]
+    }
+  ]
+}

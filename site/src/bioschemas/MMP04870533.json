@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN04870533",
+    "mmp.ref:MMP04870533"
+  ],
+  "name": "Altererythrobacter namhicola strain JCM 16345",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04870533",
+  "description": "Genus Altererythrobacter belongs to Family Erythrobacteraceae. This project is relevant to gemomic sequencing of the whole family. The sequence data of this project is used for genome report and comparative analysis of Altererythrobacter.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA319016",
+    "https://www.arb-silva.de/search/show/ssu/insdc/319016",
+    "https://www.arb-silva.de/search/show/lsu/insdc/319016",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001687545.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "South Korea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "South Korea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002802"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Altererythrobacter namhicola",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Altererythrobacter namhicola",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=645517"
+        }
+      ]
+    }
+  ]
+}

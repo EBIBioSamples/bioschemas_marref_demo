@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN01915661",
+    "mmp.ref:MMP01915661"
+  ],
+  "name": "Nodularia spumigena CCY9414",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP01915661",
+  "description": "Resequencing of Nodularia spumigena CCY9414 using a combination of sanger and 454 sequencing technologies.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA185469",
+    "https://www.arb-silva.de/search/show/ssu/insdc/185469",
+    "https://www.arb-silva.de/search/show/lsu/insdc/185469",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000340565.2"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Bornholm",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bornholm",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003309"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Nodularia spumigena",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Nodularia spumigena",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=313624"
+        }
+      ]
+    }
+  ]
+}

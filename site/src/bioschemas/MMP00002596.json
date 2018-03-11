@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00002596",
+    "mmp.ref:MMP00002596"
+  ],
+  "name": "Haliangium ochraceum DSM 14365",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00002596",
+  "description": "Haliangium ochraceum DSM 14365. Haliangium ochraceum DSM 14365 was isolated from seaweed collected from a sandy beach in Kanagawa; Japan. This organism will be used for comparative analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA28711",
+    "https://www.arb-silva.de/search/show/ssu/insdc/28711",
+    "https://www.arb-silva.de/search/show/lsu/insdc/28711",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000024805.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Miura Peninsula",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Miura Peninsula",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007437"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Haliangium ochraceum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Haliangium ochraceum",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=502025"
+        }
+      ]
+    }
+  ]
+}

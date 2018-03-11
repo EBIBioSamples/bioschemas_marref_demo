@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05302747",
+    "mmp.ref:MMP05302747"
+  ],
+  "name": "Vibrio natriegens NBRC 15636 = ATCC 14048 = DSM 759",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05302747",
+  "description": "Genome sequence data for Vibrio natriegens strains sequenced by Synthetic Genomics, Inc.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA327130",
+    "https://www.arb-silva.de/search/show/ssu/insdc/327130",
+    "https://www.arb-silva.de/search/show/lsu/insdc/327130",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001680025.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Sapelo Island",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sapelo Island",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007510"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio natriegens",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio natriegens",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1219067"
+        }
+      ]
+    }
+  ]
+}

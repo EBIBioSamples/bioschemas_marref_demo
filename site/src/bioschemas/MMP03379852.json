@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03379852",
+    "mmp.ref:MMP03379852"
+  ],
+  "name": "Photobacterium gaetbulicola Gung47",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03379852",
+  "description": "Complete genome sequencing of the lipase-producing bacterium Photobacterium gaetbulicola Gung47. Photobacterium gaetbulicola Gung47 was isolated from a tidal flat sediment on the west coast in Korea.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA189839",
+    "https://www.arb-silva.de/search/show/ssu/insdc/189839",
+    "https://www.arb-silva.de/search/show/lsu/insdc/189839",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000940995.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "South Korea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "South Korea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002802"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Photobacterium gaetbulicola",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Photobacterium gaetbulicola",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=658445"
+        }
+      ]
+    }
+  ]
+}

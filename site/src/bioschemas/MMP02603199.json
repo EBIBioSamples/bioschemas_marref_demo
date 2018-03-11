@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02603199",
+    "mmp.ref:MMP02603199"
+  ],
+  "name": "Helicobacter cetorum MIT 00-7128",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603199",
+  "description": "Genome sequencing of new helicobacter species from animals; their comparison to Helicobacter pylori from humans. Gastric isolate from beluga whale from Mystic Aquarium in Connecticut.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA97501",
+    "https://www.arb-silva.de/search/show/ssu/insdc/97501",
+    "https://www.arb-silva.de/search/show/lsu/insdc/97501",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000259255.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Mystic",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mystic",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00160921"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Helicobacter cetorum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Helicobacter cetorum",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=182217"
+        }
+      ]
+    }
+  ]
+}

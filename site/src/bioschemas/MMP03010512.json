@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03010512",
+    "mmp.ref:MMP03010512"
+  ],
+  "name": "Vibrio coralliilyticus OCN014",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03010512",
+  "description": "Vibrio coralliilyticus strain OCN014 was isolated off of Palmyra Atoll in 2011 from a diseased colony of the coral Acropora cytherea. The goal of this project was to sequence the entire genome of a strain of V. coralliilyticus to use as a tool for future genetic work. This genome is a complete genome and contains no known gaps in sequence.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA258550",
+    "https://www.arb-silva.de/search/show/ssu/insdc/258550",
+    "https://www.arb-silva.de/search/show/lsu/insdc/258550",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000763535.2"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Palmyra Atoll",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Palmyra Atoll",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007115"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio coralliilyticus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio coralliilyticus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=190893"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMD00036750",
+    "mmp.ref:MMP00036750"
+  ],
+  "name": "Rhodovulum sulfidophilum DSM 1374",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00036750",
+  "description": "Rhodovulum sulfidophilum is a marine photosynthetic purple bacterium (an alpha-3-proteobacteria) that can grow by either photosynthesis or respiration using a wide range of organic compounds. To better understand its photosynthesis; sulfide oxidation; and regulation of photosystem synthesis; we determined the genome sequence of the R. sulfidophilum W4 (DSM 1374).",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJDB1308",
+    "https://www.arb-silva.de/search/show/ssu/insdc/1308",
+    "https://www.arb-silva.de/search/show/lsu/insdc/1308",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000520135.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Wadden See",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Wadden See",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008137"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Rhodovulum sulfidophilum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Rhodovulum sulfidophilum",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1188256"
+        }
+      ]
+    }
+  ]
+}

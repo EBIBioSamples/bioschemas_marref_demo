@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02401947",
+    "mmp.ref:MMP02401947"
+  ],
+  "name": "Marinobacter salarius R9SW1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02401947",
+  "description": "Comparative genome analysis for Marinobacter spp.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA227392",
+    "https://www.arb-silva.de/search/show/ssu/insdc/227392",
+    "https://www.arb-silva.de/search/show/lsu/insdc/227392",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000831005.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Peter the Great Gulf",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Peter the Great Gulf",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007659"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Marinobacter salarius",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Marinobacter salarius",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1420917"
+        }
+      ]
+    }
+  ]
+}

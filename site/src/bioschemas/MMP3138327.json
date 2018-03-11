@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMEA3138327",
+    "mmp.ref:MMP3138327"
+  ],
+  "name": "Synechococcus sp. WH 8102",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138327",
+  "description": "Synechococcus sp. WH 8102. This strain is a motile strain that can be grown in both natural and artificial seawater liquid media. It was isolated from the tropical Atlantic ocean in 1981. The genome contains evidence of many phage integration events and analysis of the metabolic pathways show that this organism is capable of a more nutritionally diverse lifestyle than that of Prochlorococcus.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA230",
+    "https://www.arb-silva.de/search/show/ssu/insdc/230",
+    "https://www.arb-silva.de/search/show/lsu/insdc/230",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000195975.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Sargasso Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sargasso Sea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002454"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Synechococcus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Synechococcus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=84588"
+        }
+      ]
+    }
+  ]
+}

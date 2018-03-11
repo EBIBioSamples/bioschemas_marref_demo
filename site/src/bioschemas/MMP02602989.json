@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02602989",
+    "mmp.ref:MMP02602989"
+  ],
+  "name": "Saprospira grandis str. Lewin",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02602989",
+  "description": "This genome will be used for comparative analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA67697",
+    "https://www.arb-silva.de/search/show/ssu/insdc/67697",
+    "https://www.arb-silva.de/search/show/lsu/insdc/67697",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000250635.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "La Jolla",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "La Jolla",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002544"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Saprospira grandis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Saprospira grandis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=984262"
+        }
+      ]
+    }
+  ]
+}

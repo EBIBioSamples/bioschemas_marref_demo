@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05282066",
+    "mmp.ref:MMP05282066"
+  ],
+  "name": "Prosthecochloris sp. CIB 2401",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05282066",
+  "description": "Prosthecochloris phaeum CIB2401, previously named Pelodictyon phaeum CIB2401 is a green sulfur bacteria (GSB) belong to the photosynthetic family Chlorobacteriaceae. It has been isolated at Cibollar, a meromictic coastal lagoon located in the Albufera of Mallorca.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA326504",
+    "https://www.arb-silva.de/search/show/ssu/insdc/326504",
+    "https://www.arb-silva.de/search/show/lsu/insdc/326504",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001687065.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Isla de Mallorca",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Isla de Mallorca",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00005434"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Prosthecochloris sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Prosthecochloris sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1868325"
+        }
+      ]
+    }
+  ]
+}

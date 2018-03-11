@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03896005",
+    "mmp.ref:MMP03896005"
+  ],
+  "name": "Altererythrobacter epoxidivorans CGMCC 1.7731",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03896005",
+  "description": "Be the complete genome sequence and annotation of A. epoxidivorans CGMCC 1.7731T",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA290561",
+    "https://www.arb-silva.de/search/show/ssu/insdc/290561",
+    "https://www.arb-silva.de/search/show/lsu/insdc/290561",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_001281485.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kagoshima Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kagoshima Bay",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000056"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Altererythrobacter epoxidivorans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Altererythrobacter epoxidivorans",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=361183"
+        }
+      ]
+    }
+  ]
+}

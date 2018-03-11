@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02743506",
+    "mmp.ref:MMP02743506"
+  ],
+  "name": "Bdellovibrio bacteriovorus strain 109J",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02743506",
+  "description": "Bdellovibrio bacteriovorus 109J Genome",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA246120",
+    "https://www.arb-silva.de/search/show/ssu/insdc/246120",
+    "https://www.arb-silva.de/search/show/lsu/insdc/246120",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000691605.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Israel",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Israel",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002476"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Bdellovibrio bacteriovorus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bdellovibrio bacteriovorus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=959"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02208950",
+    "mmp.ref:MMP02208950"
+  ],
+  "name": "Cellulophaga baltica NN016038",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02208950",
+  "description": "Genomes of Cellulophaga baltica bacteria used as host strains for viral studies",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA209293",
+    "https://www.arb-silva.de/search/show/ssu/insdc/209293",
+    "https://www.arb-silva.de/search/show/lsu/insdc/209293",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000477035.2"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Bornholm",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bornholm",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003309"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Cellulophaga baltica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Cellulophaga baltica",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1348585"
+        }
+      ]
+    }
+  ]
+}

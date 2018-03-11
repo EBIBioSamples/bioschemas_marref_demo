@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN04376290",
+    "mmp.ref:MMP04376290"
+  ],
+  "name": "Piscirickettsia salmonis strain PM31429B",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04376290",
+  "description": "Piscirickettsia salmonis subspecies",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA306730",
+    "https://www.arb-silva.de/search/show/ssu/insdc/306730",
+    "https://www.arb-silva.de/search/show/lsu/insdc/306730",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001932915.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Chile",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Chile",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002825"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Piscirickettsia salmonis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Piscirickettsia salmonis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1238"
+        }
+      ]
+    }
+  ]
+}

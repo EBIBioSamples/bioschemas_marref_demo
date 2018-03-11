@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02232022",
+    "mmp.ref:MMP02232022"
+  ],
+  "name": "Flexistipes sinusarabici DSM 4947",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02232022",
+  "description": "Flexistipes sinusarabici DSM 4947.This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA45817",
+    "https://www.arb-silva.de/search/show/ssu/insdc/45817",
+    "https://www.arb-silva.de/search/show/lsu/insdc/45817",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000218625.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Atlantis II Deep",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Atlantis II Deep",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008153"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Flexistipes sinusarabici",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Flexistipes sinusarabici",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=717231"
+        }
+      ]
+    }
+  ]
+}

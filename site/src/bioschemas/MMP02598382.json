@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598382",
+    "mmp.ref:MMP02598382"
+  ],
+  "name": "Maricaulis maris MCS10",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598382",
+  "description": "Maricaulis maris MCS10. Maricaulis maris MCS10 was isolated from Puget Sound in Washington and will be used for comparative analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA17333",
+    "https://www.arb-silva.de/search/show/ssu/insdc/17333",
+    "https://www.arb-silva.de/search/show/lsu/insdc/17333",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000014745.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Puget Sound",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Puget Sound",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002554"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Maricaulis maris",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Maricaulis maris",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=394221"
+        }
+      ]
+    }
+  ]
+}

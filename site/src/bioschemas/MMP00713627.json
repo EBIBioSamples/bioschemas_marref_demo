@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00713627",
+    "mmp.ref:MMP00713627"
+  ],
+  "name": "Methanotorris igneus Kol 5",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713627",
+  "description": "-",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA51821",
+    "https://www.arb-silva.de/search/show/ssu/insdc/51821",
+    "https://www.arb-silva.de/search/show/lsu/insdc/51821",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000214415.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kolbeinsey Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kolbeinsey Ridge",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002489"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanotorris igneus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanotorris igneus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=880724"
+        }
+      ]
+    }
+  ]
+}

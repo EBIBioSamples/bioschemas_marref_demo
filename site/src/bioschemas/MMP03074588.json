@@ -1,0 +1,45 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03074588",
+    "mmp.ref:MMP03074588"
+  ],
+  "name": "Methanosarcina siciliae HI350",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03074588",
+  "description": "Complete genome sequence of Methanosarcina siciliae HI350",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA230952",
+    "https://www.arb-silva.de/search/show/ssu/insdc/230952",
+    "https://www.arb-silva.de/search/show/lsu/insdc/230952",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000970125.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Gulf of Mexico",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gulf of Mexico"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanosarcina siciliae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanosarcina siciliae",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1434119"
+        }
+      ]
+    }
+  ]
+}

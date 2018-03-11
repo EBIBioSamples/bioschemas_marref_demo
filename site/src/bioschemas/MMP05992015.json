@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN05992015",
+    "mmp.ref:MMP05992015"
+  ],
+  "name": "Alteromonas sp. RW2A1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05992015",
+  "description": "Conjugative elements and plasmids in the genus Alteromonas",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA352689",
+    "https://www.arb-silva.de/search/show/ssu/insdc/352689",
+    "https://www.arb-silva.de/search/show/lsu/insdc/352689",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001886475.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Baltic Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Baltic Sea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002283"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Alteromonas sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Alteromonas sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1917158"
+        }
+      ]
+    }
+  ]
+}

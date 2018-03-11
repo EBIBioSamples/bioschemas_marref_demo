@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00713575",
+    "mmp.ref:MMP00713575"
+  ],
+  "name": "Hermovibrio ammonificans HB-1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713575",
+  "description": "Thermovibrio ammonificans HB-1. The isolation and characterization of microorganisms that are thermophilic; anaerobic; and chemolithoautotrophic (getting energy by oxidizing inorganic compounds) is critical to understand the ecology and biogeochemistry of geothermal environments. This genome will be used for comparative analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA49403",
+    "https://www.arb-silva.de/search/show/ssu/insdc/49403",
+    "https://www.arb-silva.de/search/show/lsu/insdc/49403",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000185805.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Pacific Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pacific Ocean",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000360"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermovibrio ammonificans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermovibrio ammonificans",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=648996"
+        }
+      ]
+    }
+  ]
+}

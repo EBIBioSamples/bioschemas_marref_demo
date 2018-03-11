@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03272513",
+    "mmp.ref:MMP03272513"
+  ],
+  "name": "Bacillus sp. Pc3",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03272513",
+  "description": "antimicrobial activity",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA271045",
+    "https://www.arb-silva.de/search/show/ssu/insdc/271045",
+    "https://www.arb-silva.de/search/show/lsu/insdc/271045",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000815145.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Weddell Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Weddell Sea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00004045"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Bacillus sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bacillus sp.",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1446792"
+        }
+      ]
+    }
+  ]
+}

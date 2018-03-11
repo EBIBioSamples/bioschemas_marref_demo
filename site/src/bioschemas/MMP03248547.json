@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03248547",
+    "mmp.ref:MMP03248547"
+  ],
+  "name": "Campylobacter peloridis LMG 23910",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03248547",
+  "description": "This genome is part of a larger study to sequence the genomes of all validly-described taxa within the genus Campylobacter",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA215651",
+    "https://www.arb-silva.de/search/show/ssu/insdc/215651",
+    "https://www.arb-silva.de/search/show/lsu/insdc/215651",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000816785.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kingdom of the Netherlands",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kingdom of the Netherlands",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00001549"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Campylobacter peloridis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Campylobacter peloridis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1388753"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598320",
+    "mmp.ref:MMP02598320"
+  ],
+  "name": "Rhodoferax ferrireducens T118",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598320",
+  "description": "Rhodoferax ferrireducens strain T118. This strain (T118; ATCC BAA-621; DSM 15236; type strain) was isolated from aquifer sediment collected at a depth of 18 feet. The genome sequence will provide information on the mechanism and control of electricity generation and iron reduction by Rhodoferax ferrireducens.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13908",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13908",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13908",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000013605.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Chincoteague Island",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Chincoteague Island",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007066"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Rhodoferax ferrireducens",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Rhodoferax ferrireducens",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=338969"
+        }
+      ]
+    }
+  ]
+}

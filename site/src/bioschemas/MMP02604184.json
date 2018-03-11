@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02604184",
+    "mmp.ref:MMP02604184"
+  ],
+  "name": "Idiomarina loihiensis L2TR",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604184",
+  "description": "Idiomarina loihiensis strain L20-TR. This is the type strain (ATCC BAA-735T; DSM 15497T) for this organism; which was isolated from a hydrothermal vent at a depth of 1300 m from the Lo'ihi Seamount southeast of Hawaii.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA10790",
+    "https://www.arb-silva.de/search/show/ssu/insdc/10790",
+    "https://www.arb-silva.de/search/show/lsu/insdc/10790",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000008465.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Lo'ihi Seamount",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Lo'ihi Seamount",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002482"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Idiomarina loihiensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Idiomarina loihiensis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=283942"
+        }
+      ]
+    }
+  ]
+}

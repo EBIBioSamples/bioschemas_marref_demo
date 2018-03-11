@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02630629",
+    "mmp.ref:MMP02630629"
+  ],
+  "name": "Mycobacterium chelonae CCUG 47445",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02630629",
+  "description": "De Novo assembly of the M. chelonae ATCC 35752 type strain for comparative genomics of pathogenic; rapid growing NTM species.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA224116",
+    "https://www.arb-silva.de/search/show/ssu/insdc/224116",
+    "https://www.arb-silva.de/search/show/lsu/insdc/224116",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001632805.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "France",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "France",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002940"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Mycobacterium chelonae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mycobacterium chelonae",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1460372"
+        }
+      ]
+    }
+  ]
+}

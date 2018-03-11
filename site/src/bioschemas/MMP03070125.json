@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03070125",
+    "mmp.ref:MMP03070125"
+  ],
+  "name": "Geoglobus acetivorans SBH6",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03070125",
+  "description": "Geoglobus acetivorans genome will be used for comparative analysis.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA261279",
+    "https://www.arb-silva.de/search/show/ssu/insdc/261279",
+    "https://www.arb-silva.de/search/show/lsu/insdc/261279",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000789255.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Mid-Atlantic Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mid-Atlantic Ridge",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002439"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Geoglobus acetivorans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Geoglobus acetivorans",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=565033"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02641497",
+    "mmp.ref:MMP02641497"
+  ],
+  "name": "Phaeobacter gallaeciensis DSM 26640",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02641497",
+  "description": "Marine Roseobacter",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA227502",
+    "https://www.arb-silva.de/search/show/ssu/insdc/227502",
+    "https://www.arb-silva.de/search/show/lsu/insdc/227502",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000511385.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Municipality of La Coruna",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Municipality of La Coruna",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00116141"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Phaeobacter gallaeciensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Phaeobacter gallaeciensis",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423144"
+        }
+      ]
+    }
+  ]
+}

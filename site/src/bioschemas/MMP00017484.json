@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN00017484",
+    "mmp.ref:MMP00017484"
+  ],
+  "name": "Methanocaldococcus infernus ME",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00017484",
+  "description": "Methanocaldococcus infernus ME. Methanocaldococcus infernus ME (DSM 11812) will be used for comparative analysis with other hyperthermophiles.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA32611",
+    "https://www.arb-silva.de/search/show/ssu/insdc/32611",
+    "https://www.arb-silva.de/search/show/lsu/insdc/32611",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000092305.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Logatchev vent field",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Logatchev vent field",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002505"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanocaldococcus infernus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanocaldococcus infernus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573063"
+        }
+      ]
+    }
+  ]
+}

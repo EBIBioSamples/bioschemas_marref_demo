@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02598312",
+    "mmp.ref:MMP02598312"
+  ],
+  "name": "Synechococcus sp. CC9902",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598312",
+  "description": "Synechococcus sp. CC9902. This strain was isolated from coastal seawater and will be used for comparative genomics",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA13655",
+    "https://www.arb-silva.de/search/show/ssu/insdc/13655",
+    "https://www.arb-silva.de/search/show/lsu/insdc/13655",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000012505.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "California Current",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "California Current",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000346"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Synechococcus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Synechococcus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=316279"
+        }
+      ]
+    }
+  ]
+}

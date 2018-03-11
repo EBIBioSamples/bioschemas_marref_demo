@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN03009989",
+    "mmp.ref:MMP03009989"
+  ],
+  "name": "Vibrio vulnificus strain 93U204",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03009989",
+  "description": "Vibrio vulnificus 93U204 genome sequencing",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA256021",
+    "https://www.arb-silva.de/search/show/ssu/insdc/256021",
+    "https://www.arb-silva.de/search/show/lsu/insdc/256021",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_000746665.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kaohsiung County",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kaohsiung County",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00010915"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio vulnificus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio vulnificus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=672"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02604308",
+    "mmp.ref:MMP02604308"
+  ],
+  "name": "Acaryochloris marina MBIC11017",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604308",
+  "description": "Acaryochloris marina MBIC11017. Acaryochloris marina MBIC11017 was isolated from algae from the coast of the Palau Islands in the western Pacific. This organism will be used for comparative analysis with other photosynthetic microorganisms.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA12997",
+    "https://www.arb-silva.de/search/show/ssu/insdc/12997",
+    "https://www.arb-silva.de/search/show/lsu/insdc/12997",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000018105.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Palau",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Palau",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00006905"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Acaryochloris marina",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Acaryochloris marina",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=329726"
+        }
+      ]
+    }
+  ]
+}

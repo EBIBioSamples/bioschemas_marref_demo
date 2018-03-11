@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN04893606",
+    "mmp.ref:MMP04893606"
+  ],
+  "name": "Desulfococcus multivorans strain DSM 2059",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04893606",
+  "description": "Genome and catabolic subproteomes of the marine, nutritionally versatile, sulfate-reducing bacterium, Desulfococcus multivorans DSM 2059",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA310394",
+    "https://www.arb-silva.de/search/show/ssu/insdc/310394",
+    "https://www.arb-silva.de/search/show/lsu/insdc/310394",
+    "http://www.ebi.ac.uk/ena/data/view/GCF_001854245.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Lower Saxony",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Lower Saxony",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003498"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Desulfococcus multivorans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Desulfococcus multivorans",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=897"
+        }
+      ]
+    }
+  ]
+}

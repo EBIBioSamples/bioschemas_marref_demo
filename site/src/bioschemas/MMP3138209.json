@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMEA3138209",
+    "mmp.ref:MMP3138209"
+  ],
+  "name": "Prochlorococcus marinus subsp. pastoris str. CCMP1986",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138209",
+  "description": "Prochlorococcus marinus subsp. marinus str. CCMP1986. This high-light adapted strain is also known as strain MED4 or CCMP1378.",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA213",
+    "https://www.arb-silva.de/search/show/ssu/insdc/213",
+    "https://www.arb-silva.de/search/show/lsu/insdc/213",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000011465.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Mediterranean Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mediterranean Sea",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002287"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Prochlorococcus marinus subsp. pastoris",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Prochlorococcus marinus subsp. pastoris",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=59919"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "biosamples:SAMN02769551",
+    "mmp.ref:MMP02769551"
+  ],
+  "name": "Prochlorococcus sp. MIT 0604",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02769551",
+  "description": "Genomes of diverse isolates of the marine cyanobacterium Prochlorococcus",
+  "dataset": [
+    "http://www.ebi.ac.uk/ena/data/search?query=PRJNA246696",
+    "https://www.arb-silva.de/search/show/ssu/insdc/246696",
+    "https://www.arb-silva.de/search/show/lsu/insdc/246696",
+    "http://www.ebi.ac.uk/ena/data/view/GCA_000757845.1"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Station ALOHA",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Station ALOHA",
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00187529"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Prochlorococcus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Prochlorococcus",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1501268"
+        }
+      ]
+    }
+  ]
+}
