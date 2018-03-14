@@ -5,6 +5,7 @@ from biosamples.traverson import Traverson
 import biosamples.aap_client as aap_client
 from biosamples.Encoders import CurationObjectEncoder
 
+import json
 
 class Client:
     def __init__(self, baseurl=None):

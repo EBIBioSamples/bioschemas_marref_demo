@@ -14,7 +14,7 @@ def get_sample_accession(fin):
 
 if __name__ == "__main__":
     base_dir = "./site/src/bioschemas"
-    base_url_get = "https://www.ebi.ac.uk/biosamples/"
+    base_url_get = "https://wwwdev.ebi.ac.uk/biosamples/"
     base_url_post = "http://localhost:8081/biosamples/"
     filelist = os.listdir(base_dir)
     client_post = biosd.Client(base_url_post)
@@ -29,9 +29,10 @@ if __name__ == "__main__":
             try:
                 response = client_fetch.fetch_sample(accession=accession)
             except Exception as e:
-                if is_status(e.args[1], 404):
-                    print("Sample {} not found on {}".format(accession, base_url_get))
-                    continue
+                if len(e.args) > 1:
+                    if is_status(e.args[1], 404):
+                        print("Sample {} not found on {}".format(accession, base_url_get))
+                        continue
                 else:
                     raise e
 

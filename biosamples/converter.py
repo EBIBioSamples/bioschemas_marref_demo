@@ -80,5 +80,5 @@ class Sample2CurationConverter:
         for ext_ref in self.sample.get('externalReferences', list()):
             ext_ref_url = ext_ref.get('url', None)
             if ext_ref_url is not None:
-                external_references.append(ext_ref_url)
+                external_references.append(ext_ref)
         return external_references

@@ -1,27 +1,12 @@
 #!/bin/bash
-clean=0
-while [ "$1" != "" ]; do
-    case $1 in
-        -c | --clean )    		clean=1
-                                ;;
-    esac
-    shift
-done
-
-#cleanup any previous data
-if [ $clean == 1 ]
-then
-	echo "Cleaning existing volumes"
-	#remove any images, in case of out-of-date or corrupt images
-	docker-compose down --volumes --rmi local --remove-orphans
-
-	./clean.sh
-else
-	docker-compose down --remove-orphans
-fi
 set -e
+echo "Cleaning existing volumes"
+#remove any images, in case of out-of-date or corrupt images
+docker-compose down --volumes --rmi local --remove-orphans
+./clean.sh
 
 # Build the docker images
+echo "Building docker images"
 docker-compose build
 
 # Run the services
@@ -30,5 +15,6 @@ echo "Wait 30 sec for solr to be up"
 sleep 30
 
 # Run the setup of the crawler
+echo "Setting up the env for the crawler"
 docker-compose up bsbc-setup
 

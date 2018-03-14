@@ -7,7 +7,7 @@ class Traverson:
         session = requests.Session()
         session.headers.update({
             "Accept": "application/hal+json",
-            # "Content-Type": "application/hal+json"
+            "Content-Type": "application/hal+json"
         })
         self.__param_regex = "{\?([A-Za-z0-9,]+)}"
         self.__session = session
