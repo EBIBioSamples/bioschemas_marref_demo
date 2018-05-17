@@ -28,16 +28,27 @@ HTML pages
 
 ![setup-step](summary/setup.gif)
 
-### 2. Crawl sandbox and generate a Solr index
+### 2. Convert MarRef metadata to Bioschemas markup and embed it in the webpages
+
+We then proceed converting some of the metadata available in MarRef sample pages to Bioschemas markup. This has been then embedded
+inside of the HTML with as json+ld and it will be used for the next step.
+
+- Check out the produced bioschemas markup [here](site/src/bioschemas/MMP00017418.json)
+- Check out the embedded markup in the HTML [here](site/src/MMP00017418.html#L37)
+
+
+### 3. Crawl sandbox and generate a Solr index
 
 In this step, using the bsbang crawler we extract the Bioschemas markup embedded in the MarRef demo pages and
 we store in a in-memory database. This step is to prove how we can access to the data using Bioschemas and store it
 somewhere else, and use such data to build services or improve quality of samples stored elsewhere, like we will
-show in step number 3. During this step we will use the stored data to create a simple search service using Solr.
+show in step number 4. 
+
+During this step we will use the stored data to create a simple search service using Solr.
 
 ![crawl-step](summary/crawl.gif)
 
-### 3. Curate BioSamples
+### 4. Curate BioSamples
 
 Last step is BioSamples curation. This steps uses the data extracted by the crawler to generate curation object
 and use them to curate BioSamples samples associated to MarRef samples.
