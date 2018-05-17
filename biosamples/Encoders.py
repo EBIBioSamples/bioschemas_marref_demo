@@ -1,9 +1,14 @@
+from urllib import parse as urlencoder
 from json import JSONEncoder
 from datetime import datetime
-from biosamples.Models import Sample, Attribute, Relationship, Curation
+from .models import Sample, Attribute, Relationship, CurationLink, Curation, SearchQuery
+from .filters import _BioSamplesFilter, _PredefinedFieldBioSamplesFilter
 
 
 class ISODateTimeEncoder(JSONEncoder):
+    """
+    JSON encoder for ISO DateTimes in BioSamples
+    """
     def default(self, o):
         if not isinstance(o, datetime):
             raise Exception("The provided object is not a datetime")
@@ -11,6 +16,9 @@ class ISODateTimeEncoder(JSONEncoder):
 
 
 class SampleEncoder(JSONEncoder):
+    """
+    JSON encoder for samples
+    """
     def default(self, o):
         if not isinstance(o, Sample):
             raise Exception("The provided object is not a Sample")
@@ -32,6 +40,9 @@ class SampleEncoder(JSONEncoder):
 
 
 class AttributeEncoder(JSONEncoder):
+    """
+    JSON encoder for Attributes
+    """
     def default(self, o):
         if not isinstance(o, Attribute):
             raise Exception("The provided object is not an Attribute")
@@ -45,6 +56,9 @@ class AttributeEncoder(JSONEncoder):
 
 
 class RelationshipEncoder(JSONEncoder):
+    """
+    JSON encoder for relationships
+    """
     def default(self, o):
         if not isinstance(o, Relationship):
             raise Exception("The provided object is not a Relationship")
@@ -56,7 +70,9 @@ class RelationshipEncoder(JSONEncoder):
 
 
 class AttributeListEncoder(JSONEncoder):
-
+    """
+    JSON encoder for attribute list
+    """
     def default(self, o):
 
         if not isinstance(o, list):
@@ -76,22 +92,81 @@ class AttributeListEncoder(JSONEncoder):
 
 
 class ExternalReferenceEncoder(JSONEncoder):
+    """
+    JSON encoder for ExternalReferences
+    """
     def default(self, o):
         _dict = {"url": o["url"]}
         return _dict
 
 
-class CurationObjectEncoder(JSONEncoder):
+class CurationEncoder(JSONEncoder):
+    """
+    JSON encoder for Curation objects
+    """
     def default(self, o):
         if not isinstance(o, Curation):
             return JSONEncoder.default(self, o)
 
         _dict = dict()
+        _dict["attributesPre"] = o.attr_pre
+        _dict["attributesPost"] = o.attr_post
+        _dict["externalReferencesPre"] = o.rel_pre
+        _dict["externalReferencesPost"] = o.rel_post
+        return _dict
+
+
+class CurationLinkEncoder(JSONEncoder):
+    """
+    JSON encoder for the CurationLink object
+    """
+    def default(self, o):
+        if not isinstance(o, CurationLink):
+            return JSONEncoder.default(self, o)
+
+        _cur_encoder = CurationEncoder()
+        _dict = dict()
         _dict["sample"] = o.accession
-        _dict["curation"] = dict()
-        _dict["curation"]["attributesPre"] = o.attr_pre
-        _dict["curation"]["attributesPost"] = o.attr_post
-        _dict["curation"]["externalReferencesPre"] = o.rel_pre
-        _dict["curation"]["externalReferencesPost"] = o.rel_post
+        _dict["curation"] = _cur_encoder.default(o.curation)
         _dict["domain"] = o.domain
+        return _dict
+
+
+class BiosamplesFilterEncoder(JSONEncoder):
+    """
+    Encoder for BioSamples filter
+    """
+    def default(self, o):
+        if not isinstance(o, _BioSamplesFilter):
+            return JSONEncoder.default(self, o)
+
+        encoded_value = o.get_value()
+        if isinstance(o, _PredefinedFieldBioSamplesFilter):
+            return "{}:{}".format(o.get_type(), encoded_value)
+        else:
+            if o.get_target_field() is None:
+                raise Exception("Error while encoding a not predefined target field filter")
+            encoded_field = o.get_target_field()
+            if encoded_value is None:
+                return "{}:{}".format(o.get_type(), encoded_field)
+            else:
+                return "{}:{}:{}".format(o.get_type(), encoded_field, encoded_value)
+
+
+class SearchQueryEncoder(JSONEncoder):
+    """
+    Encoder for the SearchQuery Object
+    """
+    def default(self, o):
+        if not isinstance(o, SearchQuery):
+            return JSONEncoder.default(o)
+
+        _biosamples_filter_encoder = BiosamplesFilterEncoder()
+        _dict = dict()
+        if o.text is not None:
+            _dict['text'] = o.text
+        if o.filters is not None and len(o.filters) > 0:
+            _dict['filter'] = [_biosamples_filter_encoder.default(f) for f in o.filters]
+        _dict['page'] = o.page
+        _dict['size'] = o.size
         return _dict

@@ -3,9 +3,12 @@
 .idea
 *.pyc
 *.swp
+*.mov
 */__pycache__/
 *.dbcrawler/.vscode
 data
 crawler/biosamples/__init__.py
 populator/__init__.py
 biosamples/__init__.py
+config.ini
+config.local.ini

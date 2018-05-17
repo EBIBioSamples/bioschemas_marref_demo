@@ -74,9 +74,9 @@ services:
     volumes:
       - ./data/crawler:/curator/data
     networks:
-      - biosamplesv4_default
-    command: python biosamples-curation.py data/crawl.db http://biosamples-webapps-core:8080/biosamples
+      - biosamples-v4_default
+    command: python biosamples-curation.py --config config.ini
 
 networks:
-    biosamplesv4_default:
+    biosamples-v4_default:
         external: true

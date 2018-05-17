@@ -1,11 +1,14 @@
+import logging
 from datetime import datetime
+from .filters import _BioSamplesFilter
 
 
 class Sample:
-    def __init__(self, sample=None, name=None, release=datetime.utcnow(), update=datetime.utcnow(),
+    def __init__(self, sample=None, accession=None, name=None, release=datetime.utcnow(), update=datetime.utcnow(),
                  attributes=None, relationships=None, external_references=None, organizations=None, contacts=None,
                  publications=None, domain=None):
         self.sample = sample
+        self.accession = accession
         self.name = name
         self.release = release
         self.update = update
@@ -42,17 +45,44 @@ class Relationship:
 
 
 class Curation:
-    def __init__(self, accession=None, attributes_pre=None, attributes_post=None,
-                 external_references_pre=None, external_references_post=None, domain=None):
-        if accession is None:
-            raise Exception("An accession is needed to create a curation object")
-
-        if domain is None:
-            raise Exception("A domain is needed to create a curation object")
-
-        self.accession = accession
+    def __init__(self, attributes_pre=None, attributes_post=None,
+                 external_references_pre=None, external_references_post=None):
         self.attr_pre = [] if attributes_pre is None else attributes_pre
         self.attr_post = [] if attributes_post is None else attributes_post
         self.rel_pre = [] if external_references_pre is None else external_references_pre
         self.rel_post = [] if external_references_post is None else external_references_post
+
+
+class CurationLink:
+    def __init__(self, accession=None, curation=None, domain=None):
+
+        if accession is None:
+            raise Exception("An accession is needed to create a curation link")
+
+        if curation is None or type(curation) is not Curation:
+            raise Exception("You need to provide a curation object as part of a curation link")
+
+        if domain is None:
+            raise Exception("You need to provide a domain with the curation link")
+
+        self.accession = accession
+        self.curation = curation
         self.domain = domain
+
+
+class SearchQuery:
+    def __init__(self, text=None, filters=None, page=0, size=20):
+        self.text = text
+        self.filters = list()
+        if filters is not None:
+            if isinstance(filters, _BioSamplesFilter):
+                self.filters.append(filters)
+            else:
+                if not hasattr(filters, '__iter__'):
+                    raise Exception("Provided object is not iterable")
+                for f in filters:
+                    if not isinstance(f, _BioSamplesFilter):
+                        raise Exception("Provided object {} is not a BioSamplesFilter".format(f))
+                    self.filters.append(f)
+        self.page = page
+        self.size = size
