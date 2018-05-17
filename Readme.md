@@ -6,14 +6,19 @@ This is a demo project with some sample pages extract from the MarRef database (
 The idea behind this is to provide a sandbox where people can try to interact with MarRef samples using BioSchemas specification
 This repo contains a copy of the [bsbang-crawler](https://github.com/justinccdev/bsbang-crawler) modified for the demo pourposes
 
-## Docker
+## Summary
+A [Summary.md](summary page) is available explaining the demo and showing the process we went through in during the hackathon.
+
+## Dev details
+
+### Docker
 
 In order to make this work you need to have [Docker](https://www.docker.com/community-edition) installed and [Docker Compose ](https://docs.docker.com/compose/install/#prerequisites)
 
-### Notes for Docker on Linux
+#### Notes for Docker on Linux
 Check out this [notes](https://docs.docker.com/install/linux/linux-postinstall/) after you have installed Docker if you're on Linux
 
-## Containers
+### Containers
 
 There are multiple containers in this project to separate the different services
 
@@ -25,7 +30,7 @@ There are multiple containers in this project to separate the different services
 - *bsbc-extract*: container to extract the jsonld from webpages stored from crawl
 - *bsbc-index*: container to index the results in solr
 
-## Run all the containers
+### Run all the containers
 
 To run the containers, just lunch the `serve.sh` script
 
@@ -35,7 +40,7 @@ To run the containers, just lunch the `serve.sh` script
 
 You should be able (once the container is up) to check the MarRef static pages [here](http://localhost:8080/) and solr [here](http://localhost:8983)
 
-## Run the crawler
+### Run the crawler
 
 In order to run the crawler, you need to run one after the other the various containters using docker-compose sintax.
 
@@ -52,7 +57,7 @@ docker-compose up bsbc-index
 
 With the last operation, you should be able to find all your data in the solr index [webpage](http://localhost:8983/)
 
-## Stop all the containers
+### Stop all the containers
 
 To stop all the containers, just lunch `stop.sh` script
 
@@ -60,7 +65,7 @@ To stop all the containers, just lunch `stop.sh` script
 ./stop.sh
 ```
 
-## Start/stop single containers
+### Start/stop single containers
 
 If you don't need all the containers at the same time, or you need to stop only one of the containers, you can use directly `docker-compose` syntax, e.g.
 
@@ -72,6 +77,6 @@ docker-compose up -d mar-ref-site
 docker-compose down mar-ref-site
 ```
 
-## NOTE
+### NOTE
 
 Could be that some of the commands will not work directly, try to stick a `sudo` in front of the command
