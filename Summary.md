@@ -72,3 +72,15 @@ a domain that let you track the submitter of the curation itself. In our case we
 a badge saying "Resource curated by MarRef"
 
 ![biosamples-after-curation](summary/sample_after_curation.png)
+
+## Conclusions
+
+Bioschemas markup is a very powerful tool that can be easily embed in pages and used to export metadata not available 
+using other means, like an API. 
+We were able to:
+
+- Produce an example of the Bioschemas markup that could be generated from the MarRef database
+- Use a crawler to extract that information and store it in a separate database for future reference
+- Use the extracted mark up to curate an external service (BioSamples) without the need for MarRef to create complex
+  API infrastructure
+  
