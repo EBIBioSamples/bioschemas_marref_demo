@@ -7,7 +7,7 @@ The idea behind this is to provide a sandbox where people can try to interact wi
 This repo contains a copy of the [bsbang-crawler](https://github.com/justinccdev/bsbang-crawler) modified for the demo pourposes
 
 ## Summary
-A [Summary.md](summary page) is available explaining the demo and showing the process we went through in during the hackathon.
+A [summary page](Summary.md) is available explaining the demo and showing the process we went through in during the hackathon.
 
 ## Dev details
 
