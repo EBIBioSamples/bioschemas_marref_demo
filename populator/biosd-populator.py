@@ -30,8 +30,8 @@ if __name__ == "__main__":
     base_url_get = "https://wwwdev.ebi.ac.uk/biosamples/"
     base_url_post = "http://localhost:8081/biosamples/"
     filelist = os.listdir(base_dir)
-    client_post = BiosdClient(base_url_post)
-    client_fetch = BiosdClient(base_url_get)
+    local_client = BiosdClient(base_url_post)
+    wwwdev_client = BiosdClient(base_url_get)
     aap = AapClient(username=config.get('General', 'aap_username'),
                     password=config.get('General', 'aap_password'),
                     url=config.get('General', 'aap_url'))
@@ -42,16 +42,22 @@ if __name__ == "__main__":
             accession = get_sample_accession(fin)
             if accession is None:
                 print("Impossible to extract accession from {}".format(fname))
-            try:
-                sample = client_fetch.fetch_sample(accession=accession, jwt=aap.get_token())
-            except Exception as e:
-                if len(e.args) > 1:
-                    if is_status(e.args[1], 404):
-                        print("Sample {} not found on {}".format(accession, base_url_get))
-                        continue
-                else:
-                    raise e
+            else:
+                try:
+                    local_sample = local_client.fetch_sample(accession=accession, jwt=aap.get_token())
+                    continue
+                except Exception as e:
+                    if len(e.args) > 1 and is_status(e.args[1], 404):
+                        try:
+                            sample = wwwdev_client.fetch_sample(accession=accession, jwt=aap.get_token())
+                        except Exception as e:
+                            if len(e.args) > 1:
+                                if is_status(e.args[1], 404):
+                                    print("Sample {} not found on {}".format(accession, base_url_get))
+                                    continue
+                            else:
+                                raise e
 
-            sample["domain"] = "self.BiosampleIntegrationTest"
-            updated_sample = client_post.update_sample(sample, jwt=aap.get_token())
-            print("Submitted sample {} to BioSamples on {}".format(accession, base_url_post))
+                        sample["domain"] = "self.BiosampleIntegrationTest"
+                        updated_sample = local_client.update_sample(sample, jwt=aap.get_token())
+                        print("Submitted sample {} to BioSamples on {}".format(accession, base_url_post))
