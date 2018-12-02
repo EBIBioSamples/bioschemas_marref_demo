@@ -2,7 +2,7 @@
 
 ## Aim of the demo
 
-Scope of the MarRef demo is to give a practical example on
+The scope of the MarRef demo is to give a practical example on
 how Bioschemas profiles could be used to export highly curated metadata
 in services that don't provide an Application Programming Interface (API)
 and how such metadata could be use by external services, like the BioSamples database,
@@ -15,7 +15,7 @@ The demo uses a set of DockeContainer to:
 1. Present a subset of samples extracted from the MarRef database as example
 2. Run the [bsbang-crawler](https://github.com/justinccdev/bsbang-crawler) to extract metadata from MarRef
 3. Store the results in a Solr index for searching purposes
-4. Curate BioSamples database available localy - but [outside of this repository](https://github.com/EBIBioSamples/biosamples-v4)
+4. Curate BioSamples database available locally - but [outside of this repository](https://github.com/EBIBioSamples/biosamples-v4)
 
 A `demo.py` small command line application has been built to step through the different phases of the demo
 
