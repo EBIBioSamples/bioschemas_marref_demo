@@ -2,7 +2,7 @@ boltons==18.0.0
 certifi==2018.4.16
 chardet==3.0.4
 idna==2.6
-pyjwt==1.6.1
+pyjwt==2.4.0
 pytz==2018.4
 requests==2.18.4
 termcolor==1.1.0
